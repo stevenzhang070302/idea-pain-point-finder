@@ -1,0 +1,459 @@
+{
+  "topic": "college",
+  "analysis_summary": {
+    "total_subreddits": 3,
+    "total_posts": 46,
+    "total_clusters": 8,
+    "total_pain_points": 46,
+    "average_desperation_score": 4.8,
+    "average_pain_score": 6.8,
+    "high_priority_clusters": 1
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_3",
+      "topic": "High interest rates on student loans make repayment difficult and financially burdensome.",
+      "frequency": 16,
+      "desperation_score": 4,
+      "avg_pain_score": 7.9,
+      "market_proxy": {
+        "subscribers": 3556219,
+        "posts_per_week": 32,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Republican plan to cap student loan interest at 1%",
+        "subreddit": "StudentLoans",
+        "url": "https://reddit.com/r/StudentLoans/comments/1h59eml/republican_plan_to_cap_student_loan_interest_at_1/",
+        "score": 8870
+      },
+      "avg_upvotes": 1874.4,
+      "problem_category": "finance",
+      "mvp_suggestion": "Develop a platform that helps borrowers refinance their student loans at lower interest rates, potentially partnering with financial institutions to offer competitive rates.",
+      "all_subreddits": [
+        "college",
+        "StudentLoans"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is the inability to attend a desired college due to lack of financial support from parents, who have unrealistic expectations.",
+          "pain_score": 8.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "The main pain point is the difficulty in transferring to a suitable college due to credit requirements and timing of admissions, compounded by parental pressure and uncertainty about the suitability of available options.",
+          "pain_score": 7.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "High interest rates on student loans make repayment difficult and financially burdensome.",
+          "pain_score": 8.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "High student loan interest rates and the overall cost of college education are causing significant financial strain on borrowers.",
+          "pain_score": 8.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "The proposed College Cost Reduction Act could trap lower-income borrowers with high debt in lifelong debt by eliminating loan forgiveness after 20 or 25 years, making it difficult for them to ever repay their loans.",
+          "pain_score": 8.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "High interest rates on student loans are causing significant financial burden, preventing borrowers from effectively paying off their debt.",
+          "pain_score": 8.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "The primary pain point is the lack of meaningful student loan forgiveness due to the financial significance of student loans as assets for the US government.",
+          "pain_score": 8.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "The main pain point is the significant increase in tuition costs over the years, which has not been matched by inflation or wage growth, leading to a heavy financial burden on current students.",
+          "pain_score": 8.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "High monthly student loan payments causing financial strain for a teacher with limited income and family responsibilities.",
+          "pain_score": 8.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "The main pain point is the difficulty and complexity of achieving student loan forgiveness through the Public Service Loan Forgiveness (PSLF) program, which has a high denial rate.",
+          "pain_score": 7.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "The main pain point is the uncertainty and difficulty in passing the Codifying SAVE Plan Act, which is crucial for financial stability for public servants and student loan borrowers.",
+          "pain_score": 7.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "The primary pain point is the inability to manage and repay student loans due to chronic illness and lack of income, compounded by confusion and stress over loan repayment options and potential forgiveness.",
+          "pain_score": 9.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "The main pain point is the overcharging of tuition fees due to a miscommunication about the student's enrollment status, leading to significant financial burden.",
+          "pain_score": 9.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "The main pain point is the overwhelming burden of student loan debt, particularly the high interest costs that significantly increase the total repayment amount.",
+          "pain_score": 9.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "The main pain point is the challenge of managing and paying off large student loans over an extended period.",
+          "pain_score": 7.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "The main pain point is the overwhelming schedule and lack of downtime due to balancing multiple jobs, school, and personal obligations, leading to potential burnout.",
+          "pain_score": 8.0,
+          "subreddit": "StudentLoans"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_1",
+      "topic": "Skepticism and lack of confidence in the passage of legislation to lower federal student loan interest rates.",
+      "frequency": 6,
+      "desperation_score": 4,
+      "avg_pain_score": 7.8,
+      "market_proxy": {
+        "subscribers": 646978,
+        "posts_per_week": 12,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "CONGRESSMAN LAWLER INTRODUCES BIPARTISAN BILL LOWERING INTEREST RATE ON ALL FEDERAL STUDENT LOANS TO 1%",
+        "subreddit": "StudentLoans",
+        "url": "https://reddit.com/r/StudentLoans/comments/1gukkvz/congressman_lawler_introduces_bipartisan_bill/",
+        "score": 2987
+      },
+      "avg_upvotes": 1858.3,
+      "problem_category": "Finance",
+      "mvp_suggestion": "Develop a platform that tracks and provides real-time updates on the progress of student loan-related legislation, including expert analysis and predictions on the likelihood of passage.",
+      "all_subreddits": [
+        "StudentLoans"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Skepticism and lack of confidence in the passage of legislation to lower federal student loan interest rates.",
+          "pain_score": 7.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "Mismanagement of student loans by MOHELA, including overcharging, delayed processing, and misleading information.",
+          "pain_score": 8.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "Uncertainty and frustration regarding student loan forbearance extensions and lack of clarity on payment plans and forgiveness timelines.",
+          "pain_score": 8.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "Uncertainty and disruption caused by the court blocking the SAVE plan, affecting borrowers' financial planning and loan forgiveness timelines.",
+          "pain_score": 8.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "Uncertainty and frustration over the ongoing legal battles affecting student loan debt relief.",
+          "pain_score": 8.0,
+          "subreddit": "StudentLoans"
+        },
+        {
+          "summary": "Uncertainty and frustration over the inconsistent progress and communication regarding student loan forgiveness, leading to confusion and lack of trust among borrowers.",
+          "pain_score": 8.0,
+          "subreddit": "StudentLoans"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_5",
+      "topic": "The primary pain point is the emotional distress and isolation experienced by a college student, which is exacerbated by the lack of social support and connection in a college environment.",
+      "frequency": 5,
+      "desperation_score": 5,
+      "avg_pain_score": 6.6,
+      "market_proxy": {
+        "subscribers": 3556219,
+        "posts_per_week": 10,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "The girl in the dorm next to mine sobs herself to sleep EVERY single night",
+        "subreddit": "college",
+        "url": "https://reddit.com/r/college/comments/1h4i2ph/the_girl_in_the_dorm_next_to_mine_sobs_herself_to/",
+        "score": 7546
+      },
+      "avg_upvotes": 2563.2,
+      "problem_category": "Mental Health and Well-being",
+      "mvp_suggestion": "Develop a college-based peer support app that connects students with trained peer listeners for emotional support and guidance.",
+      "all_subreddits": [
+        "college",
+        "StudentLoans"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The primary pain point is the emotional distress and isolation experienced by a college student, which is exacerbated by the lack of social support and connection in a college environment.",
+          "pain_score": 7.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "The main pain point is the professor's strict enforcement of a no-pets rule during online classes, which causes frustration for students who have pets in their living spaces.",
+          "pain_score": 6.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "The main pain point is the stress and uncertainty of potentially having to switch roommates due to a lack of friendship connection, compounded by logistical challenges and lack of support.",
+          "pain_score": 6.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "The main pain point is the challenge of finding suitable living arrangements for a pregnant college student who cannot afford an apartment and cannot live in a dorm with a baby.",
+          "pain_score": 7.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "Users experience issues with outdated personal information being used by service providers despite having updated their details, leading to access problems and identity verification challenges.",
+          "pain_score": 7.0,
+          "subreddit": "StudentLoans"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_2",
+      "topic": "Difficulty waking up for morning classes due to lack of structure and potential sleep schedule issues.",
+      "frequency": 4,
+      "desperation_score": 6,
+      "avg_pain_score": 6.5,
+      "market_proxy": {
+        "subscribers": 2909241,
+        "posts_per_week": 8,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "How the fuck did I do it in highschool",
+        "subreddit": "college",
+        "url": "https://reddit.com/r/college/comments/1hf4nxu/how_the_fuck_did_i_do_it_in_highschool/",
+        "score": 6084
+      },
+      "avg_upvotes": 2345.0,
+      "problem_category": "productivity",
+      "mvp_suggestion": "Develop an app that helps college students create and maintain a structured sleep schedule with reminders and tips for better sleep hygiene.",
+      "all_subreddits": [
+        "college"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Difficulty waking up for morning classes due to lack of structure and potential sleep schedule issues.",
+          "pain_score": 7.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "Procrastination leading to last-minute stress and potential compromise in essay quality.",
+          "pain_score": 7.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "Returning to college after a long break and managing life responsibilities while pursuing education.",
+          "pain_score": 6.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "Difficulty in managing time and maintaining discipline for online courses after a long gap from formal education.",
+          "pain_score": 6.0,
+          "subreddit": "college"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_7",
+      "topic": "High failure rate in a college class due to heavy reliance on test scores and lack of preparedness.",
+      "frequency": 3,
+      "desperation_score": 7,
+      "avg_pain_score": 7.3,
+      "market_proxy": {
+        "subscribers": 2909241,
+        "posts_per_week": 6,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "95% of my class is failing",
+        "subreddit": "college",
+        "url": "https://reddit.com/r/college/comments/1gsq4hs/95_of_my_class_is_failing/",
+        "score": 4411
+      },
+      "avg_upvotes": 2511.7,
+      "problem_category": "education",
+      "mvp_suggestion": "Develop a supplementary online course platform that provides additional resources, practice tests, and study guides tailored to the specific class curriculum to help students better prepare for exams.",
+      "all_subreddits": [
+        "college"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "High failure rate in a college class due to heavy reliance on test scores and lack of preparedness.",
+          "pain_score": 8.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "Incoming college freshmen often feel overwhelmed and isolated during the first weeks of college, leading to thoughts of dropping out prematurely.",
+          "pain_score": 7.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "Unexpected failure of a class after graduation ceremony, affecting graduation status and causing stress about informing parents.",
+          "pain_score": 7.0,
+          "subreddit": "college"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_6",
+      "topic": "Inadequate desk size for taking exams, causing discomfort and difficulty in managing materials.",
+      "frequency": 4,
+      "desperation_score": 5,
+      "avg_pain_score": 6.5,
+      "market_proxy": {
+        "subscribers": 2909241,
+        "posts_per_week": 8,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "This is the size of the desk i'm taking my Calc III final on",
+        "subreddit": "college",
+        "url": "https://reddit.com/r/college/comments/1hczx0m/this_is_the_size_of_the_desk_im_taking_my_calc/",
+        "score": 13231
+      },
+      "avg_upvotes": 4953.5,
+      "problem_category": "education",
+      "mvp_suggestion": "Develop adjustable or modular desk attachments that increase surface area for exam materials.",
+      "all_subreddits": [
+        "college"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Inadequate desk size for taking exams, causing discomfort and difficulty in managing materials.",
+          "pain_score": 7.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "Students are penalized for alleged cheating due to similar coding solutions in a project, despite the nature of the assignment leading to similar outputs.",
+          "pain_score": 7.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "Students can accidentally start exams outside of designated times due to improper exam access settings by professors.",
+          "pain_score": 6.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "Educators are uncertain about how to address significant external events in the classroom without affecting the learning environment.",
+          "pain_score": 6.0,
+          "subreddit": "college"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_4",
+      "topic": "Generational conflict over political beliefs and perceived indoctrination.",
+      "frequency": 6,
+      "desperation_score": 3,
+      "avg_pain_score": 7.0,
+      "market_proxy": {
+        "subscribers": 2909241,
+        "posts_per_week": 12,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "PSA: I’m being indoctrinated ",
+        "subreddit": "college",
+        "url": "https://reddit.com/r/college/comments/1g79lev/psa_im_being_indoctrinated/",
+        "score": 2772
+      },
+      "avg_upvotes": 947.8,
+      "problem_category": "Social dynamics",
+      "mvp_suggestion": "Develop a platform for facilitating constructive dialogue between different generations on political and social issues, focusing on empathy and understanding.",
+      "all_subreddits": [
+        "college"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Generational conflict over political beliefs and perceived indoctrination.",
+          "pain_score": 6.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "Societal and cultural pressures discourage American men from pursuing higher education, leading to a gender imbalance in college graduation rates.",
+          "pain_score": 7.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "The perceived devaluation of American degrees due to oversupply and lack of rigorous education standards.",
+          "pain_score": 7.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "The Republican budget bill is perceived to limit access to higher education for the working class, potentially hindering social mobility and empowerment.",
+          "pain_score": 8.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "Conflict between personal independence and parental control regarding living arrangements for college.",
+          "pain_score": 6.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "International students face increased difficulties and expenses due to US visa restrictions, impacting their ability to study abroad.",
+          "pain_score": 8.0,
+          "subreddit": "college"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_0",
+      "topic": "Lack of awareness and habit of regular sheet washing leading to hygiene concerns.",
+      "frequency": 2,
+      "desperation_score": 4,
+      "avg_pain_score": 5.0,
+      "market_proxy": {
+        "subscribers": 2909241,
+        "posts_per_week": 4,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "I genuinely did not know that you had to wash your sheets once a week until I met my roommate",
+        "subreddit": "college",
+        "url": "https://reddit.com/r/college/comments/1ha38l7/i_genuinely_did_not_know_that_you_had_to_wash/",
+        "score": 2499
+      },
+      "avg_upvotes": 1291.5,
+      "problem_category": "Hygiene and Lifestyle",
+      "mvp_suggestion": "Develop an app that sends reminders and provides tips for regular sheet washing, including educational content on hygiene benefits.",
+      "all_subreddits": [
+        "college"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Lack of awareness and habit of regular sheet washing leading to hygiene concerns.",
+          "pain_score": 6.0,
+          "subreddit": "college"
+        },
+        {
+          "summary": "Uncertainty and anxiety about using communal bathrooms for the first time, including concerns about routines, privacy, and etiquette.",
+          "pain_score": 4.0,
+          "subreddit": "college"
+        }
+      ]
+    }
+  ],
+  "subreddits_analyzed": [
+    "college",
+    "collegevine",
+    "StudentLoans"
+  ]
+}

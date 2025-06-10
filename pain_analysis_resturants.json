@@ -1,0 +1,759 @@
+{
+  "topic": "resturants",
+  "analysis_summary": {
+    "total_subreddits": 3,
+    "total_posts": 69,
+    "total_clusters": 8,
+    "total_pain_points": 69,
+    "average_desperation_score": 4.0,
+    "average_pain_score": 5.1,
+    "high_priority_clusters": 0,
+    "total_engagement_weight": 11.82,
+    "average_engagement_weight": 0.16,
+    "trending_clusters": 1,
+    "phase_2_features": {
+      "engagement_weighted_scoring": true,
+      "comment_context_injection": true,
+      "llm_assisted_deduping": true,
+      "temporal_trend_analysis": true
+    }
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_5",
+      "topic": "Food insecurity among restaurant staff leading to consumption of customer leftovers.",
+      "frequency": 25,
+      "desperation_score": 4,
+      "avg_pain_score": 6.1,
+      "total_engagement_weight": 4.59,
+      "avg_engagement_weight": 0.18,
+      "market_proxy": {
+        "subscribers": 2063280,
+        "posts_per_week": 50,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "“The rat”",
+        "subreddit": "KitchenConfidential",
+        "url": "https://reddit.com/r/KitchenConfidential/comments/1l17ooo/the_rat/",
+        "score": 5201
+      },
+      "avg_upvotes": 3905.9,
+      "problem_category": "Employee welfare",
+      "mvp_suggestion": "Implement a staff meal program or discounted meal options for restaurant employees to ensure they have access to adequate food.",
+      "all_subreddits": [
+        "TalesFromYourServer",
+        "KitchenConfidential",
+        "restaurants"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Food insecurity among restaurant staff leading to consumption of customer leftovers.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.7858444771592247,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748834143.0
+        },
+        {
+          "summary": "The restaurant has been experiencing slow business due to the volcano being dormant, leading to staff being put on-call and uncertainty about business stability.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.019431439646300782,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1734997054.0
+        },
+        {
+          "summary": "The restaurant staff was unaware of a customer's presence in a private dining room, leading to a negative customer experience.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.563708326646906,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1747974878.0
+        },
+        {
+          "summary": "The use of tablets by waitstaff in restaurants is perceived to degrade the dining experience by making interactions feel impersonal and causing stress for servers due to clunky interfaces.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.3244485948694156,
+          "subreddit": "restaurants",
+          "created_utc": 1746894500.0
+        },
+        {
+          "summary": "The unrealistic expectation and pressure on individuals with cooking skills to open a restaurant, despite the high stress and financial challenges involved.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.5500572760555514,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748886713.0
+        },
+        {
+          "summary": "The post and comments humorously discuss the stress and burnout experienced by chefs and kitchen staff, highlighting the demanding nature of the culinary profession.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.6140368080628393,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748880686.0
+        },
+        {
+          "summary": "The restaurant has to accommodate a unique and specific service arrangement for a particular customer, which involves special preparations and instructions that are not standard for other guests.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.46777189512202083,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1748288362.0
+        },
+        {
+          "summary": "The main pain point is the presence of racially insensitive items on a restaurant menu, which has caused discomfort and offense among patrons.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.4701141029912025,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748897822.0
+        },
+        {
+          "summary": "Inequitable compensation and lack of appreciation for kitchen staff compared to servers in the restaurant industry.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.40690368784699693,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748867058.0
+        },
+        {
+          "summary": "The rarity of considerate guests who clean up after themselves in restaurants.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.006224259010011275,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1730740505.0
+        },
+        {
+          "summary": "Employee theft through fraudulent to-go orders leading to financial loss and trust issues within the restaurant.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.013772721714554676,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1733694805.0
+        },
+        {
+          "summary": "Disruptive behavior of children in restaurants due to excessive screen time and lack of parental control.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0006806101430084189,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1722438282.0
+        },
+        {
+          "summary": "High stress and anxiety in restaurant operations due to unrealistic expectations and overwhelming online orders.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.00010746308080393137,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1715551472.0
+        },
+        {
+          "summary": "Accidental physical contact between staff and guests due to open kitchen layout causing embarrassment and discomfort.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.19484947405551803,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1747870117.0
+        },
+        {
+          "summary": "Unexpected large group dining with tight schedule and inadequate tipping.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.005565626070804981,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1730307965.0
+        },
+        {
+          "summary": "Elderly customers occupying restaurant space for extended periods without additional purchases, causing potential operational inefficiencies.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.15737986405946208,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1748304212.0
+        },
+        {
+          "summary": "Difficult customers causing stress and potential financial loss for restaurant staff.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0016103710432130924,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1725670420.0
+        },
+        {
+          "summary": "Customers bringing outside food and beverages into restaurants and attempting to consume them on the premises, which violates policies and can jeopardize the establishment's liquor license.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0007186461677942868,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1722653686.0
+        },
+        {
+          "summary": "The challenge of dealing with difficult guests in the service industry and the impact of positive interactions.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.0015364655708169342,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1725893442.0
+        },
+        {
+          "summary": "Denny's is closing 150 restaurants due to underperformance, high costs, and changing customer behaviors, impacting its 24/7 operating model.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0009098064652812104,
+          "subreddit": "restaurants",
+          "created_utc": 1729622241.0
+        },
+        {
+          "summary": "Rising labor costs in the restaurant industry, with a significant increase in wages needed to attract reliable staff.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0005526823277523603,
+          "subreddit": "restaurants",
+          "created_utc": 1727825090.0
+        },
+        {
+          "summary": "Closure of multiple Red Lobster locations causing potential job losses and reduced dining options in affected areas.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00022434099538906936,
+          "subreddit": "restaurants",
+          "created_utc": 1724702413.0
+        },
+        {
+          "summary": "The main pain point is the difficulty in making a decent living from serving due to changes in customer behavior and the type of dining establishments, with a shift towards 'eaters' who tip less and focus on cheaper dining experiences.",
+          "pain_score": 7.0,
+          "engagement_weight": 5.553503079984904e-05,
+          "subreddit": "restaurants",
+          "created_utc": 1718915177.0
+        },
+        {
+          "summary": "Decline in service quality and customer experience at On the Border due to cost-cutting measures and poor management decisions.",
+          "pain_score": 8.0,
+          "engagement_weight": 4.116290091197151e-05,
+          "subreddit": "restaurants",
+          "created_utc": 1717559699.0
+        },
+        {
+          "summary": "Frustration from chefs and restaurant staff when high-profile clients book entire establishments but do not utilize the services as expected, leading to perceived undervaluation of their work.",
+          "pain_score": 6.0,
+          "engagement_weight": 1.6319075843527118e-05,
+          "subreddit": "restaurants",
+          "created_utc": 1715288552.0
+        }
+      ],
+      "trend_tag": "🆙 trending",
+      "trend_slope": 1.36
+    },
+    {
+      "cluster_id": "cluster_1",
+      "topic": "Frustration with the perception of Olive Garden's food quality and preparation time.",
+      "frequency": 18,
+      "desperation_score": 3,
+      "avg_pain_score": 5.5,
+      "total_engagement_weight": 3.8,
+      "avg_engagement_weight": 0.21,
+      "market_proxy": {
+        "subscribers": 2063280,
+        "posts_per_week": 36,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Seething internally",
+        "subreddit": "KitchenConfidential",
+        "url": "https://reddit.com/r/KitchenConfidential/comments/1l1dl7c/seething_internally/",
+        "score": 13637
+      },
+      "avg_upvotes": 13283.6,
+      "problem_category": "Consumer perception",
+      "mvp_suggestion": "Develop a platform for transparent restaurant reviews focusing on food quality and preparation processes.",
+      "all_subreddits": [
+        "TalesFromYourServer",
+        "KitchenConfidential",
+        "restaurants"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Frustration with the perception of Olive Garden's food quality and preparation time.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.7925926701246926,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748856466.0
+        },
+        {
+          "summary": "Difficulty in safely accommodating complex food allergies during peak restaurant hours due to poor allergy card organization and high operational pressure.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.025368487865047584,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1735982399.0
+        },
+        {
+          "summary": "Lack of clear and consistent labeling in kitchen environments leading to confusion and inefficiency.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.02238308072316798,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1735528107.0
+        },
+        {
+          "summary": "The unrealistic expectations set by cooking videos, particularly those by Joshua Weissman, regarding the time and cost required for home cooking.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.736134887311113,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748835340.0
+        },
+        {
+          "summary": "Lack of communication and sharing of valuable experiences among culinary professionals.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.7175708718969492,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748837352.0
+        },
+        {
+          "summary": "Perceived value discrepancy in high-priced food offerings, leading to customer skepticism.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.002011898683848537,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1726510979.0
+        },
+        {
+          "summary": "High cost and limited variety of commercial baby food leading parents to seek alternative feeding methods.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.7476086914364442,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748905151.0
+        },
+        {
+          "summary": "Allowing customers to order outside food delivery to a restaurant due to dietary restrictions, leading to potential business and food safety issues.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.5358096549732381,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1748556888.0
+        },
+        {
+          "summary": "Lack of menu options catering to specific dietary preferences or needs, such as those of autistic individuals.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.00025730115906203956,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1718824964.0
+        },
+        {
+          "summary": "Customers with specific dietary preferences or aversions can create communication challenges and inefficiencies in restaurants.",
+          "pain_score": 6.0,
+          "engagement_weight": 7.903129448381844e-05,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1714355309.0
+        },
+        {
+          "summary": "Displeasure with the taste of Da Bomb hot sauce.",
+          "pain_score": 2.0,
+          "engagement_weight": 0.22060195781149677,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748886654.0
+        },
+        {
+          "summary": "Misunderstandings and lack of knowledge about menu items and food origins in restaurants.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0009284301113326264,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1723477747.0
+        },
+        {
+          "summary": "Customer dissatisfaction due to unavailability of preferred beer brand leading to negative dining experience.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0007159831563952143,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1722619712.0
+        },
+        {
+          "summary": "Users are unable to add deals to their orders in the McDonald's app, which is a recurring issue that affects their ability to use discounts.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00035820153220381,
+          "subreddit": "restaurants",
+          "created_utc": 1722552099.0
+        },
+        {
+          "summary": "Automated welcome voices at fast food drive-thrus cause confusion and inefficiency as employees sometimes do not realize customers are responding to the automated prompts.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.001248149534836866,
+          "subreddit": "restaurants",
+          "created_utc": 1730402487.0
+        },
+        {
+          "summary": "Lack of representation for certain country cuisines in the USA, such as Puerto Rican food.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.00031832923028519354,
+          "subreddit": "restaurants",
+          "created_utc": 1725027232.0
+        },
+        {
+          "summary": "Restaurants often fail to have food ready at the designated pickup time when ordered through apps, leading to customer frustration and inefficiency.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.000478012770152884,
+          "subreddit": "restaurants",
+          "created_utc": 1726964838.0
+        },
+        {
+          "summary": "Increased food prices post-COVID have made both fast food and dine-in restaurants less affordable, leading to dissatisfaction with value for money.",
+          "pain_score": 7.0,
+          "engagement_weight": 6.621900328696232e-05,
+          "subreddit": "restaurants",
+          "created_utc": 1720331266.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_3",
+      "topic": "Restaurant staff are frustrated with customers who stay long after closing time, delaying their ability to finish work and go home.",
+      "frequency": 3,
+      "desperation_score": 6,
+      "avg_pain_score": 6.7,
+      "total_engagement_weight": 0.73,
+      "avg_engagement_weight": 0.24,
+      "market_proxy": {
+        "subscribers": 617770,
+        "posts_per_week": 6,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "People who stay after close.",
+        "subreddit": "TalesFromYourServer",
+        "url": "https://reddit.com/r/TalesFromYourServer/comments/1kyvpde/people_who_stay_after_close/",
+        "score": 987
+      },
+      "avg_upvotes": 2751.3,
+      "problem_category": "Productivity",
+      "mvp_suggestion": "Develop a system that automatically dims lights, turns off music, and sends gentle reminders to customers about closing time, encouraging them to leave promptly.",
+      "all_subreddits": [
+        "TalesFromYourServer"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Restaurant staff are frustrated with customers who stay long after closing time, delaying their ability to finish work and go home.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.7258259653135667,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1748580528.0
+        },
+        {
+          "summary": "Customers arriving just before closing time and expecting full service, causing frustration for restaurant staff who are trying to close.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.000614592798985436,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1722055555.0
+        },
+        {
+          "summary": "Customers arriving after closing time expecting service due to a reservation made for an earlier time.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00035363109584778156,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1720165253.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_2",
+      "topic": "Difficulty in obtaining personal supplies for home use from work or distributors.",
+      "frequency": 7,
+      "desperation_score": 4,
+      "avg_pain_score": 5.4,
+      "total_engagement_weight": 1.01,
+      "avg_engagement_weight": 0.14,
+      "market_proxy": {
+        "subscribers": 2057092,
+        "posts_per_week": 14,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Anyone order your own stash of stuff for home?",
+        "subreddit": "KitchenConfidential",
+        "url": "https://reddit.com/r/KitchenConfidential/comments/1l1qd51/anyone_order_your_own_stash_of_stuff_for_home/",
+        "score": 89
+      },
+      "avg_upvotes": 11795.3,
+      "problem_category": "Supply Chain/Procurement",
+      "mvp_suggestion": "Create a platform that allows employees to purchase personal-use supplies at a discounted rate through their workplace or directly from distributors.",
+      "all_subreddits": [
+        "TalesFromYourServer",
+        "KitchenConfidential"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Frustration with unrealistic customer demands and lack of support for front-of-house staff in handling such situations.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0006336257144399362,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1722190086.0
+        },
+        {
+          "summary": "Miscommunication and lack of specificity in service requests leading to unsatisfactory outcomes.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00042649144054364646,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1720705959.0
+        },
+        {
+          "summary": "Employees are frustrated by the expectation to serve customers before official opening hours, leading to stress and disruption of preparation tasks.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.34968145072069334,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1748807851.0
+        },
+        {
+          "summary": "People use public places for personal confrontations to avoid potential violence, causing discomfort for staff and other patrons.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.01438058807123512,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1733871462.0
+        },
+        {
+          "summary": "Difficulty in obtaining personal supplies for home use from work or distributors.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.39891879644113776,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748890567.0
+        },
+        {
+          "summary": "Individuals wearing uniforms from other jobs are frequently mistaken for employees at retail stores, leading to frustration and unwanted interactions.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.24707812639985108,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1748380923.0
+        },
+        {
+          "summary": "Misunderstanding of basic numerical concepts leading to customer service challenges.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.0007902144508849185,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1722996318.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_4",
+      "topic": "The main pain point is the physical and mental exhaustion from working long hours in a busy tourist area during peak season.",
+      "frequency": 8,
+      "desperation_score": 4,
+      "avg_pain_score": 6.8,
+      "total_engagement_weight": 0.67,
+      "avg_engagement_weight": 0.08,
+      "market_proxy": {
+        "subscribers": 2063280,
+        "posts_per_week": 16,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "You are the only ones that will get it",
+        "subreddit": "TalesFromYourServer",
+        "url": "https://reddit.com/r/TalesFromYourServer/comments/1kv3t50/you_are_the_only_ones_that_will_get_it/",
+        "score": 323
+      },
+      "avg_upvotes": 9352.0,
+      "problem_category": "Work-life balance",
+      "mvp_suggestion": "Develop an app that helps retail and service workers manage their schedules, track their energy levels, and provide tips for maintaining physical health during long shifts.",
+      "all_subreddits": [
+        "TalesFromYourServer",
+        "KitchenConfidential",
+        "restaurants"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Frustration with the lack of competence and intelligence among coworkers or team members.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.016758267033911645,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1734445594.0
+        },
+        {
+          "summary": "The main pain point is the chef's poor decision-making in understaffing the kitchen by not scheduling a dishwasher on a potentially busy night, leading to operational inefficiencies and stress.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.023245713679179564,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1735670149.0
+        },
+        {
+          "summary": "The main pain point is the discomfort and ethical dilemma faced by service industry workers when required to serve individuals displaying hate symbols, such as a swastika, and the lack of support from management in addressing such situations.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0011733399131422652,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1724454141.0
+        },
+        {
+          "summary": "The main pain point is the physical and mental exhaustion from working long hours in a busy tourist area during peak season.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.26341851784868336,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1748183125.0
+        },
+        {
+          "summary": "Lack of empathy and kindness towards homeless individuals and the societal tendency to overlook their humanity.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.004598048197498866,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1729942317.0
+        },
+        {
+          "summary": "The main pain point is the lack of cooking knowledge or technique, specifically in preparing shrimp dishes.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.20806859219044224,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748901467.0
+        },
+        {
+          "summary": "The primary pain point is the lack of accountability and poor management by the manager, leading to increased workload and stress for the server.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.1550261167127742,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1747861255.0
+        },
+        {
+          "summary": "Inadequate tipping for servers, especially for large parties, leading to financial stress for servers.",
+          "pain_score": 8.0,
+          "engagement_weight": 9.03919399760375e-05,
+          "subreddit": "restaurants",
+          "created_utc": 1718559176.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": -1.0
+    },
+    {
+      "cluster_id": "cluster_7",
+      "topic": "Ineffective cleaning methods for removing caked-on residue from surfaces.",
+      "frequency": 2,
+      "desperation_score": 4,
+      "avg_pain_score": 4.5,
+      "total_engagement_weight": 0.78,
+      "avg_engagement_weight": 0.39,
+      "market_proxy": {
+        "subscribers": 1439322,
+        "posts_per_week": 4,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "Stop. Collaborate & Listen.",
+        "subreddit": "KitchenConfidential",
+        "url": "https://reddit.com/r/KitchenConfidential/comments/1l1qhh2/stop_collaborate_listen/",
+        "score": 427
+      },
+      "avg_upvotes": 265.5,
+      "problem_category": "Home maintenance",
+      "mvp_suggestion": "Develop a specialized cleaning product or tool that efficiently removes caked-on residue without damaging surfaces.",
+      "all_subreddits": [
+        "KitchenConfidential"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Ineffective cleaning methods for removing caked-on residue from surfaces.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.5846773547645873,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748890845.0
+        },
+        {
+          "summary": "Difficulty in making a perfect omelette without overcooking or undercooking.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.1973129661175663,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1748907042.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_0",
+      "topic": "The main pain point is the impact of personal issues on professional performance, leading to potential job loss.",
+      "frequency": 4,
+      "desperation_score": 6,
+      "avg_pain_score": 6.0,
+      "total_engagement_weight": 0.24,
+      "avg_engagement_weight": 0.06,
+      "market_proxy": {
+        "subscribers": 2057092,
+        "posts_per_week": 8,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Pretty sure I’m fired, but trying to remain optimistic about my next move",
+        "subreddit": "TalesFromYourServer",
+        "url": "https://reddit.com/r/TalesFromYourServer/comments/1l14mdf/pretty_sure_im_fired_but_trying_to_remain/",
+        "score": 91
+      },
+      "avg_upvotes": 40861.0,
+      "problem_category": "Work-life balance",
+      "mvp_suggestion": "Develop an employee support platform that offers resources for managing personal issues, such as access to mental health professionals and time management tools, to prevent personal problems from affecting work performance.",
+      "all_subreddits": [
+        "TalesFromYourServer",
+        "KitchenConfidential"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Employee's work performance is being negatively affected by substance use during work hours.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.01698543322495926,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1734486282.0
+        },
+        {
+          "summary": "The main pain point is the misuse of personal tools at the workplace, leading to potential damage and financial loss.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.017791239676678543,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1734651081.0
+        },
+        {
+          "summary": "The main pain point is the lack of proper knife maintenance and sharpening skills among some workers in the fish cutting industry, leading to potentially inefficient or unsafe tool usage.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.007070139739277103,
+          "subreddit": "KitchenConfidential",
+          "created_utc": 1731218144.0
+        },
+        {
+          "summary": "The main pain point is the impact of personal issues on professional performance, leading to potential job loss.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.20299558695069095,
+          "subreddit": "TalesFromYourServer",
+          "created_utc": 1748824757.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_6",
+      "topic": "No clear pain point or problem is discussed in the post or comments.",
+      "frequency": 2,
+      "desperation_score": 1,
+      "avg_pain_score": 0.0,
+      "total_engagement_weight": 0.0,
+      "avg_engagement_weight": 0.0,
+      "market_proxy": {
+        "subscribers": 6188,
+        "posts_per_week": 4,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "There’s only one Michelin-starred ice cream shop in the world. And it’s in Taiwan",
+        "subreddit": "restaurants",
+        "url": "https://reddit.com/r/restaurants/comments/1gkpsnj/theres_only_one_michelinstarred_ice_cream_shop_in/",
+        "score": 5
+      },
+      "avg_upvotes": 5.0,
+      "problem_category": null,
+      "mvp_suggestion": null,
+      "all_subreddits": [
+        "restaurants"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.001264607139932933,
+          "subreddit": "restaurants",
+          "created_utc": 1730865831.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post as there are no comments or engagement indicating concern.",
+          "pain_score": 0,
+          "engagement_weight": 0.0009063736773737721,
+          "subreddit": "restaurants",
+          "created_utc": 1729755401.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    }
+  ],
+  "subreddits_analyzed": [
+    "restaurants",
+    "KitchenConfidential",
+    "TalesFromYourServer"
+  ]
+}

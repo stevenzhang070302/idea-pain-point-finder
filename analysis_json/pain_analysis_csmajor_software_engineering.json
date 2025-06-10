@@ -1,0 +1,592 @@
+{
+  "topic": "csmajor software engineering",
+  "analysis_summary": {
+    "total_subreddits": 3,
+    "total_posts": 72,
+    "total_clusters": 8,
+    "total_pain_points": 71,
+    "average_desperation_score": 4.1,
+    "average_pain_score": 5.7,
+    "high_priority_clusters": 1
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_5",
+      "topic": "Recent graduates, even those with high GPAs from prestigious universities, are struggling to find job opportunities in the saturated tech job market.",
+      "frequency": 13,
+      "desperation_score": 7,
+      "avg_pain_score": 6.5,
+      "market_proxy": {
+        "subscribers": 6918853,
+        "posts_per_week": 26,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Berkeley Computer Science professor says even his 4.0 GPA students are getting zero job offers, says job market is possibly irreversible ",
+        "subreddit": "cscareerquestions",
+        "url": "https://reddit.com/r/cscareerquestions/comments/1fq4bzc/berkeley_computer_science_professor_says_even_his/",
+        "score": 9377
+      },
+      "avg_upvotes": 1812.1,
+      "problem_category": "employment",
+      "mvp_suggestion": "Develop a platform that connects recent graduates with small companies and startups offering entry-level positions, providing mentorship and career development resources.",
+      "all_subreddits": [
+        "computerscience",
+        "learnprogramming",
+        "cscareerquestions"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Recent graduates, even those with high GPAs from prestigious universities, are struggling to find job opportunities in the saturated tech job market.",
+          "pain_score": 8.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "Software developers at Home Depot are required to spend one day per quarter working in a retail store, which could be uncomfortable or challenging for those not accustomed to customer-facing roles.",
+          "pain_score": 4.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "There is a trend of students and graduates switching from computer science to healthcare fields due to perceived market saturation and instability in the tech industry.",
+          "pain_score": 6.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The misconception that being passionate about software development requires sacrificing good pay and work-life balance.",
+          "pain_score": 6.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "There is a perceived qualification inflation in the software engineering and AI/ML fields, where a master's degree is increasingly becoming a baseline requirement, potentially disadvantaging those with only a bachelor's degree.",
+          "pain_score": 7.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "Navigating the transition from a non-tech background to a software development role can be challenging, especially in understanding the necessary steps and resources.",
+          "pain_score": 6.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "Over-reliance on ChatGPT by junior developers for learning and problem-solving, leading to inadequate debugging skills and potential security risks.",
+          "pain_score": 7.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "Aspiring developers find it challenging and overwhelming to transition into tech careers, especially when considering career changes later in life.",
+          "pain_score": 7.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "Feelings of inadequacy and self-doubt among individuals transitioning into tech careers, especially those with non-traditional backgrounds.",
+          "pain_score": 7.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "Age-related stigma and discouragement in learning programming and pursuing a career in tech.",
+          "pain_score": 7.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "Difficulty transitioning from Java to JavaScript due to differences in language paradigms and lack of type safety.",
+          "pain_score": 7.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "The main pain point is the feeling of being lost and lacking direction in career path after college due to frequently switching focus between different programming fields.",
+          "pain_score": 7.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "Difficulty in understanding Git's structure and workflow, leading to confusion among new users.",
+          "pain_score": 6.0,
+          "subreddit": "computerscience"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_3",
+      "topic": "The job application and hiring process in the tech industry is flawed, leading to candidates lying on resumes to secure interviews and job offers.",
+      "frequency": 13,
+      "desperation_score": 4,
+      "avg_pain_score": 6.9,
+      "market_proxy": {
+        "subscribers": 2704303,
+        "posts_per_week": 26,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "[6 Month Update] Buddy of mine COMPLETELY lied in his job search and he ended up getting tons of inter views and almost tripling his salary ($85k -> $230k)",
+        "subreddit": "cscareerquestions",
+        "url": "https://reddit.com/r/cscareerquestions/comments/1fmcdz3/6_month_update_buddy_of_mine_completely_lied_in/",
+        "score": 8470
+      },
+      "avg_upvotes": 3072.0,
+      "problem_category": "Recruitment",
+      "mvp_suggestion": "Develop a platform that focuses on assessing candidates' actual skills and learning capabilities rather than relying solely on resume keywords, potentially using practical tests and real-world problem-solving scenarios.",
+      "all_subreddits": [
+        "computerscience",
+        "cscareerquestions"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The job application and hiring process in the tech industry is flawed, leading to candidates lying on resumes to secure interviews and job offers.",
+          "pain_score": 8.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "Income inequality and disparity in work conditions between different job sectors.",
+          "pain_score": 8.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "Job seekers are frustrated with fake job postings, lack of communication, and exploitative recruitment practices that waste their time and potentially misuse their data.",
+          "pain_score": 8.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The main pain point is the prevalence of cheating during remote interviews, which undermines the integrity of the hiring process.",
+          "pain_score": 7.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "Excessive managerial layers leading to inefficiency and misalignment of skills.",
+          "pain_score": 8.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The main pain point is the stress and oversight caused by remote interview preparations, leading to unprofessional situations like appearing shirtless.",
+          "pain_score": 4.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "Frustration over job insecurity and offshoring of jobs by Google.",
+          "pain_score": 7.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "Unconventional and overly simplistic interview process for technical roles.",
+          "pain_score": 3.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "Discrimination against non-Indian workers and abuse of the H-1B visa process by certain IT outsourcing companies.",
+          "pain_score": 8.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "Individuals with a criminal record face significant challenges in securing employment, particularly in roles involving sensitive data or trust, leading to uncertainty about viable career paths.",
+          "pain_score": 8.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "Difficulty in securing jobs in the defense sector due to clearance requirements, moral concerns, and saturated job market.",
+          "pain_score": 7.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The primary pain point is the rigid hiring practices focusing on specific language experience rather than overall skillset, leading to missed opportunities for qualified candidates.",
+          "pain_score": 7.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The vulnerability of large language models to targeted bit-flip attacks highlights the inadequacy of current security measures against unauthorized model manipulation.",
+          "pain_score": 7.0,
+          "subreddit": "computerscience"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_4",
+      "topic": "The subreddit lacks moderation to filter repetitive and demotivating posts, leading to user frustration and decreased engagement.",
+      "frequency": 12,
+      "desperation_score": 5,
+      "avg_pain_score": 5.8,
+      "market_proxy": {
+        "subscribers": 6918853,
+        "posts_per_week": 24,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "This sub makes me depressed, I'm leaving.",
+        "subreddit": "learnprogramming",
+        "url": "https://reddit.com/r/learnprogramming/comments/1erap8h/this_sub_makes_me_depressed_im_leaving/",
+        "score": 1297
+      },
+      "avg_upvotes": 572.8,
+      "problem_category": "Community Management",
+      "mvp_suggestion": "Implement a moderation tool that automatically filters out repetitive questions and complaints, and promotes more diverse and educational content.",
+      "all_subreddits": [
+        "computerscience",
+        "learnprogramming",
+        "cscareerquestions"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Lack of internal certainty about one's competence due to varying external feedback.",
+          "pain_score": 7.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The subreddit lacks moderation to filter repetitive and demotivating posts, leading to user frustration and decreased engagement.",
+          "pain_score": 7.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "Recent computer science graduates feel unprepared and lack practical programming skills despite completing their degrees.",
+          "pain_score": 8.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "Imposter syndrome experienced by self-taught developers, exacerbated by the non-traditional learning path.",
+          "pain_score": 6.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "Ineffectiveness of tutorial videos compared to reading documentation for learning in-depth technical knowledge.",
+          "pain_score": 6.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "The main pain point is the friction and procrastination faced by beginners in programming due to lack of experience and confidence.",
+          "pain_score": 6.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "The main pain point is the desire to automate the process of solving a word search puzzle, which is seen as more time-consuming than solving it manually.",
+          "pain_score": 3.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "Lack of motivation or guidance to read recommended textbooks.",
+          "pain_score": 4.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "Difficulty in understanding computer logic and architecture as a hobbyist due to lack of accessible and engaging resources.",
+          "pain_score": 6.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "The main pain point is the user's lack of experience in computer science and image processing, which makes it difficult for them to develop a program to automatically count crab burrows in photographs.",
+          "pain_score": 7.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "Lack of awareness or access to quality books that can inspire interest in computer science and mathematics.",
+          "pain_score": 3.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "The main pain point is the lack of guidance on the foundational knowledge required to self-learn theoretical computer science, particularly for someone with a strong interest in mathematical logic but no background in computer science.",
+          "pain_score": 6.0,
+          "subreddit": "computerscience"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_2",
+      "topic": "Employees at startups face pressure to work beyond contracted hours without additional compensation, leading to conflicts over work-life boundaries.",
+      "frequency": 8,
+      "desperation_score": 5,
+      "avg_pain_score": 7.1,
+      "market_proxy": {
+        "subscribers": 6469650,
+        "posts_per_week": 16,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "So, I just lost my job. Because I'd made boundaries.",
+        "subreddit": "cscareerquestions",
+        "url": "https://reddit.com/r/cscareerquestions/comments/1cwcy8t/so_i_just_lost_my_job_because_id_made_boundaries/",
+        "score": 5053
+      },
+      "avg_upvotes": 2010.4,
+      "problem_category": "Work-life balance",
+      "mvp_suggestion": "Develop a platform for transparent communication of work expectations and compensation for overtime, tailored for startups to ensure mutual understanding between employers and employees.",
+      "all_subreddits": [
+        "learnprogramming",
+        "cscareerquestions"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Employees at startups face pressure to work beyond contracted hours without additional compensation, leading to conflicts over work-life boundaries.",
+          "pain_score": 8.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The main pain point is the inefficiency and frustration caused by unnecessary and prolonged meetings, often driven by managers seeking social interaction rather than productivity.",
+          "pain_score": 7.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The primary pain point is the perceived exploitation of the H-1B visa system by tech companies to hire cheaper labor, leading to lower wages and poor working conditions for engineers, while also fostering resentment and division.",
+          "pain_score": 8.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The main pain point is the stress and potential burnout from being asked to take on the responsibilities of a highly experienced engineer without adequate support or resources.",
+          "pain_score": 7.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The main pain point is the perceived lack of importance of passion and enjoyment in software development jobs, where output is valued over personal satisfaction.",
+          "pain_score": 7.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The main pain point is the lack of balance between the passion for programming and the need for financial stability and employment.",
+          "pain_score": 6.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "The main pain point is the feeling of inadequacy and discouragement in programming due to perceived lack of innate talent and the competitive nature of the field.",
+          "pain_score": 7.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "The main pain point is the mental block and paralysis experienced when trying to code from scratch, leading to an inability to complete coding tasks independently.",
+          "pain_score": 7.0,
+          "subreddit": "learnprogramming"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_1",
+      "topic": "The new algorithm's practical applicability is questioned due to its marginal improvement over Dijkstra's algorithm in real-world scenarios.",
+      "frequency": 9,
+      "desperation_score": 3,
+      "avg_pain_score": 4.8,
+      "market_proxy": {
+        "subscribers": 4663753,
+        "posts_per_week": 18,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "New algorithm beats Dijkstra's time for shortest paths in directed graphs",
+        "subreddit": "computerscience",
+        "url": "https://reddit.com/r/computerscience/comments/1kxeexs/new_algorithm_beats_dijkstras_time_for_shortest/",
+        "score": 742
+      },
+      "avg_upvotes": 199.1,
+      "problem_category": "Technology and Innovation",
+      "mvp_suggestion": "Develop a tool that benchmarks the new algorithm against Dijkstra's in various real-world scenarios to identify specific cases where it offers significant advantages.",
+      "all_subreddits": [
+        "learnprogramming",
+        "computerscience"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The complexity and initial learning curve of understanding how files, directories, and packages are related in Golang.",
+          "pain_score": 4.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "Uncertainty about the necessity and extent of math knowledge required for programming.",
+          "pain_score": 4.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "Uncertainty about when to learn data structures and algorithms and how to effectively integrate them into programming practice.",
+          "pain_score": 6.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "Confusion caused by typographical errors in programming education materials.",
+          "pain_score": 4.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "The A* heuristic in the app may not be optimally tuned for educational purposes, potentially affecting the learning experience.",
+          "pain_score": 4.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "The misconception that computer science is solely about programming, leading to an undervaluation of the mathematical and theoretical aspects of the field.",
+          "pain_score": 6.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "The challenge of generating truly random numbers in computing, as most systems rely on pseudo-random algorithms which are deterministic.",
+          "pain_score": 6.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "The new algorithm's practical applicability is questioned due to its marginal improvement over Dijkstra's algorithm in real-world scenarios.",
+          "pain_score": 3.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "Difficulty in optimizing low-level math operations for performance in programming, particularly in choosing the right approach and understanding compiler optimizations.",
+          "pain_score": 6.0,
+          "subreddit": "computerscience"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_6",
+      "topic": "The abstraction layers in operating systems can be perceived as deceptive, leading to a lack of transparency and control for users.",
+      "frequency": 8,
+      "desperation_score": 3,
+      "avg_pain_score": 5.2,
+      "market_proxy": {
+        "subscribers": 6918853,
+        "posts_per_week": 16,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Me after finding out the entire operating system is a lie",
+        "subreddit": "learnprogramming",
+        "url": "https://reddit.com/r/learnprogramming/comments/1cptc2n/me_after_finding_out_the_entire_operating_system/",
+        "score": 3868
+      },
+      "avg_upvotes": 740.5,
+      "problem_category": "Education",
+      "mvp_suggestion": "Develop an educational tool or visualization software that helps users understand and visualize the abstraction layers and processes within an operating system.",
+      "all_subreddits": [
+        "computerscience",
+        "learnprogramming",
+        "cscareerquestions"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The decline in entry-level hiring in big tech companies is attributed to economic factors such as high interest rates and tax changes, rather than solely the impact of AI.",
+          "pain_score": 7.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "Frustration with automated and highly competitive job application processes at prestigious AI companies.",
+          "pain_score": 7.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The main pain point is the perceived discrepancy in public perception and recognition of DeepMind compared to OpenAI and Anthropic, despite DeepMind's significant contributions and resources.",
+          "pain_score": 4.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The abstraction layers in operating systems can be perceived as deceptive, leading to a lack of transparency and control for users.",
+          "pain_score": 4.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "Over-reliance on AI tools like ChatGPT is hindering personal problem-solving skills.",
+          "pain_score": 6.0,
+          "subreddit": "learnprogramming"
+        },
+        {
+          "summary": "The dominance of AI in media overshadows other significant areas of computer science research, leading to a lack of awareness and potential underinvestment in these fields.",
+          "pain_score": 4.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "The challenge of identifying and investing in emerging fields within computer science that are currently overlooked, amidst the hype and saturation in AI/ML.",
+          "pain_score": 6.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "Confusion about the relationship between memoization and idempotency in software functions, particularly regarding operations with side effects.",
+          "pain_score": 4.0,
+          "subreddit": "computerscience"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_0",
+      "topic": "Netflix's inability to provide a reliable live streaming service for high-demand events like the Mike Tyson fight, despite having significant resources and high-paid engineers.",
+      "frequency": 3,
+      "desperation_score": 4,
+      "avg_pain_score": 5.3,
+      "market_proxy": {
+        "subscribers": 6469650,
+        "posts_per_week": 6,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Netflix engineers make $500k+ and still can't create a functional live stream for the Mike Tyson fight..",
+        "subreddit": "cscareerquestions",
+        "url": "https://reddit.com/r/cscareerquestions/comments/1gsp0ks/netflix_engineers_make_500k_and_still_cant_create/",
+        "score": 7763
+      },
+      "avg_upvotes": 4026.7,
+      "problem_category": "Technology/Streaming Services",
+      "mvp_suggestion": "Develop a dedicated live streaming infrastructure with enhanced buffering and load balancing capabilities to handle high traffic events more effectively.",
+      "all_subreddits": [
+        "learnprogramming",
+        "cscareerquestions"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Netflix's inability to provide a reliable live streaming service for high-demand events like the Mike Tyson fight, despite having significant resources and high-paid engineers.",
+          "pain_score": 7.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "LinkedIn's platform is perceived as cluttered and ineffective, with users experiencing spam, ghosting, and underwhelming features.",
+          "pain_score": 6.0,
+          "subreddit": "cscareerquestions"
+        },
+        {
+          "summary": "The game takes too long to defeat opponents, which may affect user engagement due to short attention spans.",
+          "pain_score": 3.0,
+          "subreddit": "learnprogramming"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_7",
+      "topic": "Uncertainty about the best way to preserve and share a historically significant computer.",
+      "frequency": 5,
+      "desperation_score": 2,
+      "avg_pain_score": 4.4,
+      "market_proxy": {
+        "subscribers": 449203,
+        "posts_per_week": 10,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "The Computer That Built Jupyter",
+        "subreddit": "computerscience",
+        "url": "https://reddit.com/r/computerscience/comments/1g9qie8/the_computer_that_built_jupyter/",
+        "score": 327
+      },
+      "avg_upvotes": 176.2,
+      "problem_category": "Cultural preservation",
+      "mvp_suggestion": "Create a platform or service that helps individuals and organizations identify the best museums or institutions for donating historically significant technology items, including handling logistics and providing visibility into the item's future display and use.",
+      "all_subreddits": [
+        "computerscience"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Uncertainty about the best way to preserve and share a historically significant computer.",
+          "pain_score": 3.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "Applications may crash due to unhandled division by zero exceptions, leading to potential data loss or system instability.",
+          "pain_score": 6.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "Lack of understanding about the reliability and error correction mechanisms in data transmission and storage.",
+          "pain_score": 3.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "Uncertainty about the future availability and practicality of quantum computers for everyday consumers.",
+          "pain_score": 4.0,
+          "subreddit": "computerscience"
+        },
+        {
+          "summary": "Uncertainty and skepticism around the maturity and reliability of emerging technologies like language models, post-quantum encryption, and zero-knowledge proofs.",
+          "pain_score": 6.0,
+          "subreddit": "computerscience"
+        }
+      ]
+    }
+  ],
+  "subreddits_analyzed": [
+    "cscareerquestions",
+    "learnprogramming",
+    "computerscience"
+  ]
+}

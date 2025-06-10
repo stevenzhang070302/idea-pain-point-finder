@@ -1,0 +1,773 @@
+{
+  "topic": "python developers",
+  "analysis_summary": {
+    "total_subreddits": 3,
+    "total_posts": 71,
+    "total_clusters": 8,
+    "total_pain_points": 71,
+    "average_desperation_score": 4.1,
+    "average_pain_score": 6.0,
+    "high_priority_clusters": 1,
+    "total_engagement_weight": 5.62,
+    "average_engagement_weight": 0.07,
+    "trending_clusters": 0,
+    "phase_2_features": {
+      "engagement_weighted_scoring": true,
+      "comment_context_injection": true,
+      "llm_assisted_deduping": true,
+      "temporal_trend_analysis": true
+    }
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_1",
+      "topic": "The discontinuation of the IRS's open-sourced Direct File software, which had potential to increase competition in the tax filing software market and improve public access to government-developed software.",
+      "frequency": 16,
+      "desperation_score": 4,
+      "avg_pain_score": 5.4,
+      "total_engagement_weight": 2.2,
+      "avg_engagement_weight": 0.14,
+      "market_proxy": {
+        "subscribers": 8137876,
+        "posts_per_week": 32,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "IRS open-sourced its Direct File software and it is pretty great actually (check out the scala fact graph)",
+        "subreddit": "programming",
+        "url": "https://reddit.com/r/programming/comments/1l13uvu/irs_opensourced_its_direct_file_software_and_it/",
+        "score": 1101
+      },
+      "avg_upvotes": 806.6,
+      "problem_category": "finance",
+      "mvp_suggestion": "Develop a community-driven open-source tax filing software that can be maintained and improved by developers, ensuring continuity and competition in the market.",
+      "all_subreddits": [
+        "programming",
+        "Python"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The discontinuation of the IRS's open-sourced Direct File software, which had potential to increase competition in the tax filing software market and improve public access to government-developed software.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.7265407814872378,
+          "subreddit": "programming",
+          "created_utc": 1748822518.0
+        },
+        {
+          "summary": "The main pain point is the lack of intuitive and efficient debugging tools for beginners and visual learners, particularly in understanding code execution and variable changes.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.3811232870723309,
+          "subreddit": "Python",
+          "created_utc": 1748672374.0
+        },
+        {
+          "summary": "The high cost of electricity and HVAC in data centers and computing environments.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.005887794087332334,
+          "subreddit": "programming",
+          "created_utc": 1730455369.0
+        },
+        {
+          "summary": "Over-engineering web applications for scalability before having a substantial user base leads to maintenance challenges and wasted resources.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0021819358629950334,
+          "subreddit": "programming",
+          "created_utc": 1726739575.0
+        },
+        {
+          "summary": "JetBrains is perceived to be losing market share to VSCode, prompting them to make their IDEs free for non-commercial use as a strategy to attract more users.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.004936620645125755,
+          "subreddit": "programming",
+          "created_utc": 1729779164.0
+        },
+        {
+          "summary": "Concerns about redundancy and potential inefficiency in developing new tools when existing solutions are available.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.18331342906787512,
+          "subreddit": "programming",
+          "created_utc": 1748807299.0
+        },
+        {
+          "summary": "Skepticism about the relevance and applicability of Uncle Bob Martin's updated perspectives on software development in the second edition of Clean Code.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0008662678818611329,
+          "subreddit": "programming",
+          "created_utc": 1723217231.0
+        },
+        {
+          "summary": "Lack of clarity on the advantages of ayu over existing tools like the testing tab in VSCode.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.178076519351682,
+          "subreddit": "Python",
+          "created_utc": 1748803397.0
+        },
+        {
+          "summary": "The blog post on OAuth 2.0 is missing key information on service-service flow and client credentials, and lacks clarity in its diagrams.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.1651263211821783,
+          "subreddit": "programming",
+          "created_utc": 1748818681.0
+        },
+        {
+          "summary": "The tool lacks scalability and comprehensive testing, which raises concerns about its effectiveness compared to existing solutions.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.15378707204276806,
+          "subreddit": "Python",
+          "created_utc": 1748795610.0
+        },
+        {
+          "summary": "Concern about preserving historical computing artifacts related to significant software development.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.003916758782566316,
+          "subreddit": "Python",
+          "created_utc": 1729625222.0
+        },
+        {
+          "summary": "Lack of access to the library's source code or repository link.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.16379087633068007,
+          "subreddit": "Python",
+          "created_utc": 1748697496.0
+        },
+        {
+          "summary": "Difficulty in accessing and integrating with medical EMR systems for programming projects.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0008471182989007061,
+          "subreddit": "Python",
+          "created_utc": 1723489336.0
+        },
+        {
+          "summary": "Frustration with the need for multiple tools to handle different file formats and the lack of tools optimized for quickly understanding and cleaning data.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.12865149827505176,
+          "subreddit": "programming",
+          "created_utc": 1748781576.0
+        },
+        {
+          "summary": "Limited access to free internet on long-haul flights and the desire for a workaround to access messaging apps.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00044077644823902905,
+          "subreddit": "programming",
+          "created_utc": 1720780968.0
+        },
+        {
+          "summary": "Lack of automated CI/CD pipelines for the Rust mini-shell project.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.10507366473243336,
+          "subreddit": "programming",
+          "created_utc": 1748799589.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_3",
+      "topic": "The main pain point is the complexity and inefficiency of managing multiple Python environments and dependencies using traditional tools like pip, which uv addresses by offering faster performance and streamlined management.",
+      "frequency": 23,
+      "desperation_score": 3,
+      "avg_pain_score": 6.0,
+      "total_engagement_weight": 1.23,
+      "avg_engagement_weight": 0.05,
+      "market_proxy": {
+        "subscribers": 2292710,
+        "posts_per_week": 46,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "why the hype for uv",
+        "subreddit": "learnpython",
+        "url": "https://reddit.com/r/learnpython/comments/1l0lsqc/why_the_hype_for_uv/",
+        "score": 28
+      },
+      "avg_upvotes": 388.0,
+      "problem_category": "productivity",
+      "mvp_suggestion": "Develop a user-friendly interface for uv that simplifies the setup and management of Python environments and dependencies, making it accessible to less technical users.",
+      "all_subreddits": [
+        "learnpython",
+        "Python"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The complexity and potential inadequacy of Python's threading model in high-security environments.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.01611688783679711,
+          "subreddit": "Python",
+          "created_utc": 1734288183.0
+        },
+        {
+          "summary": "The main pain point is the potential redundancy and lack of competitive edge of the new Python package compared to established tools like pandas and spark, coupled with its high memory usage.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.19524721325937988,
+          "subreddit": "Python",
+          "created_utc": 1748744063.0
+        },
+        {
+          "summary": "The main pain point is the disagreement and uncertainty over the adoption of certain Python tools and libraries, such as uv, pydantic, and click, due to concerns about overhead, licensing, and suitability for different use cases.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.004931015376184468,
+          "subreddit": "Python",
+          "created_utc": 1730502580.0
+        },
+        {
+          "summary": "Concerns about the selection criteria for top Python libraries, particularly the inclusion of very new or beta-stage libraries.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.010458548177238323,
+          "subreddit": "Python",
+          "created_utc": 1733919274.0
+        },
+        {
+          "summary": "The main pain point is the complexity and inefficiency of managing multiple Python environments and dependencies using traditional tools like pip, which uv addresses by offering faster performance and streamlined management.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.21284080905975483,
+          "subreddit": "learnpython",
+          "created_utc": 1748773908.0
+        },
+        {
+          "summary": "The main pain point is the confusion and misunderstanding among new Python users regarding floating point arithmetic and its imprecision due to binary representation limitations.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.013714256873745586,
+          "subreddit": "learnpython",
+          "created_utc": 1735316308.0
+        },
+        {
+          "summary": "The main pain point is the financial constraint of accessing quality learning resources for Python programming due to being out of a full-time job.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.1898381987358854,
+          "subreddit": "learnpython",
+          "created_utc": 1748826483.0
+        },
+        {
+          "summary": "Confusion and inconsistency in Python's string handling methods, leading to frustration among developers.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.19157638933004,
+          "subreddit": "Python",
+          "created_utc": 1748718436.0
+        },
+        {
+          "summary": "Junior engineers often write inefficient and hard-to-maintain Python code due to poor coding practices such as not using functions or classes, improper variable naming, and misuse of language features.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.002404360145265964,
+          "subreddit": "learnpython",
+          "created_utc": 1728507450.0
+        },
+        {
+          "summary": "Uncertainty about the value of learning Python for a career switch in the context of AI advancements.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0015204431783205706,
+          "subreddit": "learnpython",
+          "created_utc": 1726540965.0
+        },
+        {
+          "summary": "Key libraries like TensorFlow may take a long time to update and become compatible with the new Python release.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0026669161297348896,
+          "subreddit": "Python",
+          "created_utc": 1728317903.0
+        },
+        {
+          "summary": "Concerns about reliance on a single commercial company for Python packaging tools.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0008879543857871828,
+          "subreddit": "Python",
+          "created_utc": 1724187025.0
+        },
+        {
+          "summary": "The main pain point is the difficulty in upgrading from Python 3.8 due to compatibility issues with newer Python versions and dependencies, particularly for projects using Raspberry Pi and pygame.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0014210458491844516,
+          "subreddit": "Python",
+          "created_utc": 1726260792.0
+        },
+        {
+          "summary": "Difficulty in maintaining and updating a legacy Python project due to outdated libraries and lack of documentation.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.19799556544921704,
+          "subreddit": "learnpython",
+          "created_utc": 1748830358.0
+        },
+        {
+          "summary": "Difficulty in setting up Python and VSCode environment for beginners.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.18263912318622869,
+          "subreddit": "learnpython",
+          "created_utc": 1748854100.0
+        },
+        {
+          "summary": "The main pain point is the lack of visibility and usability of the Python package due to its generic name and insufficient documentation.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0020843465373173416,
+          "subreddit": "Python",
+          "created_utc": 1728914166.0
+        },
+        {
+          "summary": "Lack of understanding and complexity in using advanced f-string features in Python.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0017342667170033535,
+          "subreddit": "learnpython",
+          "created_utc": 1728609713.0
+        },
+        {
+          "summary": "Developers find certain Python packages indispensable for improving productivity and code quality.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.0002769944912199433,
+          "subreddit": "Python",
+          "created_utc": 1719854281.0
+        },
+        {
+          "summary": "Lack of clear explanation and differentiation of Python Polars from similar tools like pandas.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00028343049241319625,
+          "subreddit": "Python",
+          "created_utc": 1719830691.0
+        },
+        {
+          "summary": "Difficulty in contributing to Python core libraries due to lack of guidance and complexity.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.000927355948289244,
+          "subreddit": "learnpython",
+          "created_utc": 1727002549.0
+        },
+        {
+          "summary": "The release of NumPy 2.0.0 may cause compatibility issues with existing projects, requiring updates to dependencies and potentially breaking CI pipelines.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0001650212256667878,
+          "subreddit": "Python",
+          "created_utc": 1718614398.0
+        },
+        {
+          "summary": "Difficulty and time consumption in locating and editing failing test functions in large codebases using Pytest.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0001368977290649308,
+          "subreddit": "Python",
+          "created_utc": 1718012329.0
+        },
+        {
+          "summary": "The layoff of Google's Python maintainer team and its impact on projects like pybind11, leading to concerns about funding and support for these projects.",
+          "pain_score": 7.0,
+          "engagement_weight": 6.106989825861942e-05,
+          "subreddit": "Python",
+          "created_utc": 1714411366.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_5",
+      "topic": "DNS complexity and the challenges of naming and caching in computer science.",
+      "frequency": 8,
+      "desperation_score": 3,
+      "avg_pain_score": 5.6,
+      "total_engagement_weight": 1.11,
+      "avg_engagement_weight": 0.14,
+      "market_proxy": {
+        "subscribers": 7707798,
+        "posts_per_week": 16,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "DNS Does Not Have to be Hard",
+        "subreddit": "programming",
+        "url": "https://reddit.com/r/programming/comments/1l0ykeq/dns_does_not_have_to_be_hard/",
+        "score": 242
+      },
+      "avg_upvotes": 1167.6,
+      "problem_category": "Technology",
+      "mvp_suggestion": "Develop an intuitive DNS management tool with automated troubleshooting and educational resources to simplify DNS configuration and maintenance.",
+      "all_subreddits": [
+        "programming",
+        "learnpython"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "DNS complexity and the challenges of naming and caching in computer science.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.42394149376857343,
+          "subreddit": "programming",
+          "created_utc": 1748808655.0
+        },
+        {
+          "summary": "The complexity and unconventional use of TypeScript's type system for programming is seen as both amusing and challenging.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.27540004852098016,
+          "subreddit": "programming",
+          "created_utc": 1748753070.0
+        },
+        {
+          "summary": "The Windows Command Line editor lacks traditional UI elements like a 'Window' menu for switching between open files, which some users find unintuitive.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.2324518388049874,
+          "subreddit": "programming",
+          "created_utc": 1748862746.0
+        },
+        {
+          "summary": "ChatGPT provides incorrect or non-existent programming solutions, leading to wasted time and potential errors.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0001429156559088913,
+          "subreddit": "programming",
+          "created_utc": 1716555858.0
+        },
+        {
+          "summary": "Lack of automatic font size adjustment in GUI frameworks to fit text within a fixed-size text box without wrapping.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.17625496797081946,
+          "subreddit": "learnpython",
+          "created_utc": 1748859269.0
+        },
+        {
+          "summary": "The main pain point is the difficulty of fast iteration and productivity issues when developing games in Rust due to the complexity of the borrow checker and the need to code everything as a state machine.",
+          "pain_score": 8.0,
+          "engagement_weight": 7.570498581939425e-05,
+          "subreddit": "programming",
+          "created_utc": 1714150286.0
+        },
+        {
+          "summary": "The main pain point is the inefficiency and slowness of the 'Hello World' program due to the use of random character selection and sequential loops.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0003357976298205453,
+          "subreddit": "learnpython",
+          "created_utc": 1721021021.0
+        },
+        {
+          "summary": "Difficulty in automating repetitive tasks and data management without programming knowledge.",
+          "pain_score": 7.0,
+          "engagement_weight": 7.470843021251706e-05,
+          "subreddit": "learnpython",
+          "created_utc": 1715028470.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_7",
+      "topic": "Difficulty in understanding and replicating a specific audio-to-image conversion process in Blender.",
+      "frequency": 4,
+      "desperation_score": 4,
+      "avg_pain_score": 5.0,
+      "total_engagement_weight": 0.42,
+      "avg_engagement_weight": 0.1,
+      "market_proxy": {
+        "subscribers": 9069192,
+        "posts_per_week": 8,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "audio file to grayscale image",
+        "subreddit": "Python",
+        "url": "https://reddit.com/r/Python/comments/1l0fses/audio_file_to_grayscale_image/",
+        "score": 28
+      },
+      "avg_upvotes": 120.0,
+      "problem_category": "education",
+      "mvp_suggestion": "Develop a detailed tutorial or guide that explains the process of converting audio files to grayscale images in Blender, including explanations of the axes and terms used.",
+      "all_subreddits": [
+        "programming",
+        "Python",
+        "learnpython"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Difficulty in creating a tool to describe NSFW images for visually impaired individuals due to lack of quality output and personal constraints.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.013154127044806164,
+          "subreddit": "learnpython",
+          "created_utc": 1735475161.0
+        },
+        {
+          "summary": "Difficulty in understanding and replicating a specific audio-to-image conversion process in Blender.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.14774230090976237,
+          "subreddit": "Python",
+          "created_utc": 1748750451.0
+        },
+        {
+          "summary": "Lack of awareness or visibility for improved methods of sorting by average rating using Bayesian Average Ratings.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.12913708792599699,
+          "subreddit": "programming",
+          "created_utc": 1748808062.0
+        },
+        {
+          "summary": "The need for an efficient, automated tool to assess and organize large photo libraries based on technical quality.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.1298021897553446,
+          "subreddit": "Python",
+          "created_utc": 1748823519.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_2",
+      "topic": "No clear pain point or problem is discussed in the post.",
+      "frequency": 7,
+      "desperation_score": 4,
+      "avg_pain_score": 4.7,
+      "total_engagement_weight": 0.42,
+      "avg_engagement_weight": 0.06,
+      "market_proxy": {
+        "subscribers": 9069192,
+        "posts_per_week": 14,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "A 45-bit segment display design for Korean text",
+        "subreddit": "programming",
+        "url": "https://reddit.com/r/programming/comments/1l1gq1g/a_45bit_segment_display_design_for_korean_text/",
+        "score": 26
+      },
+      "avg_upvotes": 1005.0,
+      "problem_category": "N/A",
+      "mvp_suggestion": "N/A",
+      "all_subreddits": [
+        "programming",
+        "learnpython",
+        "Python"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Users are frustrated with Stack Overflow's partnership with OpenAI, fearing loss of control over their content and potential negative impacts on the community and AI development.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.00010095523002250876,
+          "subreddit": "programming",
+          "created_utc": 1715228732.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post.",
+          "pain_score": 0,
+          "engagement_weight": 0.15521476422059352,
+          "subreddit": "programming",
+          "created_utc": 1748867243.0
+        },
+        {
+          "summary": "The main pain point is the lack of community feedback and contributions to improve the open-sourced identity provider and auth server.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.1331158026106237,
+          "subreddit": "programming",
+          "created_utc": 1748806381.0
+        },
+        {
+          "summary": "The primary pain point is the sudden and unexpected service disruption due to Cloudflare's decision to terminate service for an online casino, demanding a large payment without prior contract or negotiation, highlighting the risks of relying on low-cost, non-contractual service models for high-risk businesses.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.00015256948137743986,
+          "subreddit": "programming",
+          "created_utc": 1716739871.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.12967809754702803,
+          "subreddit": "Python",
+          "created_utc": 1748836557.0
+        },
+        {
+          "summary": "Lack of support for AMD GPUs in the new GPU-acceleration feature released by Polars in collaboration with NVIDIA RAPIDS.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0012979501596785045,
+          "subreddit": "Python",
+          "created_utc": 1726583000.0
+        },
+        {
+          "summary": "The main pain point is the user's frustration with influencers and unwanted content on Instagram, leading to a desire to block accounts with over 10,000 followers and specific keywords, but facing challenges with Instagram's API limitations and risk of account bans.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0004981168112165915,
+          "subreddit": "learnpython",
+          "created_utc": 1723045208.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_6",
+      "topic": "Difficulty in finding beginner-friendly Python learning resources on YouTube.",
+      "frequency": 6,
+      "desperation_score": 4,
+      "avg_pain_score": 5.8,
+      "total_engagement_weight": 0.2,
+      "avg_engagement_weight": 0.03,
+      "market_proxy": {
+        "subscribers": 931316,
+        "posts_per_week": 12,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "Best youtube channel to learn python?",
+        "subreddit": "learnpython",
+        "url": "https://reddit.com/r/learnpython/comments/1l0yupy/best_youtube_channel_to_learn_python/",
+        "score": 31
+      },
+      "avg_upvotes": 298.0,
+      "problem_category": "education",
+      "mvp_suggestion": "Develop a curated platform that aggregates and categorizes Python learning resources based on user skill level and engagement metrics.",
+      "all_subreddits": [
+        "learnpython"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Lack of direction and project ideas for a beginner learning Python.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.010555505842418031,
+          "subreddit": "learnpython",
+          "created_utc": 1734148204.0
+        },
+        {
+          "summary": "Difficulty in finding beginner-friendly Python learning resources on YouTube.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.1861166747481954,
+          "subreddit": "learnpython",
+          "created_utc": 1748809372.0
+        },
+        {
+          "summary": "Newbie programmers struggle with discovering and learning useful Python tricks and techniques that can enhance their coding efficiency and understanding.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.002683533518821448,
+          "subreddit": "learnpython",
+          "created_utc": 1728523895.0
+        },
+        {
+          "summary": "The complexity and overwhelming nature of learning Python for data and financial analytics, especially for beginners who are visual learners.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.002816469220889461,
+          "subreddit": "learnpython",
+          "created_utc": 1731253271.0
+        },
+        {
+          "summary": "Difficulty in learning Python through traditional methods and lack of practical application.",
+          "pain_score": 7.0,
+          "engagement_weight": 6.213042281937098e-05,
+          "subreddit": "learnpython",
+          "created_utc": 1714770197.0
+        },
+        {
+          "summary": "Difficulty in discovering new, high-quality Python-related YouTube channels that cover a range of topics.",
+          "pain_score": 4.0,
+          "engagement_weight": 9.351736045421787e-05,
+          "subreddit": "learnpython",
+          "created_utc": 1716421613.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_0",
+      "topic": "The startup failed due to a misalignment between the product offering and the target market, leading to an inability to acquire and retain customers effectively.",
+      "frequency": 2,
+      "desperation_score": 9,
+      "avg_pain_score": 8.0,
+      "total_engagement_weight": 0.02,
+      "avg_engagement_weight": 0.01,
+      "market_proxy": {
+        "subscribers": 6776482,
+        "posts_per_week": 4,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "After 3 Years, I Failed. Here's All My Startup's Code.",
+        "subreddit": "programming",
+        "url": "https://reddit.com/r/programming/comments/1hg9mu3/after_3_years_i_failed_heres_all_my_startups_code/",
+        "score": 2181
+      },
+      "avg_upvotes": 1890.0,
+      "problem_category": "Market Fit and Customer Acquisition",
+      "mvp_suggestion": "Develop a tool that integrates seamlessly with existing developer workflows and provides unique value over open-source alternatives, targeting smaller teams with a clear need for centralized documentation management.",
+      "all_subreddits": [
+        "programming"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The startup failed due to a misalignment between the product offering and the target market, leading to an inability to acquire and retain customers effectively.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.017019366113446188,
+          "subreddit": "programming",
+          "created_utc": 1734438793.0
+        },
+        {
+          "summary": "The main pain point is the lack of robust organizational processes and accountability in software deployment, leading to scapegoating of individual developers for systemic failures.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0005553913421238111,
+          "subreddit": "programming",
+          "created_utc": 1721555217.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_4",
+      "topic": "Unreasonable workload expectations and lack of recognition for efficient work.",
+      "frequency": 5,
+      "desperation_score": 2,
+      "avg_pain_score": 7.4,
+      "total_engagement_weight": 0.02,
+      "avg_engagement_weight": 0.0,
+      "market_proxy": {
+        "subscribers": 7707798,
+        "posts_per_week": 10,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Python is a godsend for work",
+        "subreddit": "learnpython",
+        "url": "https://reddit.com/r/learnpython/comments/1h8ljhc/python_is_a_godsend_for_work/",
+        "score": 2069
+      },
+      "avg_upvotes": 1729.8,
+      "problem_category": "Workplace management",
+      "mvp_suggestion": "A platform that tracks and manages workload distribution and recognizes efficient task completion to prevent exploitation and ensure fair recognition.",
+      "all_subreddits": [
+        "programming",
+        "learnpython"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Unreasonable workload expectations and lack of recognition for efficient work.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.013378525863900412,
+          "subreddit": "learnpython",
+          "created_utc": 1733549201.0
+        },
+        {
+          "summary": "Lack of detailed insights into programming job market trends, such as salary data and specific language demand, causing confusion and misalignment between perceived and actual demand.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00488819235099763,
+          "subreddit": "programming",
+          "created_utc": 1729694008.0
+        },
+        {
+          "summary": "Technical interviews do not accurately assess the skills of experienced engineers, causing stress and career setbacks.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0014267419582110843,
+          "subreddit": "programming",
+          "created_utc": 1725033176.0
+        },
+        {
+          "summary": "Tech companies are not effectively incentivizing engineers to stay, leading to high turnover and loss of institutional knowledge.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0016231673925339901,
+          "subreddit": "programming",
+          "created_utc": 1725577505.0
+        },
+        {
+          "summary": "Excessive managerial interference and meetings significantly hinder software engineers' productivity.",
+          "pain_score": 8.0,
+          "engagement_weight": 8.598894034685379e-05,
+          "subreddit": "programming",
+          "created_utc": 1714633349.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    }
+  ],
+  "subreddits_analyzed": [
+    "learnpython",
+    "Python",
+    "programming"
+  ]
+}

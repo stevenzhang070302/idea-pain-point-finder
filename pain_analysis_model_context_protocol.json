@@ -1,0 +1,736 @@
+{
+  "topic": "model context protocol",
+  "analysis_summary": {
+    "total_subreddits": 3,
+    "total_posts": 66,
+    "total_clusters": 8,
+    "total_pain_points": 66,
+    "average_desperation_score": 3.9,
+    "average_pain_score": 6.2,
+    "high_priority_clusters": 1,
+    "total_engagement_weight": 4.79,
+    "average_engagement_weight": 0.07,
+    "trending_clusters": 0,
+    "phase_2_features": {
+      "engagement_weighted_scoring": true,
+      "comment_context_injection": true,
+      "llm_assisted_deduping": true,
+      "temporal_trend_analysis": true
+    }
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_0",
+      "topic": "Data engineering is perceived as less mature than other software engineering fields due to a lack of established frameworks, patterns, and best practices.",
+      "frequency": 17,
+      "desperation_score": 4,
+      "avg_pain_score": 6.5,
+      "total_engagement_weight": 1.71,
+      "avg_engagement_weight": 0.1,
+      "market_proxy": {
+        "subscribers": 3309494,
+        "posts_per_week": 34,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Do you consider DE less mature than other Software Engineering fields?",
+        "subreddit": "dataengineering",
+        "url": "https://reddit.com/r/dataengineering/comments/1l11i96/do_you_consider_de_less_mature_than_other/",
+        "score": 69
+      },
+      "avg_upvotes": 712.5,
+      "problem_category": "Productivity",
+      "mvp_suggestion": "Develop a comprehensive platform that offers standardized frameworks and best practices for data engineering, similar to what exists in web development.",
+      "all_subreddits": [
+        "MachineLearning",
+        "dataengineering"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Lack of credibility and high cost of Data Engineering Academy's services.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.306144424470403,
+          "subreddit": "dataengineering",
+          "created_utc": 1748874830.0
+        },
+        {
+          "summary": "Data engineering is perceived as less mature than other software engineering fields due to a lack of established frameworks, patterns, and best practices.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.31425275897723337,
+          "subreddit": "dataengineering",
+          "created_utc": 1748816020.0
+        },
+        {
+          "summary": "Sabotage and unethical behavior in competitive research environments, leading to compromised research integrity and unfair competition.",
+          "pain_score": 9.0,
+          "engagement_weight": 0.013065195282832476,
+          "subreddit": "MachineLearning",
+          "created_utc": 1734032501.0
+        },
+        {
+          "summary": "The main pain point is the uncertainty and lack of information about the performance and technical requirements of switching from Singlestore to Iceberg, particularly concerning upsert speed, data fetching speed, and compatibility with S3 as a storage layer.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.2516247027810328,
+          "subreddit": "dataengineering",
+          "created_utc": 1748849558.0
+        },
+        {
+          "summary": "Uncertainty about career advancement in data engineering due to AI disruption and personal constraints.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.17888063351923697,
+          "subreddit": "dataengineering",
+          "created_utc": 1748831802.0
+        },
+        {
+          "summary": "Over-reliance on Excel for complex data engineering tasks, leading to inefficiencies and potential for errors.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0006988548460742469,
+          "subreddit": "dataengineering",
+          "created_utc": 1722530678.0
+        },
+        {
+          "summary": "The need for a self-hosted SQL tool that allows users to spot data issues before querying, ensuring data privacy and control.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.17520151977581014,
+          "subreddit": "dataengineering",
+          "created_utc": 1748871063.0
+        },
+        {
+          "summary": "Uncertainty about the sustainability of ML funding and its impact on job markets and research quality.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.1788258875553461,
+          "subreddit": "MachineLearning",
+          "created_utc": 1748777109.0
+        },
+        {
+          "summary": "Lack of acknowledgment and engagement with engineers' work and dashboards by end users.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.005116542254286544,
+          "subreddit": "dataengineering",
+          "created_utc": 1731321599.0
+        },
+        {
+          "summary": "Lack of emphasis on data modeling and data quality in modern data engineering due to reliance on advanced tools.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0016856921225554635,
+          "subreddit": "dataengineering",
+          "created_utc": 1726077167.0
+        },
+        {
+          "summary": "The main pain point is the challenge of designing a modern data engineering platform from scratch, with a focus on making intentional decisions about architecture, tooling, processes, and team structure to ensure scalability, governance, and agility.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.15979713431864745,
+          "subreddit": "dataengineering",
+          "created_utc": 1748876375.0
+        },
+        {
+          "summary": "Unprofessional response from Data Engineering Academy impacting brand perception.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.12386499813465489,
+          "subreddit": "dataengineering",
+          "created_utc": 1748874760.0
+        },
+        {
+          "summary": "Difficulty in managing and unifying customer data from various sources and formats.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0020912570992318597,
+          "subreddit": "dataengineering",
+          "created_utc": 1728265933.0
+        },
+        {
+          "summary": "Lack of clear role distinction and flexibility in data roles causing confusion and inefficiency.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0011300915679977317,
+          "subreddit": "dataengineering",
+          "created_utc": 1725477892.0
+        },
+        {
+          "summary": "Frustration with inconsistent date formats in data handling.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0004880872730000016,
+          "subreddit": "dataengineering",
+          "created_utc": 1722010026.0
+        },
+        {
+          "summary": "Debate over the scalability and performance of different database systems, specifically MySQL vs. PostgreSQL.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0005271845118483815,
+          "subreddit": "dataengineering",
+          "created_utc": 1722541869.0
+        },
+        {
+          "summary": "Lack of clear data requirements and unrealistic expectations for data reporting and analysis.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00017393887153010378,
+          "subreddit": "dataengineering",
+          "created_utc": 1718969768.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_1",
+      "topic": "The need for software developers to possess and effectively utilize soft skills such as communication, adaptability, and strategic thinking, despite a preference for focusing solely on technical tasks.",
+      "frequency": 12,
+      "desperation_score": 4,
+      "avg_pain_score": 6.8,
+      "total_engagement_weight": 0.88,
+      "avg_engagement_weight": 0.07,
+      "market_proxy": {
+        "subscribers": 4215394,
+        "posts_per_week": 24,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "What soft skills have made the most significant impact in your software development/ programming career?",
+        "subreddit": "learnprogramming",
+        "url": "https://reddit.com/r/learnprogramming/comments/1l177uh/what_soft_skills_have_made_the_most_significant/",
+        "score": 131
+      },
+      "avg_upvotes": 725.5,
+      "problem_category": "Professional Development",
+      "mvp_suggestion": "Develop a training platform that integrates soft skills development into technical learning for software developers, offering interactive scenarios and feedback to improve communication, adaptability, and strategic thinking.",
+      "all_subreddits": [
+        "learnprogramming"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The need for software developers to possess and effectively utilize soft skills such as communication, adaptability, and strategic thinking, despite a preference for focusing solely on technical tasks.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.2983699660014121,
+          "subreddit": "learnprogramming",
+          "created_utc": 1748832663.0
+        },
+        {
+          "summary": "The main pain point is the feeling of inadequacy and lack of progress in programming despite years of effort, leading to demotivation and the decision to quit.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.015084838321459081,
+          "subreddit": "learnprogramming",
+          "created_utc": 1734247152.0
+        },
+        {
+          "summary": "The main pain point is the lack of balance between the individual's passion for programming and the need for financial stability and employment.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.004903828064538353,
+          "subreddit": "learnprogramming",
+          "created_utc": 1729763021.0
+        },
+        {
+          "summary": "Imposter syndrome and lack of confidence among self-taught developers transitioning to full-time roles.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.004600730897089567,
+          "subreddit": "learnprogramming",
+          "created_utc": 1729534811.0
+        },
+        {
+          "summary": "Recent computer science graduates feel unprepared for programming jobs due to lack of practical skills and direction.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0016237530623174161,
+          "subreddit": "learnprogramming",
+          "created_utc": 1725557501.0
+        },
+        {
+          "summary": "Lack of experience in building software applications from scratch despite having a strong educational background and working in a big tech company.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.17233230472393068,
+          "subreddit": "learnprogramming",
+          "created_utc": 1748820933.0
+        },
+        {
+          "summary": "Lack of direction and practical experience after graduating with a CS degree.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.19936163996368347,
+          "subreddit": "learnprogramming",
+          "created_utc": 1748846283.0
+        },
+        {
+          "summary": "Aspiring developers find it challenging and overwhelming to transition into a developer role, especially when considering a career change.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.002003906233101034,
+          "subreddit": "learnprogramming",
+          "created_utc": 1726440756.0
+        },
+        {
+          "summary": "The main pain point is the uncertainty and difficulty of transitioning into an AI/ML engineering role without a formal degree, especially when considering the importance of mathematical skills and the perceived necessity of a degree for technical data roles.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.18445525030877444,
+          "subreddit": "learnprogramming",
+          "created_utc": 1748854633.0
+        },
+        {
+          "summary": "The main pain point is the fear and uncertainty of starting a new career in programming later in life, feeling it might be too late to pursue such a change.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0007794600103173543,
+          "subreddit": "learnprogramming",
+          "created_utc": 1723479166.0
+        },
+        {
+          "summary": "Difficulty in transitioning to a software development career from a non-tech background, especially in a challenging job market.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00015740521341544672,
+          "subreddit": "learnprogramming",
+          "created_utc": 1716938808.0
+        },
+        {
+          "summary": "Feeling inadequate and experiencing anxiety when pursuing a computer science degree later in life, especially for those with non-traditional backgrounds.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00017447374475170507,
+          "subreddit": "learnprogramming",
+          "created_utc": 1717536416.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_3",
+      "topic": "The main pain point is the perceived forced integration of dbt Core users into the dbt Cloud ecosystem, leading to concerns about loss of open-source freedom and increased vendor lock-in.",
+      "frequency": 15,
+      "desperation_score": 7,
+      "avg_pain_score": 6.6,
+      "total_engagement_weight": 0.51,
+      "avg_engagement_weight": 0.03,
+      "market_proxy": {
+        "subscribers": 7524888,
+        "posts_per_week": 30,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "dbt core, murdered by dbt fusion",
+        "subreddit": "dataengineering",
+        "url": "https://reddit.com/r/dataengineering/comments/1l1duk9/dbt_core_murdered_by_dbt_fusion/",
+        "score": 46
+      },
+      "avg_upvotes": 727.8,
+      "problem_category": "Product Strategy and User Autonomy",
+      "mvp_suggestion": "Develop a transparent comparison tool that clearly outlines the differences, benefits, and limitations between dbt Core and dbt Cloud, helping users make informed decisions about their usage and potential lock-in risks.",
+      "all_subreddits": [
+        "MachineLearning",
+        "dataengineering",
+        "learnprogramming"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is the occurrence of perceived racial bias in a presentation at NeurIPS, which led to discomfort and controversy among attendees.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.013908539125408459,
+          "subreddit": "MachineLearning",
+          "created_utc": 1734159607.0
+        },
+        {
+          "summary": "AI/ML professionals feel disconnected and uninspired due to the shift from traditional model building to using pre-trained LLMs, leading to a loss of creativity and craftsmanship.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.012105263959967421,
+          "subreddit": "MachineLearning",
+          "created_utc": 1733431797.0
+        },
+        {
+          "summary": "The main pain point is the perceived forced integration of dbt Core users into the dbt Cloud ecosystem, leading to concerns about loss of open-source freedom and increased vendor lock-in.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.2816971188644763,
+          "subreddit": "dataengineering",
+          "created_utc": 1748857525.0
+        },
+        {
+          "summary": "The main pain point is the inefficiency and distraction caused by relying on tutorial videos instead of reading documentation for learning, leading to a lack of deep understanding and prolonged time in 'tutorial hell'.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.009302949400214248,
+          "subreddit": "learnprogramming",
+          "created_utc": 1732494340.0
+        },
+        {
+          "summary": "The awarding of the Nobel Prize in Physics to machine learning researchers has caused dissatisfaction among physicists who feel it undermines the traditional boundaries and achievements of physics.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0034194622131842505,
+          "subreddit": "MachineLearning",
+          "created_utc": 1728383190.0
+        },
+        {
+          "summary": "The recommendation engine lacks the ability to deprioritize poorly reviewed games and does not allow users to input multiple games or specify which aspects of games they care about.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.17449370079113927,
+          "subreddit": "MachineLearning",
+          "created_utc": 1748789593.0
+        },
+        {
+          "summary": "Over-reliance on AI tools like ChatGPT is hindering personal problem-solving skills.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0018324121527123626,
+          "subreddit": "learnprogramming",
+          "created_utc": 1726110659.0
+        },
+        {
+          "summary": "The subreddit is overwhelmed with repetitive and low-quality posts, leading to user frustration and a lack of valuable learning content.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0009321672301160564,
+          "subreddit": "learnprogramming",
+          "created_utc": 1723562627.0
+        },
+        {
+          "summary": "The need for faster implementations of existing algorithms like UMAP to improve performance and scalability.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0043715580499386324,
+          "subreddit": "MachineLearning",
+          "created_utc": 1731747730.0
+        },
+        {
+          "summary": "Over-reliance on AI tools like ChatGPT by junior developers for problem-solving, leading to inadequate learning and problem-solving skills.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0003852169244104715,
+          "subreddit": "learnprogramming",
+          "created_utc": 1720195416.0
+        },
+        {
+          "summary": "The main pain point is the perceived decline in the quality of machine learning discussions and innovation due to the reliance on LLM APIs, which limits the ability to train and fine-tune models in-house.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.001358085725948302,
+          "subreddit": "MachineLearning",
+          "created_utc": 1726812415.0
+        },
+        {
+          "summary": "Confusion and misinformation about the relationship between machine learning (ML) and artificial intelligence (AI).",
+          "pain_score": 3.0,
+          "engagement_weight": 0.0015828104546954103,
+          "subreddit": "dataengineering",
+          "created_utc": 1727502308.0
+        },
+        {
+          "summary": "The main pain point is the overemphasis on datasets as the primary factor in AI model performance, potentially overlooking the importance of architecture, optimizers, and other factors.",
+          "pain_score": 6.0,
+          "engagement_weight": 9.043885259359764e-05,
+          "subreddit": "MachineLearning",
+          "created_utc": 1714819651.0
+        },
+        {
+          "summary": "The transition of OpenAI from domain-specific, exciting research projects like DOTA2 to more generalized, profitable projects like GPT-4 is perceived as less interesting by some in the research community.",
+          "pain_score": 6.0,
+          "engagement_weight": 9.087501100648365e-05,
+          "subreddit": "MachineLearning",
+          "created_utc": 1716137172.0
+        },
+        {
+          "summary": "AI engineers are experiencing burnout due to high-pressure environments focused on rapid rollouts to appease investors rather than solving real user problems.",
+          "pain_score": 8.0,
+          "engagement_weight": 6.109241213366081e-05,
+          "subreddit": "MachineLearning",
+          "created_utc": 1714755503.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_7",
+      "topic": "Uncertainty about the value and perception of single-author papers in academia and industry.",
+      "frequency": 5,
+      "desperation_score": 4,
+      "avg_pain_score": 5.8,
+      "total_engagement_weight": 0.67,
+      "avg_engagement_weight": 0.13,
+      "market_proxy": {
+        "subscribers": 2972385,
+        "posts_per_week": 10,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "[D] How are single-author papers in top-tier venues viewed by faculty search committees and industry hiring managers?",
+        "subreddit": "MachineLearning",
+        "url": "https://reddit.com/r/MachineLearning/comments/1l0u419/d_how_are_singleauthor_papers_in_toptier_venues/",
+        "score": 47
+      },
+      "avg_upvotes": 461.0,
+      "problem_category": "Career Development",
+      "mvp_suggestion": "Develop a platform or tool that aggregates and analyzes feedback from faculty search committees and industry hiring managers on the perceived value of single-author versus co-authored papers, providing insights and guidance for PhD candidates.",
+      "all_subreddits": [
+        "MachineLearning"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Uncertainty about the value and perception of single-author papers in academia and industry.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.47753896192588846,
+          "subreddit": "MachineLearning",
+          "created_utc": 1748797651.0
+        },
+        {
+          "summary": "Overuse of the phrase 'is all we need' in academic paper titles is seen as a superficial and attention-grabbing tactic that lacks scientific value.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.01696832773139728,
+          "subreddit": "MachineLearning",
+          "created_utc": 1735040239.0
+        },
+        {
+          "summary": "The intense pressure and competitive culture in US PhD programs lead to high publication output, causing frustration and feelings of inadequacy among international students.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.004431470649695997,
+          "subreddit": "MachineLearning",
+          "created_utc": 1729358853.0
+        },
+        {
+          "summary": "Inconsistent paper quality and subjective review criteria in CVPR and ICLR compared to TMLR.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.17067992776167282,
+          "subreddit": "MachineLearning",
+          "created_utc": 1748877733.0
+        },
+        {
+          "summary": "Controversy and dissatisfaction with the attribution of Nobel Prizes in scientific fields, particularly regarding the recognition of contributions from large collaborative projects and the individuals involved.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0024818232917802555,
+          "subreddit": "MachineLearning",
+          "created_utc": 1728468562.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_2",
+      "topic": "Lack of comprehensive resources that cover both foundational math and modern machine learning techniques.",
+      "frequency": 4,
+      "desperation_score": 3,
+      "avg_pain_score": 6.0,
+      "total_engagement_weight": 0.41,
+      "avg_engagement_weight": 0.1,
+      "market_proxy": {
+        "subscribers": 2972385,
+        "posts_per_week": 8,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "[D] Researchers and engineers in academia as well as industry, which books did you find the most useful in creating your knowledge base and skill set?",
+        "subreddit": "MachineLearning",
+        "url": "https://reddit.com/r/MachineLearning/comments/1l0iz76/d_researchers_and_engineers_in_academia_as_well/",
+        "score": 73
+      },
+      "avg_upvotes": 228.5,
+      "problem_category": "education",
+      "mvp_suggestion": "Develop an integrated learning platform that combines foundational math, programming, and modern machine learning techniques with curated book recommendations and access to recent publications.",
+      "all_subreddits": [
+        "MachineLearning"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Lack of comprehensive resources that cover both foundational math and modern machine learning techniques.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.21806682698088195,
+          "subreddit": "MachineLearning",
+          "created_utc": 1748762345.0
+        },
+        {
+          "summary": "Difficulty in identifying foundational or groundbreaking machine learning theory papers for expanding knowledge.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.006065045441064823,
+          "subreddit": "MachineLearning",
+          "created_utc": 1731773968.0
+        },
+        {
+          "summary": "Confusion and uncertainty about the practical application and relevance of double descent in machine learning, particularly regarding model complexity and overfitting.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.1820072116886915,
+          "subreddit": "MachineLearning",
+          "created_utc": 1748865070.0
+        },
+        {
+          "summary": "Skepticism about the novelty and effectiveness of Kolmogorov-Arnold Networks (KANs) compared to existing neural network architectures.",
+          "pain_score": 6.0,
+          "engagement_weight": 5.223378957851006e-05,
+          "subreddit": "MachineLearning",
+          "created_utc": 1714583003.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_6",
+      "topic": "High costs and slow performance of EMR Spark and Hive for data processing and reporting.",
+      "frequency": 4,
+      "desperation_score": 4,
+      "avg_pain_score": 6.5,
+      "total_engagement_weight": 0.19,
+      "avg_engagement_weight": 0.05,
+      "market_proxy": {
+        "subscribers": 337109,
+        "posts_per_week": 8,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "We migrated from EMR Spark and Hive to EKS with Spark and ClickHouse. Hive queries that took 42 seconds now finish in 2.",
+        "subreddit": "dataengineering",
+        "url": "https://reddit.com/r/dataengineering/comments/1l1ioj5/we_migrated_from_emr_spark_and_hive_to_eks_with/",
+        "score": 33
+      },
+      "avg_upvotes": 760.5,
+      "problem_category": "Finance and Productivity",
+      "mvp_suggestion": "Develop a cost-effective, high-performance data processing and querying platform that integrates seamlessly with existing BI tools like Tableau, potentially leveraging EKS and ClickHouse.",
+      "all_subreddits": [
+        "dataengineering"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Users are frustrated with Amazon Redshift's performance and usability compared to Snowflake, which is perceived as more efficient and user-friendly.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00992301330066272,
+          "subreddit": "dataengineering",
+          "created_utc": 1733171780.0
+        },
+        {
+          "summary": "High costs and slow performance of EMR Spark and Hive for data processing and reporting.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.17790839877454487,
+          "subreddit": "dataengineering",
+          "created_utc": 1748872576.0
+        },
+        {
+          "summary": "High costs associated with using Databricks for data operations.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0017925870500534015,
+          "subreddit": "dataengineering",
+          "created_utc": 1726272148.0
+        },
+        {
+          "summary": "Users are frustrated with the timing and perceived pressure of emails from Databricks, particularly when they are sent at the start of the workweek.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.003453039975498597,
+          "subreddit": "dataengineering",
+          "created_utc": 1729791970.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_5",
+      "topic": "Lack of interactive and error-tolerant visualization tools for PyTorch models in web-based notebooks.",
+      "frequency": 4,
+      "desperation_score": 1,
+      "avg_pain_score": 6.0,
+      "total_engagement_weight": 0.4,
+      "avg_engagement_weight": 0.1,
+      "market_proxy": {
+        "subscribers": 7524888,
+        "posts_per_week": 8,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "[P] Interactive Pytorch visualization package that works in notebooks with 1 line of code",
+        "subreddit": "MachineLearning",
+        "url": "https://reddit.com/r/MachineLearning/comments/1l0xvq9/p_interactive_pytorch_visualization_package_that/",
+        "score": 195
+      },
+      "avg_upvotes": 1156.5,
+      "problem_category": "productivity",
+      "mvp_suggestion": "Develop a lightweight, user-friendly visualization tool that supports interactive exploration and error tolerance for PyTorch models, specifically designed for integration with web-based notebooks like Jupyter and Colab.",
+      "all_subreddits": [
+        "MachineLearning",
+        "dataengineering",
+        "learnprogramming"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Lack of interactive and error-tolerant visualization tools for PyTorch models in web-based notebooks.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.2457031945265884,
+          "subreddit": "MachineLearning",
+          "created_utc": 1748806910.0
+        },
+        {
+          "summary": "Users find it cumbersome to understand and debug command-line operations and error messages.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.009102065034382843,
+          "subreddit": "MachineLearning",
+          "created_utc": 1734280140.0
+        },
+        {
+          "summary": "Frustration with the abstraction layers in operating systems that obscure the true workings of hardware and limit user control.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00010625463254318888,
+          "subreddit": "learnprogramming",
+          "created_utc": 1715467657.0
+        },
+        {
+          "summary": "MinIO users are concerned about the potential removal of features from the Admin UI, which may limit its functionality as an open-source solution.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.14464468029147515,
+          "subreddit": "dataengineering",
+          "created_utc": 1748868404.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_4",
+      "topic": "The main pain point is the out-of-memory (OOM) errors occurring when processing large datasets in Spark due to inefficient data loading practices.",
+      "frequency": 5,
+      "desperation_score": 4,
+      "avg_pain_score": 5.6,
+      "total_engagement_weight": 0.02,
+      "avg_engagement_weight": 0.0,
+      "market_proxy": {
+        "subscribers": 4552503,
+        "posts_per_week": 10,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "outOfMemory",
+        "subreddit": "dataengineering",
+        "url": "https://reddit.com/r/dataengineering/comments/1gy0s79/outofmemory/",
+        "score": 815
+      },
+      "avg_upvotes": 1486.8,
+      "problem_category": "productivity",
+      "mvp_suggestion": "Develop a tool or plugin that automatically optimizes data loading configurations in Spark, such as setting appropriate fetch sizes and suggesting best practices for data ingestion to prevent OOM errors.",
+      "all_subreddits": [
+        "dataengineering",
+        "learnprogramming"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The game takes too long to defeat opponents, which may not hold the attention of players with shorter attention spans.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.000791960928325597,
+          "subreddit": "learnprogramming",
+          "created_utc": 1722944897.0
+        },
+        {
+          "summary": "The main pain point is the out-of-memory (OOM) errors occurring when processing large datasets in Spark due to inefficient data loading practices.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0077414149125393,
+          "subreddit": "dataengineering",
+          "created_utc": 1732371989.0
+        },
+        {
+          "summary": "Inefficiency and dissatisfaction with mandatory return to office policies, leading to decreased productivity and logistical issues.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0058785264592026,
+          "subreddit": "dataengineering",
+          "created_utc": 1731471364.0
+        },
+        {
+          "summary": "Difficulty in maintaining focus and productivity due to lack of experience in programming, leading to procrastination and inefficient time management.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0022282407930821957,
+          "subreddit": "learnprogramming",
+          "created_utc": 1728013350.0
+        },
+        {
+          "summary": "Inefficient job processing and lack of proper timeout thresholds leading to excessive resource consumption and potential financial costs.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0010229285837658423,
+          "subreddit": "dataengineering",
+          "created_utc": 1725380584.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    }
+  ],
+  "subreddits_analyzed": [
+    "MachineLearning",
+    "dataengineering",
+    "learnprogramming"
+  ]
+}

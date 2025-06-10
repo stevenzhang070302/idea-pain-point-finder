@@ -1,0 +1,769 @@
+{
+  "topic": "founders",
+  "analysis_summary": {
+    "total_subreddits": 3,
+    "total_posts": 70,
+    "total_clusters": 8,
+    "total_pain_points": 70,
+    "average_desperation_score": 4.9,
+    "average_pain_score": 7.0,
+    "high_priority_clusters": 1,
+    "total_engagement_weight": 6.99,
+    "average_engagement_weight": 0.1,
+    "trending_clusters": 0,
+    "phase_2_features": {
+      "engagement_weighted_scoring": true,
+      "comment_context_injection": true,
+      "llm_assisted_deduping": true,
+      "temporal_trend_analysis": true
+    }
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_2",
+      "topic": "The primary pain point is the decision-making conflict between continuing a high-paying job for financial stability and focusing on a rapidly growing business that requires more attention to sustain its growth.",
+      "frequency": 20,
+      "desperation_score": 6,
+      "avg_pain_score": 7.0,
+      "total_engagement_weight": 1.88,
+      "avg_engagement_weight": 0.09,
+      "market_proxy": {
+        "subscribers": 8767052,
+        "posts_per_week": 40,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "My wife thinks I’m crazy to leave my 200k / yr job to focus on our business.",
+        "subreddit": "Entrepreneur",
+        "url": "https://reddit.com/r/Entrepreneur/comments/1l0res2/my_wife_thinks_im_crazy_to_leave_my_200k_yr_job/",
+        "score": 239
+      },
+      "avg_upvotes": 902.6,
+      "problem_category": "Finance and Decision-Making",
+      "mvp_suggestion": "Develop a decision-support tool that evaluates financial scenarios and growth projections, incorporating risk analysis and potential outcomes to aid in making informed decisions about career transitions.",
+      "all_subreddits": [
+        "smallbusiness",
+        "startups",
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The primary pain point is the decision-making conflict between continuing a high-paying job for financial stability and focusing on a rapidly growing business that requires more attention to sustain its growth.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.5216888486791547,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748791000.0
+        },
+        {
+          "summary": "The main pain point is the lack of personal fulfillment and happiness despite financial success, leading to feelings of depression and dissatisfaction with life.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.008053212620738149,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1731412795.0
+        },
+        {
+          "summary": "The main pain point is the exploitation of skilled professionals by offering them inadequate compensation for their work and misleading them about the nature of the partnership.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.45348000974092645,
+          "subreddit": "smallbusiness",
+          "created_utc": 1748804334.0
+        },
+        {
+          "summary": "The primary pain point is the lack of control over the supply of a product that the business relies on, leading to the business's vulnerability to changes in the supplier's production capabilities.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00625140221318029,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1730714143.0
+        },
+        {
+          "summary": "The main pain point is the uncertainty and anxiety about the legal and financial aspects of rapidly growing a side hustle into a legitimate business.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.010783605916752802,
+          "subreddit": "smallbusiness",
+          "created_utc": 1732858727.0
+        },
+        {
+          "summary": "The main pain point is the misconception and unrealistic expectations of entrepreneurship as a path to freedom and success, leading to stress, financial instability, and lack of work-life balance.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0024122626895762716,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1727055682.0
+        },
+        {
+          "summary": "The primary pain point is the lack of communication and transparency from Stripe regarding account holds and transaction reversals, causing significant business disruption.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0011352838643964994,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1724252089.0
+        },
+        {
+          "summary": "The main pain point is the emotional and mental toll of rapid business growth and subsequent failure, leading to anxiety, depression, and a sense of personal failure.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.004491666223861599,
+          "subreddit": "startups",
+          "created_utc": 1729510247.0
+        },
+        {
+          "summary": "The main pain point is the lack of support and belief from family and partner in the poster's online business venture, leading to emotional stress and feelings of being stuck.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.2508550323079868,
+          "subreddit": "smallbusiness",
+          "created_utc": 1748871872.0
+        },
+        {
+          "summary": "The main pain point is the hiring of an unsuitable and problematic salesperson who not only failed to deliver results but also caused a violent incident, highlighting issues in the hiring and vetting process.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.00421153100417728,
+          "subreddit": "startups",
+          "created_utc": 1729654565.0
+        },
+        {
+          "summary": "The main pain point is the risk of burnout and lack of strategic direction in the unstructured and hectic work environment of entrepreneurship.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.17576737751044338,
+          "subreddit": "startups",
+          "created_utc": 1748773299.0
+        },
+        {
+          "summary": "The primary pain point is the overwhelming stress and fear of responsibility associated with managing a large investment as young, inexperienced founders in a volatile industry.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.002325201206448436,
+          "subreddit": "startups",
+          "created_utc": 1727915641.0
+        },
+        {
+          "summary": "The main pain point is the potential negative impact of employee gossip on workplace morale and the business owner's reputation.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0006415825092436326,
+          "subreddit": "smallbusiness",
+          "created_utc": 1722204479.0
+        },
+        {
+          "summary": "The main pain point is the challenge of maintaining professional boundaries with clients who may exhibit flirtatious behavior.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0007425153528400424,
+          "subreddit": "smallbusiness",
+          "created_utc": 1723396878.0
+        },
+        {
+          "summary": "The main pain point is the inability to prove the business's potential profitability to the supportive parent, leading to restrictions on purchasing materials.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.2769845916268776,
+          "subreddit": "smallbusiness",
+          "created_utc": 1748851436.0
+        },
+        {
+          "summary": "The primary pain point is the dissatisfaction with Clutch.co's lead generation service, which provides unqualified leads and bots, and the company's refusal to address these issues or terminate the contract.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0015489262621515665,
+          "subreddit": "smallbusiness",
+          "created_utc": 1726863554.0
+        },
+        {
+          "summary": "The main pain point is the challenge of growing a new business in a competitive market while balancing another full-time job.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0005102436609874359,
+          "subreddit": "smallbusiness",
+          "created_utc": 1721328023.0
+        },
+        {
+          "summary": "The main pain point discussed is the high depreciation and disposal cost of office furniture and equipment, which can lead to financial losses for businesses.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00015045962413041627,
+          "subreddit": "smallbusiness",
+          "created_utc": 1716816753.0
+        },
+        {
+          "summary": "The main pain point is the ineffectiveness of static exercise plans for managing sciatica pain, which do not adapt to the daily changes in an individual's condition.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.1549222509854778,
+          "subreddit": "startups",
+          "created_utc": 1748859973.0
+        },
+        {
+          "summary": "The primary pain point is the inefficiency and mismanagement in startup operations, particularly in hiring practices, premature scaling, and lack of proper validation and marketing strategies.",
+          "pain_score": 8.0,
+          "engagement_weight": 8.640551440696056e-05,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1714665997.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_7",
+      "topic": "The main pain point is the lack of a clear monetization strategy for the AI poker coaching tool without compromising its value.",
+      "frequency": 5,
+      "desperation_score": 6,
+      "avg_pain_score": 6.6,
+      "total_engagement_weight": 1.02,
+      "avg_engagement_weight": 0.2,
+      "market_proxy": {
+        "subscribers": 6592104,
+        "posts_per_week": 10,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "[HELP NEEDED] Spent few months building an AI Agentic poker coach(First of its kind), now have no idea how to actually make money from it  [I WILL NOT PROMOTE]",
+        "subreddit": "startups",
+        "url": "https://reddit.com/r/startups/comments/1l0z41s/help_needed_spent_few_months_building_an_ai/",
+        "score": 7
+      },
+      "avg_upvotes": 19.2,
+      "problem_category": "finance",
+      "mvp_suggestion": "Implement a freemium model with a free trial period, followed by subscription tiers catering to different user needs, including a premium tier for professional players.",
+      "all_subreddits": [
+        "startups",
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The primary pain point is the difficulty in breaking into online gig platforms and finding a viable path to earn money to fund startup dreams.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.2513409523628946,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748876412.0
+        },
+        {
+          "summary": "The main pain point is the lack of a clear monetization strategy for the AI poker coaching tool without compromising its value.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.2599027938250664,
+          "subreddit": "startups",
+          "created_utc": 1748810011.0
+        },
+        {
+          "summary": "The need for tools and solutions that address specific productivity and operational inefficiencies in various domains such as RV park management, cyber operations, and form design.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.1957729106911818,
+          "subreddit": "startups",
+          "created_utc": 1748843969.0
+        },
+        {
+          "summary": "Lack of effective CRM integration and iterative optimization for AI SMS/voice agents in B2C businesses, leading to poor visibility and suboptimal performance.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.15378213146418432,
+          "subreddit": "startups",
+          "created_utc": 1748826675.0
+        },
+        {
+          "summary": "The main pain point is the need for simple, fast, and affordable AI marketing tools to create content for a startup targeting gamers.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.15977723270774644,
+          "subreddit": "startups",
+          "created_utc": 1748791898.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_1",
+      "topic": "Entrepreneurs often chase complex, innovative ideas that are not immediately needed, leading to financial struggles and lack of progress.",
+      "frequency": 12,
+      "desperation_score": 4,
+      "avg_pain_score": 6.6,
+      "total_engagement_weight": 1.52,
+      "avg_engagement_weight": 0.13,
+      "market_proxy": {
+        "subscribers": 8767052,
+        "posts_per_week": 24,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "I stopped chasing the next big thing and finally made money",
+        "subreddit": "Entrepreneur",
+        "url": "https://reddit.com/r/Entrepreneur/comments/1l0vuak/i_stopped_chasing_the_next_big_thing_and_finally/",
+        "score": 866
+      },
+      "avg_upvotes": 1032.6,
+      "problem_category": "Entrepreneurship",
+      "mvp_suggestion": "A platform that connects entrepreneurs with simple, high-demand service opportunities that require minimal startup resources.",
+      "all_subreddits": [
+        "smallbusiness",
+        "startups",
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Entrepreneurs often chase complex, innovative ideas that are not immediately needed, leading to financial struggles and lack of progress.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.7457504409031492,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748801878.0
+        },
+        {
+          "summary": "Perception that modern billionaires are not contributing to public spaces and institutions as visibly as those from the past.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.012262596913218756,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1733192461.0
+        },
+        {
+          "summary": "Skepticism and confusion about the legitimacy and sustainability of a business model that generates high revenue with a small team and unconventional financial practices.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.36086533575093976,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748806034.0
+        },
+        {
+          "summary": "Lack of business and marketing expertise among founders leading to poor market validation and ineffective launch strategy.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.009579554978701159,
+          "subreddit": "startups",
+          "created_utc": 1732283284.0
+        },
+        {
+          "summary": "Entrepreneurs often over-focus on perfecting non-essential aspects of their business (like logos and websites) instead of solving practical problems that people are willing to pay for.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.21331974984201488,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748834920.0
+        },
+        {
+          "summary": "The family trophy and medal business is struggling financially post-pandemic, with the successor lacking business experience and facing personal family health challenges.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0010905418832682168,
+          "subreddit": "smallbusiness",
+          "created_utc": 1724069526.0
+        },
+        {
+          "summary": "Entrepreneurs and professionals often ask vague questions without providing sufficient context, making it difficult for experts to offer meaningful advice.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00129985519313147,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1724802847.0
+        },
+        {
+          "summary": "Small agency owners struggle with managing all tasks themselves as the business grows, leading to a need for leverage without hiring full-time staff.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.17055910654994294,
+          "subreddit": "smallbusiness",
+          "created_utc": 1748879617.0
+        },
+        {
+          "summary": "The misconception that successful exits require VC funding and aiming for unicorn status, rather than pursuing smaller, life-changing exits.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0005681967520251858,
+          "subreddit": "startups",
+          "created_utc": 1721678807.0
+        },
+        {
+          "summary": "Many aspiring entrepreneurs mistakenly equate purchasing courses with taking real action, leading to a lack of practical experience and failure to implement learned strategies.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0001221379291438325,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1715967556.0
+        },
+        {
+          "summary": "The perception that many young entrepreneurs are making exaggerated claims about their success, often to sell courses, leading to confusion and skepticism about genuine entrepreneurial success.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00010276108658314636,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1715199884.0
+        },
+        {
+          "summary": "The entrepreneur feels unable to share their financial success with others due to misconceptions about wealth and is overwhelmed by the demands of running the business alone.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00012046859156295722,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1715878101.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_6",
+      "topic": "The main pain point is the perceived inequitable distribution of equity among the startup team members, particularly the CEO receiving a larger share despite contributing less development work so far.",
+      "frequency": 12,
+      "desperation_score": 4,
+      "avg_pain_score": 7.3,
+      "total_engagement_weight": 0.96,
+      "avg_engagement_weight": 0.08,
+      "market_proxy": {
+        "subscribers": 8767052,
+        "posts_per_week": 24,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "First-time founder: Is 32% for CEO and 12% each for developers fair? I will not promote",
+        "subreddit": "startups",
+        "url": "https://reddit.com/r/startups/comments/1l0t6i0/firsttime_founder_is_32_for_ceo_and_12_each_for/",
+        "score": 73
+      },
+      "avg_upvotes": 612.5,
+      "problem_category": "Finance",
+      "mvp_suggestion": "Develop a tool or platform that helps startup teams calculate fair equity distribution based on contributions, time, and expertise, possibly incorporating a dynamic equity model like Slicing Pie.",
+      "all_subreddits": [
+        "smallbusiness",
+        "startups",
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Perceived unfairness in income distribution between business owners and regular employees.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.012839546654834407,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1733256574.0
+        },
+        {
+          "summary": "The main pain point is the perceived inequitable distribution of equity among the startup team members, particularly the CEO receiving a larger share despite contributing less development work so far.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.3967184452791848,
+          "subreddit": "startups",
+          "created_utc": 1748795374.0
+        },
+        {
+          "summary": "The main pain point is the challenge of fairly splitting startup equity among founders and employees, which can lead to conflicts and resentment if not handled properly.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.32670373059799684,
+          "subreddit": "startups",
+          "created_utc": 1748803372.0
+        },
+        {
+          "summary": "The main pain point is the potential risk and challenges associated with transitioning from a successful mobile beer bar business to opening a micro-brewery, which requires significant capital, expertise, and may not be as profitable.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0017771469746046297,
+          "subreddit": "smallbusiness",
+          "created_utc": 1725990274.0
+        },
+        {
+          "summary": "Non-technical founders face challenges in managing outsourced development, leading to wasted time and resources.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0033936234113759625,
+          "subreddit": "startups",
+          "created_utc": 1729459150.0
+        },
+        {
+          "summary": "The unpredictability and high stress of startup life, including financial instability, competition, and the emotional toll on founders.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0032399451531991666,
+          "subreddit": "startups",
+          "created_utc": 1729018088.0
+        },
+        {
+          "summary": "The primary pain point is the burnout experienced by the startup founder due to emergency bug fixes and the intense workload required to maintain and grow the startup.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0003836067930131954,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1720182570.0
+        },
+        {
+          "summary": "The main pain point is the lack of knowledge or guidance on how to effectively sell an Instagram account with a significant following.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.2127366878182607,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748860769.0
+        },
+        {
+          "summary": "The main pain point is the risk of idea theft and competitive imitation when sharing too much sensitive information while building in public.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00032845552615749817,
+          "subreddit": "startups",
+          "created_utc": 1720668907.0
+        },
+        {
+          "summary": "The main pain point is the lack of oversight and management in contractor work, leading to significant financial loss for the startup.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0002712560000104171,
+          "subreddit": "startups",
+          "created_utc": 1720138011.0
+        },
+        {
+          "summary": "The main pain point is the arbitrary and opaque nature of Apple's app removal and account suspension process, which can lead to significant financial and operational setbacks for developers.",
+          "pain_score": 9.0,
+          "engagement_weight": 0.00011505919847327469,
+          "subreddit": "startups",
+          "created_utc": 1716991799.0
+        },
+        {
+          "summary": "The main pain point is the concern over the compensation structure and the misleading classification of the company as a startup, which may affect the perceived value of the equity offered.",
+          "pain_score": 7.0,
+          "engagement_weight": 7.892342488773126e-05,
+          "subreddit": "startups",
+          "created_utc": 1716507146.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_4",
+      "topic": "Businesses struggle with maintaining effective customer communication and managing client relationships.",
+      "frequency": 12,
+      "desperation_score": 3,
+      "avg_pain_score": 7.2,
+      "total_engagement_weight": 1.15,
+      "avg_engagement_weight": 0.1,
+      "market_proxy": {
+        "subscribers": 8767052,
+        "posts_per_week": 24,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "What is the simplest business strategy that enormously helped your business?",
+        "subreddit": "smallbusiness",
+        "url": "https://reddit.com/r/smallbusiness/comments/1l1e9m5/what_is_the_simplest_business_strategy_that/",
+        "score": 93
+      },
+      "avg_upvotes": 615.2,
+      "problem_category": "Customer Relationship Management",
+      "mvp_suggestion": "Develop a customer relationship management tool that prioritizes quick response features and provides insights on client interactions to help businesses manage customer communication and identify when to disengage from difficult clients.",
+      "all_subreddits": [
+        "smallbusiness",
+        "startups",
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "A small family-owned coffee drive-thru is facing competition from a new Dunkin' location opening nearby, causing concern about losing customers to the larger chain.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.018759929835952344,
+          "subreddit": "smallbusiness",
+          "created_utc": 1734563978.0
+        },
+        {
+          "summary": "Uncertainty and lack of direction after selling a long-term business.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.02195197543405566,
+          "subreddit": "smallbusiness",
+          "created_utc": 1735362453.0
+        },
+        {
+          "summary": "Businesses struggle with maintaining effective customer communication and managing client relationships.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.3044681474389717,
+          "subreddit": "smallbusiness",
+          "created_utc": 1748859102.0
+        },
+        {
+          "summary": "Skepticism about the profitability and authenticity of the business model due to high operational costs and potentially inflated figures.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0027260026621794362,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1727570058.0
+        },
+        {
+          "summary": "Difficulty in identifying valuable, solvable problems to create successful business ideas.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.003385110235683549,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1728416095.0
+        },
+        {
+          "summary": "Over-reliance on a single client leading to significant revenue loss and business instability.",
+          "pain_score": 9.0,
+          "engagement_weight": 0.00168515862349736,
+          "subreddit": "smallbusiness",
+          "created_utc": 1725838161.0
+        },
+        {
+          "summary": "Small business owners are hesitant to adopt digital bookkeeping due to perceived complexity, cost, and lack of tailored solutions.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0008482609014029396,
+          "subreddit": "smallbusiness",
+          "created_utc": 1723389422.0
+        },
+        {
+          "summary": "Hesitation to sell soap bars due to concerns about product quality, packaging, and market saturation.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.2352066438533556,
+          "subreddit": "smallbusiness",
+          "created_utc": 1748850455.0
+        },
+        {
+          "summary": "Legal complications and potential job loss due to working on a side project while employed full-time.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.18393753815800912,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748859237.0
+        },
+        {
+          "summary": "Building product features based on assumptions rather than actual customer needs and feedback.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0033880498503555405,
+          "subreddit": "startups",
+          "created_utc": 1729789426.0
+        },
+        {
+          "summary": "Difficulty in acquiring clients for a new software development company.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.21201347563016737,
+          "subreddit": "startups",
+          "created_utc": 1748844347.0
+        },
+        {
+          "summary": "Managing complaints and ensuring quality service from subcontractors in a home service arbitrage business.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.16134607706922596,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748865204.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_3",
+      "topic": "Difficulty in effectively personalizing cold outreach using AI tools to generate genuine interest and value for prospects.",
+      "frequency": 2,
+      "desperation_score": 4,
+      "avg_pain_score": 6.5,
+      "total_engagement_weight": 0.25,
+      "avg_engagement_weight": 0.13,
+      "market_proxy": {
+        "subscribers": 4742250,
+        "posts_per_week": 4,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "How we did and still do cold outreach (over 3k solopreneurs + small businesses)",
+        "subreddit": "Entrepreneur",
+        "url": "https://reddit.com/r/Entrepreneur/comments/1l1h6ad/how_we_did_and_still_do_cold_outreach_over_3k/",
+        "score": 2
+      },
+      "avg_upvotes": 1470.0,
+      "problem_category": "Sales and Marketing",
+      "mvp_suggestion": "Develop an AI tool that not only personalizes outreach based on basic data but also analyzes industry-specific trends and company news to craft messages that offer real value and relevance to the recipient.",
+      "all_subreddits": [
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Difficulty in scaling cold email outreach due to challenges with domain setup, email deliverability, and cost management.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.004899374817147795,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1729814365.0
+        },
+        {
+          "summary": "Difficulty in effectively personalizing cold outreach using AI tools to generate genuine interest and value for prospects.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.24603813804292152,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748868568.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_0",
+      "topic": "Uncertainty about the timing and amount of equity re-ups for tenured employees to maintain motivation and loyalty.",
+      "frequency": 4,
+      "desperation_score": 4,
+      "avg_pain_score": 7.0,
+      "total_engagement_weight": 0.2,
+      "avg_engagement_weight": 0.05,
+      "market_proxy": {
+        "subscribers": 4024802,
+        "posts_per_week": 8,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "When to \"Re-Up\" employees equity grants and by how much: I will not promote",
+        "subreddit": "startups",
+        "url": "https://reddit.com/r/startups/comments/1l1kqkt/when_to_reup_employees_equity_grants_and_by_how/",
+        "score": 7
+      },
+      "avg_upvotes": 496.5,
+      "problem_category": "Human Resources",
+      "mvp_suggestion": "Develop a tool that benchmarks equity re-up programs by analyzing industry standards and provides tailored recommendations based on company size, stage, and employee tenure.",
+      "all_subreddits": [
+        "smallbusiness",
+        "startups"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Employee feels unappreciated and mistrusted, leading to tension and potential trust issues in the workplace.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.02069786269461178,
+          "subreddit": "smallbusiness",
+          "created_utc": 1735326021.0
+        },
+        {
+          "summary": "Uncertainty about the timing and amount of equity re-ups for tenured employees to maintain motivation and loyalty.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.1768373211639988,
+          "subreddit": "startups",
+          "created_utc": 1748877516.0
+        },
+        {
+          "summary": "Employees feel undervalued and replaceable, leading to a lack of motivation to fully commit to their jobs.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0004312355246730283,
+          "subreddit": "startups",
+          "created_utc": 1721745646.0
+        },
+        {
+          "summary": "The overuse of tipping options in non-food service industries is causing frustration among customers who feel pressured to tip despite already paying high service fees.",
+          "pain_score": 8.0,
+          "engagement_weight": 9.979962326814786e-05,
+          "subreddit": "smallbusiness",
+          "created_utc": 1715826506.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_5",
+      "topic": "Failure to proactively address known configuration issues led to losing a major client.",
+      "frequency": 3,
+      "desperation_score": 8,
+      "avg_pain_score": 7.7,
+      "total_engagement_weight": 0.01,
+      "avg_engagement_weight": 0.0,
+      "market_proxy": {
+        "subscribers": 4024802,
+        "posts_per_week": 6,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Lost my biggest client because I missed their Reddit complaint - a $50k lesson in humility",
+        "subreddit": "smallbusiness",
+        "url": "https://reddit.com/r/smallbusiness/comments/1glwmq3/lost_my_biggest_client_because_i_missed_their/",
+        "score": 2126
+      },
+      "avg_upvotes": 1068.7,
+      "problem_category": "Customer Retention",
+      "mvp_suggestion": "Implement a proactive client communication and issue resolution system, including a post-install checklist and automated alerts for common issues.",
+      "all_subreddits": [
+        "smallbusiness",
+        "startups"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Failure to proactively address known configuration issues led to losing a major client.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.006806081329288047,
+          "subreddit": "smallbusiness",
+          "created_utc": 1731002279.0
+        },
+        {
+          "summary": "Uncertainty and potential disruption for tech companies relying on .io domains due to possible retirement of the domain.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0021774021036868934,
+          "subreddit": "startups",
+          "created_utc": 1728486062.0
+        },
+        {
+          "summary": "Unauthorized access and recording of proprietary technology by competitors, leading to potential intellectual property theft.",
+          "pain_score": 9.0,
+          "engagement_weight": 0.000177910966608984,
+          "subreddit": "startups",
+          "created_utc": 1718039186.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    }
+  ],
+  "subreddits_analyzed": [
+    "Entrepreneur",
+    "startups",
+    "smallbusiness"
+  ]
+}

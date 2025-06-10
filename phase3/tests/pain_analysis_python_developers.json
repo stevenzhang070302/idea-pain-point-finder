@@ -1,0 +1,707 @@
+{
+  "topic": "python developers",
+  "analysis_summary": {
+    "total_subreddits": 3,
+    "total_posts": 61,
+    "total_clusters": 8,
+    "total_pain_points": 61,
+    "average_desperation_score": 3.1,
+    "average_pain_score": 5.1,
+    "high_priority_clusters": 0,
+    "total_engagement_weight": 3.08,
+    "average_engagement_weight": 0.06,
+    "trending_clusters": 0,
+    "phase_2_features": {
+      "engagement_weighted_scoring": true,
+      "comment_context_injection": true,
+      "llm_assisted_deduping": true,
+      "temporal_trend_analysis": true
+    }
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_1",
+      "topic": "Difficulty in maintaining and updating a legacy Python project due to outdated libraries and lack of documentation.",
+      "frequency": 15,
+      "desperation_score": 6,
+      "avg_pain_score": 6.4,
+      "total_engagement_weight": 0.78,
+      "avg_engagement_weight": 0.05,
+      "market_proxy": {
+        "subscribers": 2900484,
+        "posts_per_week": 30,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "How to maintain a Python project that uses outdated Python libraries, packages, and modules that have no documentation?",
+        "subreddit": "learnpython",
+        "url": "https://reddit.com/r/learnpython/comments/1l16h3f/how_to_maintain_a_python_project_that_uses/",
+        "score": 6
+      },
+      "avg_upvotes": 272.7,
+      "problem_category": "productivity",
+      "mvp_suggestion": "Develop a tool that can automatically generate documentation and suggest modern equivalents for outdated Python libraries by analyzing the codebase.",
+      "all_subreddits": [
+        "learnpython",
+        "Python",
+        "coding"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Lack of direction and project ideas for a beginner learning Python.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.010579356544802064,
+          "subreddit": "learnpython",
+          "created_utc": 1734148204.0
+        },
+        {
+          "summary": "Difficulty in finding beginner-friendly Python learning resources on YouTube.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.1848473633846375,
+          "subreddit": "learnpython",
+          "created_utc": 1748809372.0
+        },
+        {
+          "summary": "The main pain point is the financial constraint of accessing quality learning resources for Python programming.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.1912664432334737,
+          "subreddit": "learnpython",
+          "created_utc": 1748826483.0
+        },
+        {
+          "summary": "Newbie programmers often struggle with discovering and utilizing Python tricks and features that can enhance their coding efficiency and understanding.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0026976247385825237,
+          "subreddit": "learnpython",
+          "created_utc": 1728523895.0
+        },
+        {
+          "summary": "Junior engineers often write inefficient and hard-to-maintain Python code due to poor coding practices such as lack of structure, improper naming conventions, and misuse of language features.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.002399713365638782,
+          "subreddit": "learnpython",
+          "created_utc": 1728507450.0
+        },
+        {
+          "summary": "Uncertainty about the value of learning Python for a career switch in the context of AI advancements.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0015217532235773069,
+          "subreddit": "learnpython",
+          "created_utc": 1726540965.0
+        },
+        {
+          "summary": "Difficulty in accessing and integrating with medical EMR systems for programming projects.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0008477941132276215,
+          "subreddit": "Python",
+          "created_utc": 1723489336.0
+        },
+        {
+          "summary": "Difficulty in maintaining and updating a legacy Python project due to outdated libraries and lack of documentation.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.19944501038319065,
+          "subreddit": "learnpython",
+          "created_utc": 1748830358.0
+        },
+        {
+          "summary": "Difficulty in setting up and using Python and VS Code for a university test due to lack of prior knowledge and configuration issues.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.18329036302688584,
+          "subreddit": "learnpython",
+          "created_utc": 1748854100.0
+        },
+        {
+          "summary": "The main pain point is the overwhelming amount of resources and steps required to learn Python for data and financial analytics, which can be daunting for beginners.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.002812182211737747,
+          "subreddit": "learnpython",
+          "created_utc": 1731253271.0
+        },
+        {
+          "summary": "Difficulty in contributing to Python core libraries due to lack of guidance and complexity.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0009328421977256435,
+          "subreddit": "learnpython",
+          "created_utc": 1727002549.0
+        },
+        {
+          "summary": "Difficulty in automating repetitive tasks and data management without programming knowledge.",
+          "pain_score": 7.0,
+          "engagement_weight": 7.468995581020791e-05,
+          "subreddit": "learnpython",
+          "created_utc": 1715028470.0
+        },
+        {
+          "summary": "Difficulty in learning Python through traditional methods and lack of practical application.",
+          "pain_score": 7.0,
+          "engagement_weight": 6.228063613791499e-05,
+          "subreddit": "learnpython",
+          "created_utc": 1714770197.0
+        },
+        {
+          "summary": "Difficulty in discovering new, high-quality Python-related educational content on YouTube.",
+          "pain_score": 4.0,
+          "engagement_weight": 9.299584059463559e-05,
+          "subreddit": "learnpython",
+          "created_utc": 1716421613.0
+        },
+        {
+          "summary": "Complex and unreadable code generated by automated tools can hinder collaboration and debugging, especially in teams with varying skill levels.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0006663167177447257,
+          "subreddit": "coding",
+          "created_utc": 1728315663.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_6",
+      "topic": "The package is a RAM-intensive Python utility for indexing object attributes, but lacks features and optimizations to compete with established tools like pandas and spark.",
+      "frequency": 7,
+      "desperation_score": 4,
+      "avg_pain_score": 5.4,
+      "total_engagement_weight": 0.56,
+      "avg_engagement_weight": 0.08,
+      "market_proxy": {
+        "subscribers": 2292722,
+        "posts_per_week": 14,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Python Object Indexer",
+        "subreddit": "Python",
+        "url": "https://reddit.com/r/Python/comments/1l0dum0/python_object_indexer/",
+        "score": 79
+      },
+      "avg_upvotes": 267.1,
+      "problem_category": "productivity",
+      "mvp_suggestion": "Develop a lightweight version with key optimizations in memory usage and feature set, possibly by integrating with C or Rust for performance improvements, and target it towards specific workflows where pandas and spark are too heavy.",
+      "all_subreddits": [
+        "learnpython",
+        "Python"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The package is a RAM-intensive Python utility for indexing object attributes, but lacks features and optimizations to compete with established tools like pandas and spark.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.1959271048597097,
+          "subreddit": "Python",
+          "created_utc": 1748744063.0
+        },
+        {
+          "summary": "The main pain point is the confusion and misunderstanding among new Python users regarding floating point arithmetic and its imprecision due to binary representation.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.013671463495125309,
+          "subreddit": "learnpython",
+          "created_utc": 1735316308.0
+        },
+        {
+          "summary": "Confusion and inconsistency in Python's string handling methods due to multiple overlapping options.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.19081146651438466,
+          "subreddit": "Python",
+          "created_utc": 1748718436.0
+        },
+        {
+          "summary": "Lack of a feature in Python GUI frameworks to automatically adjust font size to fit text within a fixed-size text box without wrapping.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.15409511263183928,
+          "subreddit": "learnpython",
+          "created_utc": 1748859269.0
+        },
+        {
+          "summary": "Lack of understanding and complexity in using advanced f-string features in Python.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.0017389142721342186,
+          "subreddit": "learnpython",
+          "created_utc": 1728609713.0
+        },
+        {
+          "summary": "Lack of clear explanation and differentiation of Python Polars from similar tools like pandas.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00028252798362094877,
+          "subreddit": "Python",
+          "created_utc": 1719830691.0
+        },
+        {
+          "summary": "Difficulty and time consumption in locating and opening the correct test file and function when a test fails in large codebases.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00013644734909247044,
+          "subreddit": "Python",
+          "created_utc": 1718012329.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_0",
+      "topic": "Difficulty in understanding how to convert an audio file into a grayscale image using Blender, with unclear explanations and lack of guidance.",
+      "frequency": 5,
+      "desperation_score": 4,
+      "avg_pain_score": 5.8,
+      "total_engagement_weight": 0.46,
+      "avg_engagement_weight": 0.09,
+      "market_proxy": {
+        "subscribers": 2900484,
+        "posts_per_week": 10,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "audio file to grayscale image",
+        "subreddit": "Python",
+        "url": "https://reddit.com/r/Python/comments/1l0fses/audio_file_to_grayscale_image/",
+        "score": 30
+      },
+      "avg_upvotes": 106.8,
+      "problem_category": "education",
+      "mvp_suggestion": "Develop a step-by-step tutorial or tool that simplifies the process of converting audio files into grayscale images using Blender, with clear explanations of the axes and transformations involved.",
+      "all_subreddits": [
+        "learnpython",
+        "Python",
+        "coding"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Difficulty in creating a tool to describe NSFW images for visually impaired individuals due to lack of quality output and personal limitations in training the model.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.013128762719205241,
+          "subreddit": "learnpython",
+          "created_utc": 1735475161.0
+        },
+        {
+          "summary": "The tool may not scale well to handle millions of documents and lacks comprehensive features like indexing and database integration compared to existing solutions.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.15185909502792933,
+          "subreddit": "Python",
+          "created_utc": 1748795610.0
+        },
+        {
+          "summary": "Difficulty in understanding how to convert an audio file into a grayscale image using Blender, with unclear explanations and lack of guidance.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.15555410298157818,
+          "subreddit": "Python",
+          "created_utc": 1748750451.0
+        },
+        {
+          "summary": "The need for an efficient, automated tool to assess and organize large photo libraries based on technical quality.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.13562615081816207,
+          "subreddit": "Python",
+          "created_utc": 1748823519.0
+        },
+        {
+          "summary": "The search engine for GitHub open source repositories is not mobile-friendly, making it difficult to use on mobile devices.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0002898454198210633,
+          "subreddit": "coding",
+          "created_utc": 1724770266.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_4",
+      "topic": "The primary pain point is the inefficiency and complexity of using native Python tooling like pip for managing dependencies and environments, which is slow, cumbersome, and lacks features like proper version management and lockfile support.",
+      "frequency": 13,
+      "desperation_score": 2,
+      "avg_pain_score": 5.6,
+      "total_engagement_weight": 0.43,
+      "avg_engagement_weight": 0.03,
+      "market_proxy": {
+        "subscribers": 2292722,
+        "posts_per_week": 26,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "why the hype for uv",
+        "subreddit": "learnpython",
+        "url": "https://reddit.com/r/learnpython/comments/1l0lsqc/why_the_hype_for_uv/",
+        "score": 27
+      },
+      "avg_upvotes": 514.5,
+      "problem_category": "productivity",
+      "mvp_suggestion": "Develop a streamlined, user-friendly tool that integrates the speed and efficiency of uv with enhanced dependency management, version control, and environment setup, making it accessible for both individual developers and teams.",
+      "all_subreddits": [
+        "learnpython",
+        "Python"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The complexity and potential inefficiency of Python's threading model as perceived by users, even in high-security environments like the CIA.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.016113157510969568,
+          "subreddit": "Python",
+          "created_utc": 1734288183.0
+        },
+        {
+          "summary": "Disagreement and uncertainty about the adoption of certain Python tools and libraries due to potential overhead, licensing issues, and differing use cases.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00491001817580241,
+          "subreddit": "Python",
+          "created_utc": 1730502580.0
+        },
+        {
+          "summary": "Concerns about the selection criteria for top Python libraries, particularly the inclusion of libraries that are very new or still in beta.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.010499393160211468,
+          "subreddit": "Python",
+          "created_utc": 1733919274.0
+        },
+        {
+          "summary": "Lack of clarity on the advantages of ayu over existing tools like the testing tab in VSCode.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.17573901956521207,
+          "subreddit": "Python",
+          "created_utc": 1748803397.0
+        },
+        {
+          "summary": "The primary pain point is the inefficiency and complexity of using native Python tooling like pip for managing dependencies and environments, which is slow, cumbersome, and lacks features like proper version management and lockfile support.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.21174492597441277,
+          "subreddit": "learnpython",
+          "created_utc": 1748773908.0
+        },
+        {
+          "summary": "Key libraries like TensorFlow take a long time to update and become compatible with new Python releases.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0026694650277041443,
+          "subreddit": "Python",
+          "created_utc": 1728317903.0
+        },
+        {
+          "summary": "Concerns about reliance on a single commercial company for Python packaging tools.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0008872178232174527,
+          "subreddit": "Python",
+          "created_utc": 1724187025.0
+        },
+        {
+          "summary": "The main pain point is the difficulty in upgrading from Python 3.8 due to compatibility issues with existing projects and dependencies, particularly on resource-constrained devices like the Raspberry Pi Zero 2W.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0014206943607031988,
+          "subreddit": "Python",
+          "created_utc": 1726260792.0
+        },
+        {
+          "summary": "The main pain point is the lack of visibility and usability of the Python package due to its generic name and insufficient documentation.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0020838311479416585,
+          "subreddit": "Python",
+          "created_utc": 1728914166.0
+        },
+        {
+          "summary": "Lack of support for AMD GPUs in the new GPU-acceleration feature released by Polars in collaboration with NVIDIA RAPIDS.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0013057871110072697,
+          "subreddit": "Python",
+          "created_utc": 1726583000.0
+        },
+        {
+          "summary": "Developers find certain Python packages indispensable for improving productivity and code quality.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.00027661438732397113,
+          "subreddit": "Python",
+          "created_utc": 1719854281.0
+        },
+        {
+          "summary": "The release of NumPy 2.0.0 may cause compatibility issues with existing projects, requiring updates to dependencies and potentially breaking CI pipelines.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00016485923780616875,
+          "subreddit": "Python",
+          "created_utc": 1718614398.0
+        },
+        {
+          "summary": "The layoff of Google's Python maintainer team and the offshoring of jobs to reduce costs has caused concern about the sustainability of funding for projects like pybind11, which were supported by this team.",
+          "pain_score": 7.0,
+          "engagement_weight": 6.109306318812912e-05,
+          "subreddit": "Python",
+          "created_utc": 1714411366.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_3",
+      "topic": "Lack of access to the library's source code or repository link.",
+      "frequency": 6,
+      "desperation_score": 3,
+      "avg_pain_score": 5.7,
+      "total_engagement_weight": 0.18,
+      "avg_engagement_weight": 0.03,
+      "market_proxy": {
+        "subscribers": 2900484,
+        "posts_per_week": 12,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Industrial instrumentation library",
+        "subreddit": "Python",
+        "url": "https://reddit.com/r/Python/comments/1kzwwgd/industrial_instrumentation_library/",
+        "score": 24
+      },
+      "avg_upvotes": 463.3,
+      "problem_category": "Accessibility",
+      "mvp_suggestion": "Provide a GitHub or similar repository link for users to access, contribute, and provide feedback on the library.",
+      "all_subreddits": [
+        "learnpython",
+        "Python",
+        "coding"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Unreasonable workload expectations and lack of recognition for efficient work.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.013375067960475202,
+          "subreddit": "learnpython",
+          "created_utc": 1733549201.0
+        },
+        {
+          "summary": "Lack of access to the library's source code or repository link.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.16399659529326308,
+          "subreddit": "Python",
+          "created_utc": 1748697496.0
+        },
+        {
+          "summary": "Lack of GDPR compliance and privacy notice for data processing and storage on the website.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0006638070202082967,
+          "subreddit": "coding",
+          "created_utc": 1724510235.0
+        },
+        {
+          "summary": "The main pain point is the user's frustration with influencers on Instagram and the desire to block accounts with over 10,000 followers, but there is concern about the feasibility and risk of account banning when using a bot for this purpose.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0004960456778346661,
+          "subreddit": "learnpython",
+          "created_utc": 1723045208.0
+        },
+        {
+          "summary": "Concerns about privacy and lack of transparency regarding code being sent to OpenAI without available source code or clear opt-out options.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00021619712374710388,
+          "subreddit": "coding",
+          "created_utc": 1722364661.0
+        },
+        {
+          "summary": "Lack of awareness about the origin and authenticity of products, leading to confusion and potential mistrust.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.00051661178218904,
+          "subreddit": "coding",
+          "created_utc": 1727730253.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_2",
+      "topic": "The main pain point is the lack of intuitive and efficient tools for beginners to visualize and understand code execution, especially for educational purposes.",
+      "frequency": 4,
+      "desperation_score": 1,
+      "avg_pain_score": 5.0,
+      "total_engagement_weight": 0.38,
+      "avg_engagement_weight": 0.1,
+      "market_proxy": {
+        "subscribers": 2900484,
+        "posts_per_week": 8,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Tired of tracing code by hand?",
+        "subreddit": "Python",
+        "url": "https://reddit.com/r/Python/comments/1kzq9vi/tired_of_tracing_code_by_hand/",
+        "score": 285
+      },
+      "avg_upvotes": 217.8,
+      "problem_category": "education",
+      "mvp_suggestion": "Develop an enhanced version of the tool with improved UI elements for editing, automatic skipping of trivial steps, and visual connections between variable assignments, tailored for educational use.",
+      "all_subreddits": [
+        "learnpython",
+        "Python",
+        "coding"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is the lack of intuitive and efficient tools for beginners to visualize and understand code execution, especially for educational purposes.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.38176215062367425,
+          "subreddit": "Python",
+          "created_utc": 1748672374.0
+        },
+        {
+          "summary": "The main pain point is the inefficiency and slowness of the 'Hello World' program due to the use of random character generation for each letter.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.00033503365073218855,
+          "subreddit": "learnpython",
+          "created_utc": 1721021021.0
+        },
+        {
+          "summary": "The main pain point is the complexity and technical barrier for retro gaming enthusiasts to exploit and customize classic games like NES Tetris without external hardware modifications.",
+          "pain_score": 4.0,
+          "engagement_weight": 5.097624391414886e-05,
+          "subreddit": "coding",
+          "created_utc": 1718132700.0
+        },
+        {
+          "summary": "The main pain point is the challenges and risks associated with large-scale refactoring projects, including unexpected complexity, time overruns, and negative impacts on team morale.",
+          "pain_score": 7.0,
+          "engagement_weight": 3.786326157095588e-05,
+          "subreddit": "coding",
+          "created_utc": 1717571111.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_5",
+      "topic": "No clear pain point or problem is discussed in the post.",
+      "frequency": 4,
+      "desperation_score": 1,
+      "avg_pain_score": 1.5,
+      "total_engagement_weight": 0.28,
+      "avg_engagement_weight": 0.07,
+      "market_proxy": {
+        "subscribers": 1969165,
+        "posts_per_week": 8,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "9 Lazy Evaluation Features in Python That Optimize Your Code Quietly",
+        "subreddit": "coding",
+        "url": "https://reddit.com/r/coding/comments/1l08mfc/9_lazy_evaluation_features_in_python_that/",
+        "score": 5
+      },
+      "avg_upvotes": 20.8,
+      "problem_category": "N/A",
+      "mvp_suggestion": "N/A",
+      "all_subreddits": [
+        "Python",
+        "coding"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.12657544430667902,
+          "subreddit": "Python",
+          "created_utc": 1748836557.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post.",
+          "pain_score": 0,
+          "engagement_weight": 0.14602762331616595,
+          "subreddit": "coding",
+          "created_utc": 1748728358.0
+        },
+        {
+          "summary": "The main pain point is the use of non-descriptive and arbitrary naming conventions in science, mathematics, and technology, which hinders understanding and communication.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.003415840496061801,
+          "subreddit": "coding",
+          "created_utc": 1733634372.0
+        },
+        {
+          "summary": "There is no clear pain point or problem being discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.0008472131531334136,
+          "subreddit": "coding",
+          "created_utc": 1729522212.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_7",
+      "topic": "Concerns about the US government's push to move away from C and C++ due to memory security issues.",
+      "frequency": 7,
+      "desperation_score": 4,
+      "avg_pain_score": 5.1,
+      "total_engagement_weight": 0.01,
+      "avg_engagement_weight": 0.0,
+      "market_proxy": {
+        "subscribers": 1969165,
+        "posts_per_week": 14,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "The US government wants devs to stop using C and C++",
+        "subreddit": "coding",
+        "url": "https://reddit.com/r/coding/comments/1gnfe11/the_us_government_wants_devs_to_stop_using_c_and_c/",
+        "score": 777
+      },
+      "avg_upvotes": 284.7,
+      "problem_category": "Technology/Software Development",
+      "mvp_suggestion": "Develop a tool or library that enhances memory security for C and C++ without requiring a complete language shift.",
+      "all_subreddits": [
+        "Python",
+        "coding"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Concerns about the US government's push to move away from C and C++ due to memory security issues.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.006399354273397031,
+          "subreddit": "coding",
+          "created_utc": 1731173916.0
+        },
+        {
+          "summary": "Concern about preserving historical computing artifacts and their significance.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0039088409895829054,
+          "subreddit": "Python",
+          "created_utc": 1729625222.0
+        },
+        {
+          "summary": "AI is currently unable to fully replace human software engineers due to limitations in handling proprietary code, accountability, and complex integration tasks.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0002885254733488889,
+          "subreddit": "coding",
+          "created_utc": 1721378370.0
+        },
+        {
+          "summary": "Security processes are perceived as roadblocks by developers, causing delays and inefficiencies.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0005611037461915108,
+          "subreddit": "coding",
+          "created_utc": 1726948955.0
+        },
+        {
+          "summary": "Frustration with Objective-C being perceived as outdated and less user-friendly compared to modern languages like Swift.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.00041292697278657946,
+          "subreddit": "coding",
+          "created_utc": 1724525782.0
+        },
+        {
+          "summary": "Confusion and lack of clarity on when to use different versions of UUIDs for specific use cases.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.00023026204575015457,
+          "subreddit": "coding",
+          "created_utc": 1723712839.0
+        },
+        {
+          "summary": "Lack of understanding of how the clock's code functions and its self-editing capabilities.",
+          "pain_score": 3.0,
+          "engagement_weight": 4.8723691341733584e-05,
+          "subreddit": "coding",
+          "created_utc": 1718427940.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    }
+  ],
+  "subreddits_analyzed": [
+    "learnpython",
+    "Python",
+    "coding"
+  ]
+}

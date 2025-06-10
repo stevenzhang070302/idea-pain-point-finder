@@ -1,0 +1,777 @@
+{
+  "topic": "saas",
+  "analysis_summary": {
+    "total_subreddits": 3,
+    "total_posts": 71,
+    "total_clusters": 8,
+    "total_pain_points": 71,
+    "average_desperation_score": 4.6,
+    "average_pain_score": 7.0,
+    "high_priority_clusters": 0,
+    "total_engagement_weight": 7.04,
+    "average_engagement_weight": 0.11,
+    "trending_clusters": 0,
+    "phase_2_features": {
+      "engagement_weighted_scoring": true,
+      "comment_context_injection": true,
+      "llm_assisted_deduping": true,
+      "temporal_trend_analysis": true
+    }
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_6",
+      "topic": "The primary pain point is the dilemma of choosing between leaving a stable high-paying job to focus on a rapidly growing business or maintaining both until financial stability is achieved.",
+      "frequency": 11,
+      "desperation_score": 6,
+      "avg_pain_score": 7.5,
+      "total_engagement_weight": 1.17,
+      "avg_engagement_weight": 0.11,
+      "market_proxy": {
+        "subscribers": 6901794,
+        "posts_per_week": 22,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "My wife thinks I’m crazy to leave my 200k / yr job to focus on our business.",
+        "subreddit": "Entrepreneur",
+        "url": "https://reddit.com/r/Entrepreneur/comments/1l0res2/my_wife_thinks_im_crazy_to_leave_my_200k_yr_job/",
+        "score": 237
+      },
+      "avg_upvotes": 801.8,
+      "problem_category": "finance",
+      "mvp_suggestion": "Develop a financial forecasting and risk assessment tool that helps entrepreneurs evaluate the potential growth and risks of their business versus the stability of their current employment.",
+      "all_subreddits": [
+        "startups",
+        "SaaS",
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The primary pain point is the dilemma of choosing between leaving a stable high-paying job to focus on a rapidly growing business or maintaining both until financial stability is achieved.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.5211252181230144,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748791000.0
+        },
+        {
+          "summary": "The main pain point is the lack of personal fulfillment and happiness despite financial success, leading to feelings of depression and dissatisfaction with life.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.008052237621914838,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1731412795.0
+        },
+        {
+          "summary": "The main pain point is the dissatisfaction with traditional 9-to-5 jobs and the desire for personal fulfillment and freedom through entrepreneurship.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.013706008430706962,
+          "subreddit": "SaaS",
+          "created_utc": 1734553423.0
+        },
+        {
+          "summary": "The primary pain point is the difficulty in breaking into online platforms to earn money and fund startup dreams, due to lack of experience and guidance.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.2542667464322023,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748876412.0
+        },
+        {
+          "summary": "The main pain point is the misconception and unrealistic expectations of entrepreneurship as a path to freedom and success, leading to stress, financial instability, and lack of work-life balance.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.002412365458177385,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1727055682.0
+        },
+        {
+          "summary": "The main pain point is the emotional and mental toll of managing a rapidly growing startup, leading to burnout and depression.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.004497862394957754,
+          "subreddit": "startups",
+          "created_utc": 1729510247.0
+        },
+        {
+          "summary": "The main pain point is the risk of burnout and lack of strategic direction in the hectic and unstructured work environment of entrepreneurship.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.1783492728761606,
+          "subreddit": "startups",
+          "created_utc": 1748773299.0
+        },
+        {
+          "summary": "The primary pain point is the burnout experienced by the entrepreneur due to emergency bug fixes and the intense workload required to maintain and grow the startup.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00038351646561868096,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1720182570.0
+        },
+        {
+          "summary": "The main pain point is the overwhelming stress and fear of responsibility associated with managing a large investment as young entrepreneurs in a crisis-affected legacy industry.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0023320310668272443,
+          "subreddit": "startups",
+          "created_utc": 1727915641.0
+        },
+        {
+          "summary": "The main pain point is the need for simple, fast, and affordable marketing tools to create content for a startup targeting gamers.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.1801369103379558,
+          "subreddit": "startups",
+          "created_utc": 1748791898.0
+        },
+        {
+          "summary": "The primary pain point is the inefficiency and mismanagement in startup operations, particularly in hiring practices, premature scaling, and lack of proper validation and marketing strategies.",
+          "pain_score": 8.0,
+          "engagement_weight": 8.639507352161051e-05,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1714665997.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_2",
+      "topic": "The main pain point is the lack of a clear monetization strategy for the AI poker coaching tool without compromising its value.",
+      "frequency": 16,
+      "desperation_score": 6,
+      "avg_pain_score": 7.1,
+      "total_engagement_weight": 0.81,
+      "avg_engagement_weight": 0.05,
+      "market_proxy": {
+        "subscribers": 6901794,
+        "posts_per_week": 32,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "[HELP NEEDED] Spent few months building an AI Agentic poker coach(First of its kind), now have no idea how to actually make money from it  [I WILL NOT PROMOTE]",
+        "subreddit": "startups",
+        "url": "https://reddit.com/r/startups/comments/1l0z41s/help_needed_spent_few_months_building_an_ai/",
+        "score": 6
+      },
+      "avg_upvotes": 652.3,
+      "problem_category": "finance",
+      "mvp_suggestion": "Implement a freemium model with a free trial period followed by subscription tiers, including a standard and a premium tier, to cater to different user needs and willingness to pay.",
+      "all_subreddits": [
+        "startups",
+        "SaaS",
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is the lack of control over the supply of a product that the business relies on, leading to the business becoming obsolete when the supply increases.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.006250633195580876,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1730714143.0
+        },
+        {
+          "summary": "Lack of communication and transparency from Stripe regarding account holds and charge reversals, causing significant business disruption.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0011350782369824155,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1724252089.0
+        },
+        {
+          "summary": "The primary pain point is the difficulty in securing investment for innovative technology due to potential misuse concerns and market skepticism.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.007084127521678522,
+          "subreddit": "SaaS",
+          "created_utc": 1732377592.0
+        },
+        {
+          "summary": "The main pain point is the challenge of monetizing open-source projects effectively, as open-source can lead to competitors using the code without paying and developers often prefer self-hosting to avoid costs.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.007548487922208729,
+          "subreddit": "SaaS",
+          "created_utc": 1732641835.0
+        },
+        {
+          "summary": "Non-technical founders face challenges in managing outsourced development, leading to wasted time and money.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.003395308667585512,
+          "subreddit": "startups",
+          "created_utc": 1729459150.0
+        },
+        {
+          "summary": "The main pain point is the hiring of an unsuitable and problematic sales employee who caused significant disruption and legal issues.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.004204082608527127,
+          "subreddit": "startups",
+          "created_utc": 1729654565.0
+        },
+        {
+          "summary": "Legal complications and exhaustion from managing a side project while employed full-time.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.17795278179636584,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748859237.0
+        },
+        {
+          "summary": "The main pain point is the lack of a clear monetization strategy for the AI poker coaching tool without compromising its value.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.2682903537609968,
+          "subreddit": "startups",
+          "created_utc": 1748810011.0
+        },
+        {
+          "summary": "Uncertainty and potential disruption for tech companies relying on .io domains due to possible retirement of the domain.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.002177139097305268,
+          "subreddit": "startups",
+          "created_utc": 1728486062.0
+        },
+        {
+          "summary": "No clear pain point is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.16133872914281588,
+          "subreddit": "SaaS",
+          "created_utc": 1748865456.0
+        },
+        {
+          "summary": "The main pain point is the ineffectiveness of static exercise plans for managing sciatica pain, which do not adapt to daily changes in the user's condition.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.16703672662777894,
+          "subreddit": "startups",
+          "created_utc": 1748859973.0
+        },
+        {
+          "summary": "The main pain point is the risk of idea theft and competitive imitation when sharing too much sensitive information while building in public.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0003298075110861317,
+          "subreddit": "startups",
+          "created_utc": 1720668907.0
+        },
+        {
+          "summary": "Employees feel undervalued and replaceable, leading to a lack of motivation and loyalty towards their companies.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00043009561862131533,
+          "subreddit": "startups",
+          "created_utc": 1721745646.0
+        },
+        {
+          "summary": "Unauthorized access and recording of proprietary technology by competitors, leading to potential intellectual property theft.",
+          "pain_score": 9.0,
+          "engagement_weight": 0.00017819128406387414,
+          "subreddit": "startups",
+          "created_utc": 1718039186.0
+        },
+        {
+          "summary": "The main pain point is the lack of oversight and verification in managing contractors, leading to significant financial loss for the startup.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0002710502580547516,
+          "subreddit": "startups",
+          "created_utc": 1720138011.0
+        },
+        {
+          "summary": "The main pain point is the arbitrary and opaque nature of Apple's app removal and account suspension process, which can result in significant financial loss and lack of recourse for developers.",
+          "pain_score": 9.0,
+          "engagement_weight": 0.00011504530314229289,
+          "subreddit": "startups",
+          "created_utc": 1716991799.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_3",
+      "topic": "Entrepreneurs often focus on creating innovative or complex business ideas that may not meet market demand, leading to financial struggles and lack of progress.",
+      "frequency": 12,
+      "desperation_score": 4,
+      "avg_pain_score": 6.2,
+      "total_engagement_weight": 1.37,
+      "avg_engagement_weight": 0.11,
+      "market_proxy": {
+        "subscribers": 6901794,
+        "posts_per_week": 24,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "I stopped chasing the next big thing and finally made money",
+        "subreddit": "Entrepreneur",
+        "url": "https://reddit.com/r/Entrepreneur/comments/1l0vuak/i_stopped_chasing_the_next_big_thing_and_finally/",
+        "score": 868
+      },
+      "avg_upvotes": 1103.9,
+      "problem_category": "Entrepreneurship",
+      "mvp_suggestion": "Develop a platform that helps entrepreneurs identify and validate simple, high-demand service ideas by analyzing market needs and providing actionable insights.",
+      "all_subreddits": [
+        "startups",
+        "SaaS",
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Entrepreneurs often focus on creating innovative or complex business ideas that may not meet market demand, leading to financial struggles and lack of progress.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.7464270145206818,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748801878.0
+        },
+        {
+          "summary": "Perception that modern billionaires are not contributing to public spaces and institutions as visibly as those from the past.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.012260677661804817,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1733192461.0
+        },
+        {
+          "summary": "Skepticism and confusion about the legitimacy and sustainability of a high-revenue business model with a small team and unconventional financial practices.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.36104418933949345,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748806034.0
+        },
+        {
+          "summary": "Lack of balanced team with business and marketing expertise leading to failure in idea validation, marketing, and monetization.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.009578399324313125,
+          "subreddit": "startups",
+          "created_utc": 1732283284.0
+        },
+        {
+          "summary": "The post humorously highlights the frustration of not taking action and expecting financial success, reflecting a broader issue of procrastination and lack of motivation in achieving business or financial goals.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.019178195748919095,
+          "subreddit": "SaaS",
+          "created_utc": 1735238626.0
+        },
+        {
+          "summary": "Entrepreneurs often over-focus on perfecting non-essential aspects of their business (like logos and websites) instead of solving practical problems and generating revenue.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.21438074508072605,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748834920.0
+        },
+        {
+          "summary": "Entrepreneurs struggle with identifying valuable business ideas and understanding the nuances of market saturation.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.003384719497901204,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1728416095.0
+        },
+        {
+          "summary": "Many first-time founders believe they need to pursue large-scale ventures and VC funding to achieve success, overlooking the potential of smaller, life-changing exits.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0005683025579623796,
+          "subreddit": "startups",
+          "created_utc": 1721678807.0
+        },
+        {
+          "summary": "Many aspiring entrepreneurs mistakenly believe that purchasing courses or following online business trends will lead to success, without understanding the importance of consistent effort and real-world experience.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0001221244753737624,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1715967556.0
+        },
+        {
+          "summary": "The perception that many young entrepreneurs are making large amounts of money is inflated by social media, leading to skepticism and mistrust.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00010272818861845528,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1715199884.0
+        },
+        {
+          "summary": "Lack of business and marketing skills for startup founders who are technically proficient but inexperienced in other aspects of running a business.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0005004173904581672,
+          "subreddit": "SaaS",
+          "created_utc": 1721927374.0
+        },
+        {
+          "summary": "The entrepreneur feels unable to share their financial success with others due to misconceptions about wealth and reinvestment in the business.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.00012046421671947355,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1715878101.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_7",
+      "topic": "The main pain point is the perceived inequitable distribution of equity among the startup team, particularly the CEO receiving a larger share despite limited contribution so far.",
+      "frequency": 5,
+      "desperation_score": 5,
+      "avg_pain_score": 6.8,
+      "total_engagement_weight": 0.91,
+      "avg_engagement_weight": 0.18,
+      "market_proxy": {
+        "subscribers": 6592111,
+        "posts_per_week": 10,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "First-time founder: Is 32% for CEO and 12% each for developers fair? I will not promote",
+        "subreddit": "startups",
+        "url": "https://reddit.com/r/startups/comments/1l0t6i0/firsttime_founder_is_32_for_ceo_and_12_each_for/",
+        "score": 72
+      },
+      "avg_upvotes": 325.0,
+      "problem_category": "Equity Distribution",
+      "mvp_suggestion": "Develop a tool or platform that helps startup teams calculate equitable equity distribution based on contributions, time, and roles, incorporating industry standards and expert advice.",
+      "all_subreddits": [
+        "startups",
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Perceived unfairness in income distribution between business owners and employees, highlighting the disparity in earnings despite effort.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.01283799118422095,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1733256574.0
+        },
+        {
+          "summary": "The main pain point is the perceived inequitable distribution of equity among the startup team, particularly the CEO receiving a larger share despite limited contribution so far.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.39676372682339783,
+          "subreddit": "startups",
+          "created_utc": 1748795374.0
+        },
+        {
+          "summary": "The main pain point is the challenge of fairly splitting startup equity among founders and employees, which can lead to conflicts and resentment if perceived as unfair.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.3266642724552503,
+          "subreddit": "startups",
+          "created_utc": 1748803372.0
+        },
+        {
+          "summary": "Uncertainty about the optimal timing and amount for re-upping employee equity grants to maintain motivation and loyalty.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.17681596968349275,
+          "subreddit": "startups",
+          "created_utc": 1748877516.0
+        },
+        {
+          "summary": "The main pain point is the concern over the company's compensation structure and its misleading representation as a startup, which affects the perceived value of the job offer.",
+          "pain_score": 7.0,
+          "engagement_weight": 7.877441601621021e-05,
+          "subreddit": "startups",
+          "created_utc": 1716507146.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_1",
+      "topic": "SaaS founders struggle to find early customers and effectively market their products.",
+      "frequency": 6,
+      "desperation_score": 4,
+      "avg_pain_score": 7.3,
+      "total_engagement_weight": 0.94,
+      "avg_engagement_weight": 0.16,
+      "market_proxy": {
+        "subscribers": 309683,
+        "posts_per_week": 12,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "Link your SaaS we'll find you 5 customers for free",
+        "subreddit": "SaaS",
+        "url": "https://reddit.com/r/SaaS/comments/1l1iz5l/link_your_saas_well_find_you_5_customers_for_free/",
+        "score": 22
+      },
+      "avg_upvotes": 294.0,
+      "problem_category": "Marketing and Customer Acquisition",
+      "mvp_suggestion": "Develop a platform that aggregates potential customer leads from various social media and online directories, providing SaaS founders with targeted outreach opportunities.",
+      "all_subreddits": [
+        "SaaS"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is skepticism and criticism from others about the viability of AI-based SaaS solutions, particularly those perceived as simple AI wrappers.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.3135091293127711,
+          "subreddit": "SaaS",
+          "created_utc": 1748847904.0
+        },
+        {
+          "summary": "The primary pain point discussed is the misconception that starting a SaaS business is a quick path to passive income, when in reality it involves significant challenges such as market validation, product development, and financial management.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0075459423158968485,
+          "subreddit": "SaaS",
+          "created_utc": 1732059814.0
+        },
+        {
+          "summary": "SaaS founders struggle to find early customers and effectively market their products.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.34674505972384856,
+          "subreddit": "SaaS",
+          "created_utc": 1748873326.0
+        },
+        {
+          "summary": "The main pain point is the difficulty in effectively marketing and selling a SaaS product after development, especially in a competitive and saturated market.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.267501031980158,
+          "subreddit": "SaaS",
+          "created_utc": 1748832832.0
+        },
+        {
+          "summary": "The main pain point is the skepticism and frustration towards misleading claims of rapid financial success used to promote SaaS products without evidence, leading to distrust in the community.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.007572913143200899,
+          "subreddit": "SaaS",
+          "created_utc": 1733546863.0
+        },
+        {
+          "summary": "The SaaS app went viral in Russia, leading to high traffic from users who cannot be monetized due to payment restrictions, causing financial strain.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0018928222830697878,
+          "subreddit": "SaaS",
+          "created_utc": 1726974150.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_5",
+      "topic": "Startups are seeking feedback and analysis on their landing pages and marketing strategies to improve their market presence and product validation.",
+      "frequency": 11,
+      "desperation_score": 4,
+      "avg_pain_score": 7.3,
+      "total_engagement_weight": 0.77,
+      "avg_engagement_weight": 0.07,
+      "market_proxy": {
+        "subscribers": 6901794,
+        "posts_per_week": 22,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Drop link to your startup landing page and I will create marketing report for you 👇",
+        "subreddit": "SaaS",
+        "url": "https://reddit.com/r/SaaS/comments/1l1lw8k/drop_link_to_your_startup_landing_page_and_i_will/",
+        "score": 5
+      },
+      "avg_upvotes": 518.3,
+      "problem_category": "Marketing",
+      "mvp_suggestion": "A platform that provides automated, AI-driven landing page analysis and marketing strategy feedback tailored to startups, including buyer persona insights and discovery channel recommendations.",
+      "all_subreddits": [
+        "startups",
+        "SaaS",
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Lack of transparency and credibility in marketing claims on Reddit, leading to skepticism among users.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.020828885174289838,
+          "subreddit": "SaaS",
+          "created_utc": 1735646638.0
+        },
+        {
+          "summary": "Difficulty in identifying a problem worth solving for new product development.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00928007050195361,
+          "subreddit": "SaaS",
+          "created_utc": 1732463583.0
+        },
+        {
+          "summary": "Building MVPs without validating demand leads to wasted resources and failed products.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.2502823706261603,
+          "subreddit": "SaaS",
+          "created_utc": 1748874561.0
+        },
+        {
+          "summary": "The challenge of over-engineering products instead of launching a simple version and iterating based on user feedback.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.01192893921453568,
+          "subreddit": "SaaS",
+          "created_utc": 1734104971.0
+        },
+        {
+          "summary": "High customer expectations and market saturation make it difficult to succeed with a basic product, despite low startup costs.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.009553304092246815,
+          "subreddit": "SaaS",
+          "created_utc": 1732986093.0
+        },
+        {
+          "summary": "Skepticism about the profitability and authenticity of the business model due to high operational costs and perceived inflated numbers.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.002725559991306473,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1727570058.0
+        },
+        {
+          "summary": "Frustration with the pressure to follow conventional startup advice and trends, leading to unnecessary complexity and distraction from core business goals.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0016943181498365384,
+          "subreddit": "SaaS",
+          "created_utc": 1726345272.0
+        },
+        {
+          "summary": "The unpredictability and high stress of startup life, including financial instability, competition, and the pressure to achieve product-market fit.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0032356906152925897,
+          "subreddit": "startups",
+          "created_utc": 1729018088.0
+        },
+        {
+          "summary": "Building product features based on assumptions rather than actual customer needs and feedback.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0033899662340090364,
+          "subreddit": "startups",
+          "created_utc": 1729789426.0
+        },
+        {
+          "summary": "Difficulty in acquiring clients for a new software development company.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.2063893148748946,
+          "subreddit": "startups",
+          "created_utc": 1748844347.0
+        },
+        {
+          "summary": "Startups are seeking feedback and analysis on their landing pages and marketing strategies to improve their market presence and product validation.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.2532119930535931,
+          "subreddit": "SaaS",
+          "created_utc": 1748880257.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_4",
+      "topic": "Difficulty in scaling SaaS businesses beyond certain MRR milestones due to challenges in onboarding, channel management, and pricing strategies.",
+      "frequency": 7,
+      "desperation_score": 4,
+      "avg_pain_score": 7.1,
+      "total_engagement_weight": 0.64,
+      "avg_engagement_weight": 0.09,
+      "market_proxy": {
+        "subscribers": 6901794,
+        "posts_per_week": 14,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "I got roasted on reddit for saying it’s hard to scale saas beyond $10k mrr",
+        "subreddit": "SaaS",
+        "url": "https://reddit.com/r/SaaS/comments/1l1axhg/i_got_roasted_on_reddit_for_saying_its_hard_to/",
+        "score": 30
+      },
+      "avg_upvotes": 565.9,
+      "problem_category": "Business Growth",
+      "mvp_suggestion": "Develop a SaaS growth toolkit that provides automated onboarding optimization, channel management guidance, and dynamic pricing strategy recommendations.",
+      "all_subreddits": [
+        "startups",
+        "SaaS",
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is the difficulty in scaling cold email outreach due to challenges with domain setup, email deliverability, and managing costs.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.004898835749328698,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1729814365.0
+        },
+        {
+          "summary": "Difficulty in scaling SaaS businesses beyond certain MRR milestones due to challenges in onboarding, channel management, and pricing strategies.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.17089336740462413,
+          "subreddit": "SaaS",
+          "created_utc": 1748845687.0
+        },
+        {
+          "summary": "Lack of effective CRM integration and iterative optimization for AI SMS/voice agents in B2C businesses, leading to poor visibility and performance issues.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.15376356083221013,
+          "subreddit": "startups",
+          "created_utc": 1748826675.0
+        },
+        {
+          "summary": "The onboarding process for a SaaS workflow automation tool is too lengthy and complex, leading to high drop-off rates and increased support tickets.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.15071507625887975,
+          "subreddit": "SaaS",
+          "created_utc": 1748856992.0
+        },
+        {
+          "summary": "Managing complaints and ensuring quality service from subcontractors in a home service arbitrage business.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.1547038512718096,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748865204.0
+        },
+        {
+          "summary": "Difficulty in managing and growing multiple SaaS products simultaneously due to limited mental bandwidth.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0002116039263228008,
+          "subreddit": "SaaS",
+          "created_utc": 1718875898.0
+        },
+        {
+          "summary": "Difficulty in finding and working with affiliates for marketing.",
+          "pain_score": 7.0,
+          "engagement_weight": 5.8826470628557564e-05,
+          "subreddit": "SaaS",
+          "created_utc": 1714396186.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_0",
+      "topic": "Difficulty in effectively using AI for personalized outreach without appearing inauthentic.",
+      "frequency": 3,
+      "desperation_score": 4,
+      "avg_pain_score": 6.7,
+      "total_engagement_weight": 0.43,
+      "avg_engagement_weight": 0.14,
+      "market_proxy": {
+        "subscribers": 6592111,
+        "posts_per_week": 6,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "How we did and still do cold outreach (over 3k solopreneurs + small businesses)",
+        "subreddit": "Entrepreneur",
+        "url": "https://reddit.com/r/Entrepreneur/comments/1l1h6ad/how_we_did_and_still_do_cold_outreach_over_3k/",
+        "score": 6
+      },
+      "avg_upvotes": 376.7,
+      "problem_category": "Sales and Marketing",
+      "mvp_suggestion": "Develop an AI tool that provides more contextually relevant and authentic personalization suggestions for outreach emails.",
+      "all_subreddits": [
+        "startups",
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Entrepreneurs and professionals often ask vague questions without providing sufficient context, making it difficult for experts to offer meaningful advice.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0012998301571854648,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1724802847.0
+        },
+        {
+          "summary": "Difficulty in effectively using AI for personalized outreach without appearing inauthentic.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.23019613585771137,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748868568.0
+        },
+        {
+          "summary": "Manual and tedious process of updating lengthy onboarding forms in Illustrator, requiring significant manual hours.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.19901088465711736,
+          "subreddit": "startups",
+          "created_utc": 1748843969.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    }
+  ],
+  "subreddits_analyzed": [
+    "SaaS",
+    "Entrepreneur",
+    "startups"
+  ]
+}

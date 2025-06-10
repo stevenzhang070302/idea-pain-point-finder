@@ -1,0 +1,833 @@
+{
+  "topic": "csmajors",
+  "analysis_summary": {
+    "total_subreddits": 3,
+    "total_posts": 79,
+    "total_clusters": 8,
+    "total_pain_points": 79,
+    "average_desperation_score": 5.1,
+    "average_pain_score": 6.9,
+    "high_priority_clusters": 3,
+    "total_engagement_weight": 10.14,
+    "average_engagement_weight": 0.11,
+    "trending_clusters": 0,
+    "phase_2_features": {
+      "engagement_weighted_scoring": true,
+      "comment_context_injection": true,
+      "llm_assisted_deduping": true,
+      "temporal_trend_analysis": true
+    }
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_4",
+      "topic": "The engineering culture in big tech has become increasingly toxic, with unrealistic expectations, lack of job security, and excessive work demands leading to high stress levels.",
+      "frequency": 24,
+      "desperation_score": 7,
+      "avg_pain_score": 6.8,
+      "total_engagement_weight": 4.35,
+      "avg_engagement_weight": 0.18,
+      "market_proxy": {
+        "subscribers": 6836525,
+        "posts_per_week": 48,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Big tech engineering culture has gotten significantly worse",
+        "subreddit": "cscareerquestions",
+        "url": "https://reddit.com/r/cscareerquestions/comments/1l0wg36/big_tech_engineering_culture_has_gotten/",
+        "score": 1062
+      },
+      "avg_upvotes": 2581.3,
+      "problem_category": "Workplace Culture",
+      "mvp_suggestion": "Develop a platform that facilitates anonymous feedback and communication between engineers and management to address cultural issues and promote a healthier work environment.",
+      "all_subreddits": [
+        "cscareerquestions",
+        "learnprogramming",
+        "csMajors"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is the perception that political figures and policies are out of touch with the realities of the working class, leading to frustration over job availability and economic inequality.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.021543953987710952,
+          "subreddit": "csMajors",
+          "created_utc": 1735259222.0
+        },
+        {
+          "summary": "The engineering culture in big tech has become increasingly toxic, with unrealistic expectations, lack of job security, and excessive work demands leading to high stress levels.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.8108132518534289,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1748803357.0
+        },
+        {
+          "summary": "The main pain point is the skepticism and criticism towards companies claiming to use AI, but instead relying on low-cost human labor, leading to questions about transparency and authenticity in business practices.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.6627997483499444,
+          "subreddit": "csMajors",
+          "created_utc": 1748768443.0
+        },
+        {
+          "summary": "The primary pain point is the negative impact of an unsupportive and condescending manager on the employee's motivation and career development.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.5941119594984625,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1748715874.0
+        },
+        {
+          "summary": "Software developers at Home Depot are required to work in retail stores to gain firsthand experience, which may cause discomfort or stress due to unfamiliarity with retail environments.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.003418571788153552,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1728320924.0
+        },
+        {
+          "summary": "The main pain point is the pressure on experienced engineers to relocate back to expensive tech hubs like the SF Bay Area due to in-office work requirements, despite the high cost of living and the desire for remote work options.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.514088472948763,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1748754178.0
+        },
+        {
+          "summary": "The main pain point is the inefficiency and misalignment in organizational structure, where too many managers lead to bureaucratic hurdles and underutilization of skilled individual contributors.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.003230867364867208,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1728146778.0
+        },
+        {
+          "summary": "The main pain point is the frustration and burnout from working in chaotic startup environments, leading to job instability and lack of career growth in web development.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.31315794218094456,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1748789460.0
+        },
+        {
+          "summary": "The main pain point is the feeling of inadequacy and lack of progress in programming despite years of effort, leading to the decision to quit.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.015276544209511269,
+          "subreddit": "learnprogramming",
+          "created_utc": 1734247152.0
+        },
+        {
+          "summary": "The main pain point is the stress and oversight during virtual interviews leading to unprofessional situations.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0018761862539899794,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1726136801.0
+        },
+        {
+          "summary": "Frustration with prolonged unemployment or underemployment post-graduation.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00010837769460171472,
+          "subreddit": "csMajors",
+          "created_utc": 1715497213.0
+        },
+        {
+          "summary": "The main pain point is the lack of balance between the individual's passion for programming and the need for financial stability and social interaction.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.004971279714983101,
+          "subreddit": "learnprogramming",
+          "created_utc": 1729763021.0
+        },
+        {
+          "summary": "Imposter syndrome and lack of confidence among self-taught developers transitioning to full-time roles.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.004664014102819676,
+          "subreddit": "learnprogramming",
+          "created_utc": 1729534811.0
+        },
+        {
+          "summary": "The main pain point is the prolonged and challenging job search process for recent graduates, which can be frustrating and demoralizing.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00016717501416917247,
+          "subreddit": "csMajors",
+          "created_utc": 1717108928.0
+        },
+        {
+          "summary": "The job market has become increasingly difficult, leading to frustration and a sense of hopelessness among job seekers.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.17700941096668524,
+          "subreddit": "csMajors",
+          "created_utc": 1748789668.0
+        },
+        {
+          "summary": "The main pain point is the frustration and concern about the pervasive influence of generative AI in the software industry, which is causing anxiety about career choices for those who dislike AI technologies.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.19110108829411865,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1748827152.0
+        },
+        {
+          "summary": "The main pain point is the difficulty in choosing between two job offers due to concerns about work-life balance, compensation, and career growth.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.19996096768197955,
+          "subreddit": "csMajors",
+          "created_utc": 1748803110.0
+        },
+        {
+          "summary": "The main pain point is the confusion about the additional skills and technologies needed beyond Python for web and app development.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.21155131275368155,
+          "subreddit": "learnprogramming",
+          "created_utc": 1748803294.0
+        },
+        {
+          "summary": "Frustration over job security and quality due to outsourcing and layoffs at Google.",
+          "pain_score": 8.0,
+          "engagement_weight": 8.716106441795169e-05,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1714631460.0
+        },
+        {
+          "summary": "The main pain point is the difficulty in balancing theoretical study and practical programming experience for efficient learning.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.19359382785944088,
+          "subreddit": "learnprogramming",
+          "created_utc": 1748789503.0
+        },
+        {
+          "summary": "Frustration with the abstraction and complexity of modern operating systems, which obscure the underlying hardware and processes.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00010771498828560473,
+          "subreddit": "learnprogramming",
+          "created_utc": 1715467657.0
+        },
+        {
+          "summary": "New graduates entering contract-to-hire roles feel anxious about job security and lack of experience.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.15521578988023368,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1748802263.0
+        },
+        {
+          "summary": "The main pain point is the lack of experience in building software applications from end-to-end despite having a strong educational background and working in a big tech company.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.1348957110357092,
+          "subreddit": "learnprogramming",
+          "created_utc": 1748820933.0
+        },
+        {
+          "summary": "Tech professionals feeling unfulfilled and considering career changes due to lack of excitement and alignment with personal interests.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.13974741840998645,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1748824144.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_0",
+      "topic": "Oversaturation of the computer science job market leading to high competition and lengthy hiring processes.",
+      "frequency": 18,
+      "desperation_score": 7,
+      "avg_pain_score": 6.8,
+      "total_engagement_weight": 2.3,
+      "avg_engagement_weight": 0.13,
+      "market_proxy": {
+        "subscribers": 6836525,
+        "posts_per_week": 36,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "There isn't a single job in CS where there are less than a 100 applicants",
+        "subreddit": "csMajors",
+        "url": "https://reddit.com/r/csMajors/comments/1l08qa6/there_isnt_a_single_job_in_cs_where_there_are/",
+        "score": 491
+      },
+      "avg_upvotes": 1667.7,
+      "problem_category": "Employment",
+      "mvp_suggestion": "Develop a platform that filters out bot applications and highlights genuine candidates to recruiters, while providing real-time updates to applicants on the status of their applications.",
+      "all_subreddits": [
+        "cscareerquestions",
+        "learnprogramming",
+        "csMajors"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Oversaturation of the computer science job market leading to high competition and lengthy hiring processes.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.6035931669845133,
+          "subreddit": "csMajors",
+          "created_utc": 1748728644.0
+        },
+        {
+          "summary": "The job market for computer science graduates, even those with high GPAs from prestigious universities, is extremely challenging, with few job offers available.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0026295647325810536,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1727378007.0
+        },
+        {
+          "summary": "Community college computer science majors are being advised to skip career fairs due to a lack of employer interest, highlighting difficulties in job placement for these students.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0018998121201383843,
+          "subreddit": "csMajors",
+          "created_utc": 1726207313.0
+        },
+        {
+          "summary": "Difficulty for recent computer science graduates to secure IT jobs due to lack of specific experience or certifications, despite the perception that these roles are more accessible.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.2458847669563885,
+          "subreddit": "csMajors",
+          "created_utc": 1748792299.0
+        },
+        {
+          "summary": "Difficulty in finding remote software engineering jobs and guidance on how to enter the field.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.2183247701618065,
+          "subreddit": "csMajors",
+          "created_utc": 1748825577.0
+        },
+        {
+          "summary": "Recent computer science graduates feel unprepared for programming jobs due to lack of practical coding skills and direction.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0016464358912573133,
+          "subreddit": "learnprogramming",
+          "created_utc": 1725557501.0
+        },
+        {
+          "summary": "Excessive workload and unrealistic expectations leading to burnout among computer science students.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.00012845747383602972,
+          "subreddit": "csMajors",
+          "created_utc": 1716109801.0
+        },
+        {
+          "summary": "Difficulty in learning web development effectively without a computer, as mobile devices are not ideal for coding.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.19612017671244086,
+          "subreddit": "learnprogramming",
+          "created_utc": 1748788008.0
+        },
+        {
+          "summary": "Aspiring developers find it challenging and overwhelming to transition into a tech career, especially when considering a career change later in life.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0020315551577579014,
+          "subreddit": "learnprogramming",
+          "created_utc": 1726440756.0
+        },
+        {
+          "summary": "The main pain point is the uncertainty and anxiety about pursuing a Computer Science degree at an older age, considering potential ageism, sparse work history, and the current job market conditions.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.215646235299069,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1748819193.0
+        },
+        {
+          "summary": "Difficulty in finding suitable web development courses for teenagers with basic HTML and CSS knowledge.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.17874416233588356,
+          "subreddit": "learnprogramming",
+          "created_utc": 1748796997.0
+        },
+        {
+          "summary": "Frustration with the oversaturation of the computer science field and the misconception that specialized fields like cybersecurity and AI are easier alternatives.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.1943186119953541,
+          "subreddit": "csMajors",
+          "created_utc": 1748809687.0
+        },
+        {
+          "summary": "The job market for CS graduates is perceived as highly competitive, with a significant advantage for those from top schools, leading to concerns about job availability and the impact of AI automation.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.276221371016114,
+          "subreddit": "csMajors",
+          "created_utc": 1748825043.0
+        },
+        {
+          "summary": "Difficulty in maintaining focus and managing time effectively due to procrastination and lack of experience in programming.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0022665994438807228,
+          "subreddit": "learnprogramming",
+          "created_utc": 1728013350.0
+        },
+        {
+          "summary": "Confusion about whether to focus on mastering Data Structures & Algorithms (DSA) in C++ or full stack development for better career prospects.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.15845035090239554,
+          "subreddit": "learnprogramming",
+          "created_utc": 1748793662.0
+        },
+        {
+          "summary": "Age-related stigma and discouragement in pursuing programming or career changes later in life.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0007920076941462236,
+          "subreddit": "learnprogramming",
+          "created_utc": 1723479166.0
+        },
+        {
+          "summary": "Difficulty in accessing affordable and structured learning resources for transitioning to a software development career.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0001595758378293856,
+          "subreddit": "learnprogramming",
+          "created_utc": 1716938808.0
+        },
+        {
+          "summary": "Feeling of inadequacy and anxiety when pursuing a computer science degree later in life, especially for those with non-traditional backgrounds.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00017714951584321193,
+          "subreddit": "learnprogramming",
+          "created_utc": 1717536416.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_2",
+      "topic": "Difficulty finding a job in the tech field despite having a degree, leading to consideration of military enlistment for career advancement.",
+      "frequency": 7,
+      "desperation_score": 5,
+      "avg_pain_score": 7.3,
+      "total_engagement_weight": 1.3,
+      "avg_engagement_weight": 0.19,
+      "market_proxy": {
+        "subscribers": 2621393,
+        "posts_per_week": 14,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Is joining the military a bad idea for me?",
+        "subreddit": "cscareerquestions",
+        "url": "https://reddit.com/r/cscareerquestions/comments/1l0cbzu/is_joining_the_military_a_bad_idea_for_me/",
+        "score": 191
+      },
+      "avg_upvotes": 4172.1,
+      "problem_category": "employment",
+      "mvp_suggestion": "Develop a platform that connects recent graduates with tech companies offering entry-level positions and internships, focusing on those with lower GPAs.",
+      "all_subreddits": [
+        "cscareerquestions",
+        "csMajors"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Difficulty for international students with limited work experience to gain traction in the job market, especially in tech, due to high competition and reliance on luck.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.006222780995197291,
+          "subreddit": "csMajors",
+          "created_utc": 1730656125.0
+        },
+        {
+          "summary": "Difficulty finding a job in the tech field despite having a degree, leading to consideration of military enlistment for career advancement.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.49560248932159007,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1748739090.0
+        },
+        {
+          "summary": "Difficulty in securing internships or jobs due to lack of experience and the high expectations of interviewers.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0033062063649698017,
+          "subreddit": "csMajors",
+          "created_utc": 1728296705.0
+        },
+        {
+          "summary": "Lack of entry-level tech jobs due to high competition and oversupply of candidates with STEM backgrounds.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.29576932582240434,
+          "subreddit": "csMajors",
+          "created_utc": 1748796225.0
+        },
+        {
+          "summary": "Disparity in income perception and cost of living across different regions.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0011716364404983765,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1724372632.0
+        },
+        {
+          "summary": "Lack of clear job title progression and criteria for skill assessment in companies without traditional junior/middle/senior titles.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.27181168894296115,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1748766673.0
+        },
+        {
+          "summary": "Difficulty in finding junior software engineering jobs due to high experience requirements and lack of networking opportunities.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.2269483529417348,
+          "subreddit": "csMajors",
+          "created_utc": 1748804998.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_1",
+      "topic": "Leetcode style interviews are criticized for not reflecting real-world skills and being time-consuming, especially for experienced professionals.",
+      "frequency": 11,
+      "desperation_score": 4,
+      "avg_pain_score": 7.0,
+      "total_engagement_weight": 0.7,
+      "avg_engagement_weight": 0.06,
+      "market_proxy": {
+        "subscribers": 2621393,
+        "posts_per_week": 22,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Why do some people hate leetcode style interviews",
+        "subreddit": "csMajors",
+        "url": "https://reddit.com/r/csMajors/comments/1l10bo2/why_do_some_people_hate_leetcode_style_interviews/",
+        "score": 38
+      },
+      "avg_upvotes": 7066.7,
+      "problem_category": "Recruitment and Hiring",
+      "mvp_suggestion": "Develop an interview platform that evaluates candidates based on practical, real-world scenarios and relevant technical skills rather than abstract algorithm problems.",
+      "all_subreddits": [
+        "cscareerquestions",
+        "csMajors"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Unprofessional and rude communication from a recruiter during the job application process.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0055551686965968385,
+          "subreddit": "csMajors",
+          "created_utc": 1730215826.0
+        },
+        {
+          "summary": "Frustration with the job application process and uncertainty about resume content.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.014344350642278918,
+          "subreddit": "csMajors",
+          "created_utc": 1733770724.0
+        },
+        {
+          "summary": "The main pain point is the prevalence of cheating during remote interviews, which undermines the integrity of the hiring process.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.00484594434544595,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1729611726.0
+        },
+        {
+          "summary": "The job application and hiring process is flawed, allowing candidates who embellish their resumes to succeed while qualified candidates struggle to get interviews.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0023262568491331254,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1726951251.0
+        },
+        {
+          "summary": "The intense pressure and stress associated with preparing for technical interviews, including excessive practice on platforms like Leetcode, resume polishing, and the competitive nature of securing a job in tech.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00638511018494108,
+          "subreddit": "csMajors",
+          "created_utc": 1730751408.0
+        },
+        {
+          "summary": "Job candidates are frustrated with the recruitment process, which includes fake job postings, lack of human interaction, and ineffective assessment methods.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.004861658910576576,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1729701281.0
+        },
+        {
+          "summary": "Leetcode style interviews are criticized for not reflecting real-world skills and being time-consuming, especially for experienced professionals.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.4587594534481499,
+          "subreddit": "csMajors",
+          "created_utc": 1748812994.0
+        },
+        {
+          "summary": "Exaggeration or misrepresentation of educational credentials on LinkedIn profiles.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0019419509450205488,
+          "subreddit": "csMajors",
+          "created_utc": 1726787237.0
+        },
+        {
+          "summary": "Unrealistic expectations set by management based on the performance of an exceptionally talented team member, leading to burnout and a toxic work environment.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.19643166615240082,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1748824732.0
+        },
+        {
+          "summary": "The unconventional and overly simplistic interview process raises concerns about the adequacy of candidate evaluation for technical roles.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00023042956935914836,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1718304953.0
+        },
+        {
+          "summary": "Difficulty in receiving job callbacks despite having relevant skills.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00017662284270885122,
+          "subreddit": "csMajors",
+          "created_utc": 1717342399.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_5",
+      "topic": "The main pain point is the reliance on tutorials and AI tools, which prevents the individual from developing independent problem-solving and coding skills.",
+      "frequency": 4,
+      "desperation_score": 7,
+      "avg_pain_score": 6.5,
+      "total_engagement_weight": 0.42,
+      "avg_engagement_weight": 0.11,
+      "market_proxy": {
+        "subscribers": 4581140,
+        "posts_per_week": 8,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "How to overcoming coding fear",
+        "subreddit": "learnprogramming",
+        "url": "https://reddit.com/r/learnprogramming/comments/1l0tmkx/how_to_overcoming_coding_fear/",
+        "score": 40
+      },
+      "avg_upvotes": 627.0,
+      "problem_category": "education",
+      "mvp_suggestion": "Develop a guided learning platform that gradually reduces assistance, encouraging users to solve problems independently and build projects from scratch with minimal guidance.",
+      "all_subreddits": [
+        "learnprogramming",
+        "csMajors"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is the reliance on tutorials and AI tools, which prevents the individual from developing independent problem-solving and coding skills.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.22200022985932946,
+          "subreddit": "learnprogramming",
+          "created_utc": 1748796473.0
+        },
+        {
+          "summary": "The main pain point is skepticism and criticism towards the viability and originality of AI-based chat app solutions, particularly in terms of their effectiveness and differentiation in a saturated market.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.19696748715367943,
+          "subreddit": "csMajors",
+          "created_utc": 1748793663.0
+        },
+        {
+          "summary": "Over-reliance on AI tools like ChatGPT is hindering personal problem-solving skills.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.001857546037902037,
+          "subreddit": "learnprogramming",
+          "created_utc": 1726110659.0
+        },
+        {
+          "summary": "Over-reliance on AI tools like ChatGPT by junior developers for learning and problem-solving, leading to inadequate development of fundamental research and debugging skills.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00039056938283244745,
+          "subreddit": "learnprogramming",
+          "created_utc": 1720195416.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_7",
+      "topic": "Developers face frustration when searching for solutions to coding errors online, often finding unanswered questions or unhelpful responses.",
+      "frequency": 6,
+      "desperation_score": 4,
+      "avg_pain_score": 5.8,
+      "total_engagement_weight": 0.68,
+      "avg_engagement_weight": 0.11,
+      "market_proxy": {
+        "subscribers": 6836525,
+        "posts_per_week": 12,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "When you Google an error and every result is someone asking the exact same question... with 0 answers. 😭",
+        "subreddit": "learnprogramming",
+        "url": "https://reddit.com/r/learnprogramming/comments/1l0ji4u/when_you_google_an_error_and_every_result_is/",
+        "score": 168
+      },
+      "avg_upvotes": 1695.8,
+      "problem_category": "productivity",
+      "mvp_suggestion": "Develop a platform or tool that aggregates common coding errors and provides verified solutions or troubleshooting steps, possibly using AI to suggest fixes based on code snippets.",
+      "all_subreddits": [
+        "csMajors",
+        "learnprogramming",
+        "cscareerquestions"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Developers face frustration when searching for solutions to coding errors online, often finding unanswered questions or unhelpful responses.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.31006930531447,
+          "subreddit": "learnprogramming",
+          "created_utc": 1748764477.0
+        },
+        {
+          "summary": "Meetings are unproductive and excessively long, often filled with off-topic discussions, leading to wasted time and frustration.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00342210016454205,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1728411170.0
+        },
+        {
+          "summary": "The game takes too long to defeat opponents, which may not hold the attention of players with shorter attention spans.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.0008028807061211275,
+          "subreddit": "learnprogramming",
+          "created_utc": 1722944897.0
+        },
+        {
+          "summary": "Users are frustrated by finding unresolved or poorly documented solutions to technical problems on forums and Q&A sites.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.20499983355017676,
+          "subreddit": "learnprogramming",
+          "created_utc": 1748823427.0
+        },
+        {
+          "summary": "The subreddit lacks effective moderation, leading to repetitive and off-topic posts that diminish the quality of discussions and frustrate users seeking valuable programming learning resources.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0009449997553172447,
+          "subreddit": "learnprogramming",
+          "created_utc": 1723562627.0
+        },
+        {
+          "summary": "Difficulty in establishing reliable connections in circuit design.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.1620718512800102,
+          "subreddit": "csMajors",
+          "created_utc": 1748825149.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_6",
+      "topic": "Users are concerned about the potential for Github Reels to become another time-consuming platform like Instagram, but see potential value in using short videos for technical tutorials and project showcases.",
+      "frequency": 3,
+      "desperation_score": 3,
+      "avg_pain_score": 7.0,
+      "total_engagement_weight": 0.3,
+      "avg_engagement_weight": 0.1,
+      "market_proxy": {
+        "subscribers": 6836525,
+        "posts_per_week": 6,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Github Reels",
+        "subreddit": "csMajors",
+        "url": "https://reddit.com/r/csMajors/comments/1l0o049/github_reels/",
+        "score": 199
+      },
+      "avg_upvotes": 2927.3,
+      "problem_category": "productivity",
+      "mvp_suggestion": "Develop a feature within Github that allows users to upload short, focused tutorial videos or project showcases directly linked to their repositories, with an emphasis on educational content rather than entertainment.",
+      "all_subreddits": [
+        "learnprogramming",
+        "csMajors",
+        "cscareerquestions"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Netflix's inability to provide a stable live stream for a high-demand event like the Mike Tyson fight, despite having significant resources and high-paid engineers.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.00854929873587539,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1731769153.0
+        },
+        {
+          "summary": "Users are concerned about the potential for Github Reels to become another time-consuming platform like Instagram, but see potential value in using short videos for technical tutorials and project showcases.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.28044933598220506,
+          "subreddit": "csMajors",
+          "created_utc": 1748781632.0
+        },
+        {
+          "summary": "Ineffectiveness of tutorial videos compared to reading documentation for learning in-depth knowledge.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.009395912700843454,
+          "subreddit": "learnprogramming",
+          "created_utc": 1732494340.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_3",
+      "topic": "Exploitation of H1B workers by Elon Musk, leading to job insecurity and poor working conditions.",
+      "frequency": 6,
+      "desperation_score": 4,
+      "avg_pain_score": 7.8,
+      "total_engagement_weight": 0.09,
+      "avg_engagement_weight": 0.01,
+      "market_proxy": {
+        "subscribers": 2621393,
+        "posts_per_week": 12,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Elon laid off Tesla employees and requested H1B workers ",
+        "subreddit": "csMajors",
+        "url": "https://reddit.com/r/csMajors/comments/1hnjr9e/elon_laid_off_tesla_employees_and_requested_h1b/",
+        "score": 15593
+      },
+      "avg_upvotes": 8109.0,
+      "problem_category": "Labor and Employment",
+      "mvp_suggestion": "Develop a platform that provides legal support and advocacy for H1B workers to ensure fair treatment and job security.",
+      "all_subreddits": [
+        "cscareerquestions",
+        "csMajors"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is the perceived exploitation of engineers through low wages and long hours, particularly targeting H1B visa holders, amidst high employee turnover and job market instability.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.02148284021198141,
+          "subreddit": "csMajors",
+          "created_utc": 1735191296.0
+        },
+        {
+          "summary": "Exploitation of H1B workers by Elon Musk, leading to job insecurity and poor working conditions.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.021706924949863114,
+          "subreddit": "csMajors",
+          "created_utc": 1735319901.0
+        },
+        {
+          "summary": "Concerns about the misuse and impact of H-1B visas on local job markets and potential visa fraud.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.021653321580977845,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1735185274.0
+        },
+        {
+          "summary": "Discrimination against non-Indian workers and abuse of the H-1B visa process in tech companies, leading to exclusion and job displacement.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.015553457586925772,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1734045858.0
+        },
+        {
+          "summary": "User experiencing issues with being blacklisted from LinkedIn, impacting their B2B sales efforts.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.004880313297519342,
+          "subreddit": "csMajors",
+          "created_utc": 1729750591.0
+        },
+        {
+          "summary": "Employees at startups face pressure to work beyond contracted hours without additional compensation, leading to conflicts over work-life boundaries.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0001324482389772334,
+          "subreddit": "cscareerquestions",
+          "created_utc": 1716203404.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    }
+  ],
+  "subreddits_analyzed": [
+    "csMajors",
+    "learnprogramming",
+    "cscareerquestions"
+  ]
+}

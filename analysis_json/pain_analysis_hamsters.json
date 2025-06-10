@@ -1,0 +1,525 @@
+{
+  "topic": "hamsters",
+  "analysis_summary": {
+    "total_subreddits": 3,
+    "total_posts": 77,
+    "total_clusters": 8,
+    "total_pain_points": 58,
+    "average_desperation_score": 4.4,
+    "average_pain_score": 5.4,
+    "high_priority_clusters": 2
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_1",
+      "topic": "Negligence by a pet sitter leading to distress and potential harm to the pet.",
+      "frequency": 17,
+      "desperation_score": 9,
+      "avg_pain_score": 6.9,
+      "market_proxy": {
+        "subscribers": 333876,
+        "posts_per_week": 34,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "My cat sitter neglected my baby ",
+        "subreddit": "Pets",
+        "url": "https://reddit.com/r/Pets/comments/1fnz8ux/my_cat_sitter_neglected_my_baby/",
+        "score": 2572
+      },
+      "avg_upvotes": 768.3,
+      "problem_category": "Pet care",
+      "mvp_suggestion": "Develop a pet sitting platform with integrated accountability features such as mandatory check-ins, real-time updates, and video monitoring to ensure pet sitters fulfill their duties.",
+      "all_subreddits": [
+        "Pets",
+        "AnimalAdvice"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Negligence by a pet sitter leading to distress and potential harm to the pet.",
+          "pain_score": 8.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Family conflict and lack of support over an incident of animal abuse.",
+          "pain_score": 8.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Unexpected adverse reaction to a veterinary medication leading to pet's death.",
+          "pain_score": 9.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Pet owners experience significant distress and anxiety when their pets go missing, especially after moving to a new location.",
+          "pain_score": 8.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Unprofessional and unprepared in-home pet euthanasia service causing distress during an already emotional event.",
+          "pain_score": 8.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Pet owners accidentally locking their pets in rooms without access to necessities like food, water, or a litter box.",
+          "pain_score": 4.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Abandonment of pets by owners, leading to stray animals suffering from neglect and starvation.",
+          "pain_score": 8.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Pet owners feel discomfort and inconvenience due to their pets occupying personal spaces, leading to hesitation in moving them.",
+          "pain_score": 4.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Veterinary clinics often fail to listen to pet owners' concerns and provide consistent care, leading to misdiagnoses and unnecessary stress.",
+          "pain_score": 8.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Difficulty in finding a dog breed that coexists peacefully with domestic shorthair cats due to varying prey and herding drives.",
+          "pain_score": 6.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Lack of immediate access to veterinary care for stray animals with health issues.",
+          "pain_score": 4.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Neglect of pets due to inadequate care and living conditions.",
+          "pain_score": 7.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Pet owners struggle with helping their surviving pets cope with grief after the loss of a companion animal.",
+          "pain_score": 7.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Distress caused by neighbors' dogs being kept in poor conditions, leading to constant howling and potential animal welfare issues.",
+          "pain_score": 8.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Animal neglect due to lack of exercise and unsanitary living conditions for dogs in an apartment complex.",
+          "pain_score": 7.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Difficulty in finding appropriate help for a wild rabbit in need of care.",
+          "pain_score": 6.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Many pet owners lack proper education and commitment to care for their pets, leading to neglect and inadequate living conditions.",
+          "pain_score": 7.0,
+          "subreddit": "AnimalAdvice"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_5",
+      "topic": "Concern about a stray cat with a severe nasal infection and the need for veterinary care without spreading infection to other pets.",
+      "frequency": 5,
+      "desperation_score": 9,
+      "avg_pain_score": 5.4,
+      "market_proxy": {
+        "subscribers": 333876,
+        "posts_per_week": 10,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "stray cat who we feed- what’s wrong with his nose? his breathing sounds obstructed. we could potentially put him inside but we have another cat and don’t want to spread infection",
+        "subreddit": "AnimalAdvice",
+        "url": "https://reddit.com/r/AnimalAdvice/comments/1hbh76k/stray_cat_who_we_feed_whats_wrong_with_his_nose/",
+        "score": 136
+      },
+      "avg_upvotes": 62.0,
+      "problem_category": "Animal welfare",
+      "mvp_suggestion": "Develop a mobile app that connects pet owners and rescuers with nearby veterinarians and shelters offering discounted or free services for stray animals.",
+      "all_subreddits": [
+        "Pets",
+        "AnimalAdvice"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Cats following their owners everywhere, including the bathroom, which can be seen as cute but also intrusive or inconvenient.",
+          "pain_score": 3.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Concern about a stray cat with a severe nasal infection and the need for veterinary care without spreading infection to other pets.",
+          "pain_score": 8.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Pet owner is concerned about their cat's adverse reaction to ingesting lemongrass, which is toxic to cats, and is unsure whether to seek immediate veterinary care.",
+          "pain_score": 8.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Cat acne caused by plastic food or water bowls.",
+          "pain_score": 4.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Uncertainty about whether a newly adopted cat is pregnant or just overweight.",
+          "pain_score": 4.0,
+          "subreddit": "AnimalAdvice"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_3",
+      "topic": "The main pain point is the visual similarity between food items and animals, causing discomfort or shock.",
+      "frequency": 12,
+      "desperation_score": 3,
+      "avg_pain_score": 6.5,
+      "market_proxy": {
+        "subscribers": 487448,
+        "posts_per_week": 24,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Sorry if not allowed, but my tender looks uncannily like a hamster ",
+        "subreddit": "hamsters",
+        "url": "https://reddit.com/r/hamsters/comments/1db4a6d/sorry_if_not_allowed_but_my_tender_looks/",
+        "score": 2828
+      },
+      "avg_upvotes": 1238.0,
+      "problem_category": "Consumer experience",
+      "mvp_suggestion": "Develop an AI-powered app that scans food items and provides a humorous or reassuring analysis to confirm they are not animals.",
+      "all_subreddits": [
+        "hamsters",
+        "Pets",
+        "AnimalAdvice"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is the visual similarity between food items and animals, causing discomfort or shock.",
+          "pain_score": 2.0,
+          "subreddit": "hamsters"
+        },
+        {
+          "summary": "The primary pain point is the emotional distress and grief experienced by pet owners after the loss of a beloved pet.",
+          "pain_score": 7.0,
+          "subreddit": "hamsters"
+        },
+        {
+          "summary": "The main pain point is the emotional distress and grief experienced by pet owners after the loss of a pet.",
+          "pain_score": 7.0,
+          "subreddit": "hamsters"
+        },
+        {
+          "summary": "The primary pain point is the threat of harm to a beloved pet by a partner, indicating a potentially abusive relationship.",
+          "pain_score": 9.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Disagreement between partners on the decision to euthanize a pet due to differing views on pet care and emotional attachment.",
+          "pain_score": 7.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "The main pain point is the backlash and defensiveness faced when advocating for responsible pet ownership, particularly regarding keeping cats indoors to prevent harm to wildlife and the cats themselves.",
+          "pain_score": 6.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "The primary pain point is the conflict between the fiancée's attachment to her aggressive, dementia-affected dog and the safety and well-being of the cats, leading to relationship strain and potential harm to the animals.",
+          "pain_score": 9.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "The primary pain point is the emotional and physical toll on the pet owner due to the dog's declining health and care needs, impacting the owner's quality of life and mental well-being.",
+          "pain_score": 8.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "The primary pain point is the ineffective use of punishment in pet training, leading to fear and stress in pets and frustration in owners.",
+          "pain_score": 6.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "The main pain point is the conflict between the desire of a teenager to spend time with their dog on its birthday and the mother's need for personal time, leading to frustration and a feeling of unfairness.",
+          "pain_score": 4.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "The primary pain point is the guilt and concern over the well-being of the cats due to a temporary move to a less ideal living situation with potential stressors like dogs and limited space.",
+          "pain_score": 6.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "The main pain point is the difficulty faced by pet owners who fall on hard times and cannot afford basic vet care, leading to ethical dilemmas about whether to keep or surrender their pets.",
+          "pain_score": 7.0,
+          "subreddit": "AnimalAdvice"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_4",
+      "topic": "Misleading product claims by sellers regarding pet enclosures, potentially leading to inappropriate purchases for pet owners.",
+      "frequency": 5,
+      "desperation_score": 4,
+      "avg_pain_score": 7.2,
+      "market_proxy": {
+        "subscribers": 159487,
+        "posts_per_week": 10,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "The way some sellers make absolutely WILD claims really throws me off",
+        "subreddit": "hamsters",
+        "url": "https://reddit.com/r/hamsters/comments/1kzyuud/the_way_some_sellers_make_absolutely_wild_claims/",
+        "score": 45
+      },
+      "avg_upvotes": 24.4,
+      "problem_category": "Consumer Protection",
+      "mvp_suggestion": "Develop a platform or browser extension that verifies and flags misleading claims on pet product listings, providing accurate information and recommendations for pet owners.",
+      "all_subreddits": [
+        "hamsters",
+        "AnimalAdvice"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Misleading product claims by sellers regarding pet enclosures, potentially leading to inappropriate purchases for pet owners.",
+          "pain_score": 6.0,
+          "subreddit": "hamsters"
+        },
+        {
+          "summary": "Difficulty in getting timely assistance from local humane societies or authorities for animal welfare issues.",
+          "pain_score": 8.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Pet owners struggle with affording urgent veterinary care for their animals.",
+          "pain_score": 8.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "High costs and lack of thoroughness in veterinary services, leading to dissatisfaction with value for money.",
+          "pain_score": 7.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Unexpected and high costs associated with veterinary services, particularly for procedures assumed to be included in other services.",
+          "pain_score": 7.0,
+          "subreddit": "AnimalAdvice"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_7",
+      "topic": "Pets developing disruptive behaviors in response to human actions, particularly related to alarms and routines.",
+      "frequency": 9,
+      "desperation_score": 3,
+      "avg_pain_score": 4.4,
+      "market_proxy": {
+        "subscribers": 487448,
+        "posts_per_week": 18,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": " I accidentally trained my cat to hate my alarm clock… now mornings are interesting",
+        "subreddit": "Pets",
+        "url": "https://reddit.com/r/Pets/comments/1ho0wot/i_accidentally_trained_my_cat_to_hate_my_alarm/",
+        "score": 9844
+      },
+      "avg_upvotes": 1569.7,
+      "problem_category": "Pet behavior management",
+      "mvp_suggestion": "Develop a pet training app that helps pet owners modify or prevent unwanted pet behaviors through positive reinforcement techniques.",
+      "all_subreddits": [
+        "hamsters",
+        "Pets",
+        "AnimalAdvice"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Concerns about fat shaming and body image, even in the context of pets.",
+          "pain_score": 3.0,
+          "subreddit": "hamsters"
+        },
+        {
+          "summary": "Some hamster owners experience frustration when their pets refuse to eat certain foods like mealworms.",
+          "pain_score": 3.0,
+          "subreddit": "hamsters"
+        },
+        {
+          "summary": "Pets developing disruptive behaviors in response to human actions, particularly related to alarms and routines.",
+          "pain_score": 3.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Pet owners struggle with managing feeding times and reducing noise from pets demanding food.",
+          "pain_score": 4.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Pet owners experience humorous but sometimes frustrating interactions with their pets, often involving pets demanding attention or food at inconvenient times.",
+          "pain_score": 3.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Pet owners are frustrated with unusual or problematic behaviors in their dogs, such as licking walls or being scared of the dark.",
+          "pain_score": 4.0,
+          "subreddit": "Pets"
+        },
+        {
+          "summary": "Uncertainty and concern about the consequences of feeding wild animals, including potential health issues for the animal and safety concerns for humans and pets.",
+          "pain_score": 6.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Pet owners are concerned about identifying and addressing health issues in their pets, particularly when symptoms are ambiguous and could be related to dental or other health problems.",
+          "pain_score": 7.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Pet owners are often misinformed about proper pet nutrition and care, leading to potential health issues for their pets.",
+          "pain_score": 7.0,
+          "subreddit": "AnimalAdvice"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_6",
+      "topic": "Concern about the survival of an injured goose with a broken wing and uncertainty about how to get appropriate help.",
+      "frequency": 2,
+      "desperation_score": 5,
+      "avg_pain_score": 5.0,
+      "market_proxy": {
+        "subscribers": 5915,
+        "posts_per_week": 4,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "Should I help this goose?",
+        "subreddit": "AnimalAdvice",
+        "url": "https://reddit.com/r/AnimalAdvice/comments/1giuc1j/should_i_help_this_goose/",
+        "score": 16
+      },
+      "avg_upvotes": 13.5,
+      "problem_category": "Wildlife rescue and rehabilitation",
+      "mvp_suggestion": "Develop a mobile app that connects users with local wildlife rescue and rehabilitation centers, providing guidance on how to handle injured wildlife and contact information for immediate assistance.",
+      "all_subreddits": [
+        "AnimalAdvice"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Concern about the survival of an injured goose with a broken wing and uncertainty about how to get appropriate help.",
+          "pain_score": 6.0,
+          "subreddit": "AnimalAdvice"
+        },
+        {
+          "summary": "Concern about providing a safe environment for ducks to nest and ensuring the safety of ducklings around a pool.",
+          "pain_score": 4.0,
+          "subreddit": "AnimalAdvice"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_2",
+      "topic": "Uncertainty about whether a hamster is enjoying or consenting to a particular activity.",
+      "frequency": 7,
+      "desperation_score": 1,
+      "avg_pain_score": 4.1,
+      "market_proxy": {
+        "subscribers": 159487,
+        "posts_per_week": 14,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Is bro having fun? This is consensual right?",
+        "subreddit": "hamsters",
+        "url": "https://reddit.com/r/hamsters/comments/1h1n8m0/is_bro_having_fun_this_is_consensual_right/",
+        "score": 6975
+      },
+      "avg_upvotes": 1930.3,
+      "problem_category": "Pet care",
+      "mvp_suggestion": "Develop a smart pet monitoring device that can analyze pet behavior and provide feedback on their emotional state.",
+      "all_subreddits": [
+        "hamsters",
+        "AnimalAdvice"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Uncertainty about whether a hamster is enjoying or consenting to a particular activity.",
+          "pain_score": 3.0,
+          "subreddit": "hamsters"
+        },
+        {
+          "summary": "Concern about hamster safety and prevention of injuries while using exercise wheels.",
+          "pain_score": 3.0,
+          "subreddit": "hamsters"
+        },
+        {
+          "summary": "Hamsters exhibit stress or displeasure after their enclosures are cleaned, likely due to the unfamiliar scent or disruption of their environment.",
+          "pain_score": 3.0,
+          "subreddit": "hamsters"
+        },
+        {
+          "summary": "Concern about the health and medical care of an elderly hamster, specifically regarding potential need for a hysterectomy.",
+          "pain_score": 7.0,
+          "subreddit": "hamsters"
+        },
+        {
+          "summary": "Hamster may be experiencing discomfort due to heat, leading it to sleep in random places instead of provided bedding and hides.",
+          "pain_score": 3.0,
+          "subreddit": "hamsters"
+        },
+        {
+          "summary": "The main pain point is that the 40 gallon tank is considered too small for a Syrian hamster, which ideally requires a 75 gallon tank.",
+          "pain_score": 6.0,
+          "subreddit": "hamsters"
+        },
+        {
+          "summary": "Uncertainty about when to intervene with wildlife seen during the day.",
+          "pain_score": 4.0,
+          "subreddit": "AnimalAdvice"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cluster_0",
+      "topic": "Difficulty in understanding and respecting non-verbal communication and boundaries.",
+      "frequency": 1,
+      "desperation_score": 1,
+      "avg_pain_score": 4.0,
+      "market_proxy": {
+        "subscribers": 5915,
+        "posts_per_week": 2,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "What’s the most profound life lesson your pet has taught you?",
+        "subreddit": "AnimalAdvice",
+        "url": "https://reddit.com/r/AnimalAdvice/comments/1kyu0o2/whats_the_most_profound_life_lesson_your_pet_has/",
+        "score": 9
+      },
+      "avg_upvotes": 9.0,
+      "problem_category": "Communication",
+      "mvp_suggestion": "Develop an app that educates users on interpreting non-verbal cues and respecting boundaries, with interactive scenarios and feedback.",
+      "all_subreddits": [
+        "AnimalAdvice"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Difficulty in understanding and respecting non-verbal communication and boundaries.",
+          "pain_score": 4.0,
+          "subreddit": "AnimalAdvice"
+        }
+      ]
+    }
+  ],
+  "subreddits_analyzed": [
+    "hamsters",
+    "Pets",
+    "AnimalAdvice"
+  ]
+}

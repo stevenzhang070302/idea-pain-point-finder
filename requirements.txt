@@ -1,0 +1,11 @@
+langchain
+langgraph
+openai
+praw
+python-dotenv
+streamlit
+sentence-transformers
+faiss-cpu
+numpy
+scikit-learn
+tiktoken 

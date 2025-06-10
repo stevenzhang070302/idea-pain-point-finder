@@ -1,0 +1,597 @@
+{
+  "topic": "small business owners",
+  "analysis_summary": {
+    "total_subreddits": 3,
+    "total_posts": 46,
+    "total_clusters": 8,
+    "total_pain_points": 46,
+    "average_desperation_score": 5.2,
+    "average_pain_score": 6.9,
+    "high_priority_clusters": 1,
+    "total_engagement_weight": 4.14,
+    "average_engagement_weight": 0.07,
+    "trending_clusters": 0,
+    "phase_2_features": {
+      "engagement_weighted_scoring": true,
+      "comment_context_injection": true,
+      "llm_assisted_deduping": true,
+      "temporal_trend_analysis": true
+    }
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_3",
+      "topic": "The main pain point is the decision-making conflict between continuing a high-paying job with stock options and focusing on a rapidly growing business that could potentially yield higher returns.",
+      "frequency": 12,
+      "desperation_score": 6,
+      "avg_pain_score": 7.0,
+      "total_engagement_weight": 1.04,
+      "avg_engagement_weight": 0.09,
+      "market_proxy": {
+        "subscribers": 6915476,
+        "posts_per_week": 24,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "My wife thinks I’m crazy to leave my 200k / yr job to focus on our business.",
+        "subreddit": "Entrepreneur",
+        "url": "https://reddit.com/r/Entrepreneur/comments/1l0res2/my_wife_thinks_im_crazy_to_leave_my_200k_yr_job/",
+        "score": 173
+      },
+      "avg_upvotes": 1109.0,
+      "problem_category": "Finance",
+      "mvp_suggestion": "Develop a decision-support tool that evaluates financial scenarios and risk factors, incorporating both personal and business financial data to provide clear insights on potential outcomes of leaving the job versus staying.",
+      "all_subreddits": [
+        "Entrepreneur",
+        "smallbusiness"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is the decision-making conflict between continuing a high-paying job with stock options and focusing on a rapidly growing business that could potentially yield higher returns.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.5021525074461377,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748791000.0
+        },
+        {
+          "summary": "Uncertainty and lack of direction after selling a long-term business.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.022267259085069685,
+          "subreddit": "smallbusiness",
+          "created_utc": 1735362453.0
+        },
+        {
+          "summary": "The primary pain point is the lack of control over product availability, leading to missed opportunities for consumers to purchase high-demand items like nicotine pouches.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.006340741556490586,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1730714143.0
+        },
+        {
+          "summary": "Failure to proactively address a known configuration issue led to losing a major client.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.006903465171718373,
+          "subreddit": "smallbusiness",
+          "created_utc": 1731002279.0
+        },
+        {
+          "summary": "The main pain point is the uncertainty and lack of knowledge about the legal and financial aspects of running a rapidly growing side business.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.01097699318304094,
+          "subreddit": "smallbusiness",
+          "created_utc": 1732858727.0
+        },
+        {
+          "summary": "The family trophy and medal business is struggling financially post-pandemic, with the successor lacking business experience and facing personal dilemmas about education and family responsibilities.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0011061604218436626,
+          "subreddit": "smallbusiness",
+          "created_utc": 1724069526.0
+        },
+        {
+          "summary": "The main pain point is the potential risk and challenges associated with transitioning from a successful mobile beer bar business to opening a micro-brewery, which requires significant capital, expertise, and effort without guaranteed profitability.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0018026665804330582,
+          "subreddit": "smallbusiness",
+          "created_utc": 1725990274.0
+        },
+        {
+          "summary": "Over-reliance on a single client leading to significant revenue loss and business instability.",
+          "pain_score": 9.0,
+          "engagement_weight": 0.0017101225212432258,
+          "subreddit": "smallbusiness",
+          "created_utc": 1725838161.0
+        },
+        {
+          "summary": "Difficulty in transitioning from being a business owner to working as an employee, leading to a sense of not fitting in and frustration with workplace dynamics.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.29052880559573085,
+          "subreddit": "smallbusiness",
+          "created_utc": 1748792338.0
+        },
+        {
+          "summary": "The main pain point is the uncertainty and difficulty in identifying the right business idea and the lack of a support network for aspiring entrepreneurs.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.1997223760196232,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748808549.0
+        },
+        {
+          "summary": "The main pain point is the challenge of establishing a new business in a competitive market and the initial difficulty in gaining a customer base and reputation.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0005176063468110836,
+          "subreddit": "smallbusiness",
+          "created_utc": 1721328023.0
+        },
+        {
+          "summary": "The overuse of tipping options in non-food service industries is causing frustration among consumers who feel pressured to tip despite already paying high service fees.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00010106560767979156,
+          "subreddit": "smallbusiness",
+          "created_utc": 1715826506.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_2",
+      "topic": "The main pain point is the uncertainty and risk associated with entrepreneurship versus the perceived stability and benefits of traditional employment.",
+      "frequency": 9,
+      "desperation_score": 5,
+      "avg_pain_score": 7.3,
+      "total_engagement_weight": 1.06,
+      "avg_engagement_weight": 0.12,
+      "market_proxy": {
+        "subscribers": 6915476,
+        "posts_per_week": 18,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Is it worth the risk?",
+        "subreddit": "smallbusiness",
+        "url": "https://reddit.com/r/smallbusiness/comments/1l0zy9c/is_it_worth_the_risk/",
+        "score": 6
+      },
+      "avg_upvotes": 823.8,
+      "problem_category": "Career and Lifestyle",
+      "mvp_suggestion": "Develop a platform that provides aspiring entrepreneurs with realistic success metrics, mentorship, and a community to share experiences and strategies for balancing risk and reward.",
+      "all_subreddits": [
+        "Entrepreneur",
+        "smallbusiness"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is the lack of personal fulfillment and happiness despite financial success, leading to feelings of depression and dissatisfaction with life.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.00816628441156879,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1731412795.0
+        },
+        {
+          "summary": "The main pain point is the misconception of entrepreneurship as ultimate freedom, leading to stress, financial instability, and lack of work-life balance.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0024469324238964875,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1727055682.0
+        },
+        {
+          "summary": "The main pain point is the burnout and stress experienced by the agency owner due to the demands of running a $1M business, including managing growth, making strategic decisions, and maintaining quality without compromising personal health.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.3288138383533336,
+          "subreddit": "smallbusiness",
+          "created_utc": 1748813700.0
+        },
+        {
+          "summary": "The primary pain point is the burnout experienced by the entrepreneur due to the intense workload and emergency bug fixes.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0003890482924244407,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1720182570.0
+        },
+        {
+          "summary": "The main pain point is the stress and potential negative impact on a startup from focusing too much on raising investor funds instead of building a sustainable, revenue-generating product.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.19352975663453115,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748805956.0
+        },
+        {
+          "summary": "The main pain point is the uncertainty and risk associated with entrepreneurship versus the perceived stability and benefits of traditional employment.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.3506611082094549,
+          "subreddit": "smallbusiness",
+          "created_utc": 1748812075.0
+        },
+        {
+          "summary": "The main pain point is the potential regret and burnout from sacrificing personal time and social life for work and entrepreneurial pursuits.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.18033535853369123,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748792170.0
+        },
+        {
+          "summary": "The main pain point discussed is the high depreciation and disposal cost of business assets like restaurant equipment and office furniture, which can lead to financial losses for businesses.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00015246860793728055,
+          "subreddit": "smallbusiness",
+          "created_utc": 1716816753.0
+        },
+        {
+          "summary": "The primary pain point is the inefficiency and challenges faced in startup management, particularly in areas like premature scaling, ineffective hiring, and lack of proper validation and marketing strategies.",
+          "pain_score": 8.0,
+          "engagement_weight": 8.76394037760141e-05,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1714665997.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_6",
+      "topic": "Entrepreneurs often focus on creating innovative or 'big' ideas that may not meet market demand, leading to financial struggles.",
+      "frequency": 11,
+      "desperation_score": 4,
+      "avg_pain_score": 6.8,
+      "total_engagement_weight": 1.06,
+      "avg_engagement_weight": 0.1,
+      "market_proxy": {
+        "subscribers": 6915476,
+        "posts_per_week": 22,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "I stopped chasing the next big thing and finally made money",
+        "subreddit": "Entrepreneur",
+        "url": "https://reddit.com/r/Entrepreneur/comments/1l0vuak/i_stopped_chasing_the_next_big_thing_and_finally/",
+        "score": 319
+      },
+      "avg_upvotes": 1014.9,
+      "problem_category": "Entrepreneurship",
+      "mvp_suggestion": "A platform that connects entrepreneurs with small businesses to identify and solve simple, high-demand problems.",
+      "all_subreddits": [
+        "Entrepreneur",
+        "smallbusiness"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Entrepreneurs often focus on creating innovative or 'big' ideas that may not meet market demand, leading to financial struggles.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.4437810419963509,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748801878.0
+        },
+        {
+          "summary": "A small family-owned coffee drive-thru is facing competition from a new Dunkin' location opening nearby, causing concern about business impact.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.019044336327517095,
+          "subreddit": "smallbusiness",
+          "created_utc": 1734563978.0
+        },
+        {
+          "summary": "Perception that modern billionaires are not contributing to public spaces and institutions as visibly as those from the past.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.01243785296835437,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1733192461.0
+        },
+        {
+          "summary": "Difficulty in identifying valuable and solvable business ideas.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0034334657940739317,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1728416095.0
+        },
+        {
+          "summary": "Entrepreneurs are experiencing burnout from excessive hustle without strategic direction, leading to lack of progress in their startups.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.22977709966264198,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748806020.0
+        },
+        {
+          "summary": "Entrepreneurs and professionals often ask vague questions without providing sufficient context, leading to ineffective advice and wasted time.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.001318463863563933,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1724802847.0
+        },
+        {
+          "summary": "Many aspiring entrepreneurs mistakenly believe that purchasing courses or information products equates to taking real action towards building a business, leading to a lack of practical experience and consistency in execution.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0001238873304321836,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1715967556.0
+        },
+        {
+          "summary": "The perception that many young entrepreneurs are making significant amounts of money is inflated by social media, leading to skepticism and mistrust.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00010422475191026308,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1715199884.0
+        },
+        {
+          "summary": "Sudden enforcement of patent rights by a big brand leading to mass bans and business disruption for sellers in a niche market.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.17152788329938826,
+          "subreddit": "smallbusiness",
+          "created_utc": 1748808370.0
+        },
+        {
+          "summary": "Aspiring entrepreneurs struggle with identifying viable business ideas and fear competition from existing businesses.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.17492312934576407,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748813492.0
+        },
+        {
+          "summary": "The entrepreneur feels unable to share their financial success with others due to misconceptions about wealth and is overwhelmed by the business's growth, necessitating hiring and salary adjustments.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.00012219143604358913,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1715878101.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_1",
+      "topic": "The main pain point is the exploitation of skilled professionals by offering inadequate compensation and misleading partnership terms.",
+      "frequency": 7,
+      "desperation_score": 6,
+      "avg_pain_score": 5.3,
+      "total_engagement_weight": 0.55,
+      "avg_engagement_weight": 0.08,
+      "market_proxy": {
+        "subscribers": 6916898,
+        "posts_per_week": 14,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "UK Millionaire Wanted Me to Build His Business for Peanuts",
+        "subreddit": "smallbusiness",
+        "url": "https://reddit.com/r/smallbusiness/comments/1l0wuga/uk_millionaire_wanted_me_to_build_his_business/",
+        "score": 140
+      },
+      "avg_upvotes": 796.0,
+      "problem_category": "Employment and Compensation",
+      "mvp_suggestion": "A platform that connects skilled professionals with verified business opportunities, ensuring fair compensation and transparent partnership terms.",
+      "all_subreddits": [
+        "Entrepreneur",
+        "smallbusinessowners",
+        "smallbusiness"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is the lack of trust and communication between the employer and employee, leading to misunderstandings and emotional distress.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.021025127490309718,
+          "subreddit": "smallbusiness",
+          "created_utc": 1735326021.0
+        },
+        {
+          "summary": "The main pain point is the exploitation of skilled professionals by offering inadequate compensation and misleading partnership terms.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.382221488586669,
+          "subreddit": "smallbusiness",
+          "created_utc": 1748804334.0
+        },
+        {
+          "summary": "Perceived unfairness in income distribution between business owners and regular employees, highlighting the disparity in earnings despite effort and risk.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.013022651993064628,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1733256574.0
+        },
+        {
+          "summary": "The primary pain point is the lack of communication and transparency from Stripe regarding account holds and charge reversals, causing significant business disruption.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.001151554470961172,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1724252089.0
+        },
+        {
+          "summary": "The business owner is concerned about maintaining employee morale and cohesion despite being the subject of gossip due to his young age and perceived lack of experience.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0006488693253940152,
+          "subreddit": "smallbusiness",
+          "created_utc": 1722204479.0
+        },
+        {
+          "summary": "The main pain point is the challenge of maintaining professional boundaries with clients who may exhibit flirtatious behavior.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0007518859015796878,
+          "subreddit": "smallbusiness",
+          "created_utc": 1723396878.0
+        },
+        {
+          "summary": "No clear pain point identified due to lack of engagement and comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.13095122653904312,
+          "subreddit": "smallbusinessowners",
+          "created_utc": 1748214131.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0.0
+    },
+    {
+      "cluster_id": "cluster_5",
+      "topic": "Skepticism and confusion about the legitimacy and sustainability of a business model that converts credit lines into cash, raising concerns about its ethical implications and potential risks.",
+      "frequency": 2,
+      "desperation_score": 4,
+      "avg_pain_score": 7.0,
+      "total_engagement_weight": 0.28,
+      "avg_engagement_weight": 0.14,
+      "market_proxy": {
+        "subscribers": 4740857,
+        "posts_per_week": 4,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "$-300,000 to $50mm+ a year in revenue, what the actual heck??",
+        "subreddit": "Entrepreneur",
+        "url": "https://reddit.com/r/Entrepreneur/comments/1l0xjau/300000_to_50mm_a_year_in_revenue_what_the_actual/",
+        "score": 38
+      },
+      "avg_upvotes": 621.0,
+      "problem_category": "finance",
+      "mvp_suggestion": "Develop a transparent platform that educates users on the risks and benefits of such financial services, providing clear comparisons with traditional lending options and ensuring compliance with financial regulations.",
+      "all_subreddits": [
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Skepticism and confusion about the legitimacy and sustainability of a business model that converts credit lines into cash, raising concerns about its ethical implications and potential risks.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.27301077948028113,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748806034.0
+        },
+        {
+          "summary": "Skepticism about the profitability and authenticity of the business model due to high operational costs and potentially inflated figures.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0027649116338709246,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1727570058.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_0",
+      "topic": "Difficulty in finding a scalable and manageable business model for side projects.",
+      "frequency": 3,
+      "desperation_score": 4,
+      "avg_pain_score": 6.7,
+      "total_engagement_weight": 0.15,
+      "avg_engagement_weight": 0.05,
+      "market_proxy": {
+        "subscribers": 6916898,
+        "posts_per_week": 6,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "How my side project finally made real money (after ~10 failed tries)",
+        "subreddit": "Entrepreneur",
+        "url": "https://reddit.com/r/Entrepreneur/comments/1l0rxsb/how_my_side_project_finally_made_real_money_after/",
+        "score": 12
+      },
+      "avg_upvotes": 295.3,
+      "problem_category": "Entrepreneurship",
+      "mvp_suggestion": "A platform that helps solo entrepreneurs productize their skills by providing templates and guidance for creating fixed-scope offers.",
+      "all_subreddits": [
+        "Entrepreneur",
+        "smallbusinessowners",
+        "smallbusiness"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Small business owners find digital bookkeeping solutions too complex or expensive, leading them to stick with manual methods.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0008629941070426665,
+          "subreddit": "smallbusiness",
+          "created_utc": 1723389422.0
+        },
+        {
+          "summary": "Difficulty in finding a scalable and manageable business model for side projects.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.14415842919034355,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1748792294.0
+        },
+        {
+          "summary": "High costs and limitations of funnel-building tools with constant upsells and feature restrictions hindering business growth.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.005041373965202036,
+          "subreddit": "smallbusinessowners",
+          "created_utc": 1735440788.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_7",
+      "topic": "Difficulty in scaling cold email outreach due to challenges with domain setup, email deliverability, and cost management.",
+      "frequency": 1,
+      "desperation_score": 5,
+      "avg_pain_score": 7.0,
+      "total_engagement_weight": 0.0,
+      "avg_engagement_weight": 0.0,
+      "market_proxy": {
+        "subscribers": 4740857,
+        "posts_per_week": 2,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "Is anyone automating their cold email outreach at scale? Looking for solutions that simplify email deliverability",
+        "subreddit": "Entrepreneur",
+        "url": "https://reddit.com/r/Entrepreneur/comments/1gbh4ha/is_anyone_automating_their_cold_email_outreach_at/",
+        "score": 2928
+      },
+      "avg_upvotes": 2928.0,
+      "problem_category": "Marketing and Sales",
+      "mvp_suggestion": "Develop a platform that automates domain setup, manages email deliverability, and optimizes costs for cold email campaigns.",
+      "all_subreddits": [
+        "Entrepreneur"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Difficulty in scaling cold email outreach due to challenges with domain setup, email deliverability, and cost management.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00496950078145108,
+          "subreddit": "Entrepreneur",
+          "created_utc": 1729814365.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_4",
+      "topic": "Users are frustrated with Clutch.co for providing unqualified leads, primarily bots or solicitors, and not addressing these issues despite being under contract.",
+      "frequency": 1,
+      "desperation_score": 8,
+      "avg_pain_score": 8.0,
+      "total_engagement_weight": 0.0,
+      "avg_engagement_weight": 0.0,
+      "market_proxy": {
+        "subscribers": 2174619,
+        "posts_per_week": 2,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "Thinking of Using Clutch? Think Again! They are Criminals",
+        "subreddit": "smallbusiness",
+        "url": "https://reddit.com/r/smallbusiness/comments/1flliys/thinking_of_using_clutch_think_again_they_are/",
+        "score": 656
+      },
+      "avg_upvotes": 656.0,
+      "problem_category": "business services",
+      "mvp_suggestion": "Develop a lead verification system that filters out bots and ensures the quality of leads before they are sent to clients.",
+      "all_subreddits": [
+        "smallbusiness"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Users are frustrated with Clutch.co for providing unqualified leads, primarily bots or solicitors, and not addressing these issues despite being under contract.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0015722250727782045,
+          "subreddit": "smallbusiness",
+          "created_utc": 1726863554.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    }
+  ],
+  "subreddits_analyzed": [
+    "smallbusiness",
+    "Entrepreneur",
+    "smallbusinessowners"
+  ]
+}

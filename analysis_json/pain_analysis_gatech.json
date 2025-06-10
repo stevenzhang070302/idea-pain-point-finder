@@ -1,0 +1,779 @@
+{
+  "topic": "gatech",
+  "analysis_summary": {
+    "total_subreddits": 3,
+    "total_posts": 72,
+    "total_clusters": 8,
+    "total_pain_points": 72,
+    "average_desperation_score": 5.2,
+    "average_pain_score": 5.6,
+    "high_priority_clusters": 2,
+    "total_engagement_weight": 6.97,
+    "average_engagement_weight": 0.09,
+    "trending_clusters": 0,
+    "phase_2_features": {
+      "engagement_weighted_scoring": true,
+      "comment_context_injection": true,
+      "llm_assisted_deduping": true,
+      "temporal_trend_analysis": true
+    }
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_2",
+      "topic": "The main pain point is the emotional distress and uncertainty caused by repeated rejections from educational institutions.",
+      "frequency": 23,
+      "desperation_score": 8,
+      "avg_pain_score": 6.3,
+      "total_engagement_weight": 1.93,
+      "avg_engagement_weight": 0.08,
+      "market_proxy": {
+        "subscribers": 3270041,
+        "posts_per_week": 46,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Holy sh*t, I cried",
+        "subreddit": "gradadmissions",
+        "url": "https://reddit.com/r/gradadmissions/comments/1kzug9o/holy_sht_i_cried/",
+        "score": 267
+      },
+      "avg_upvotes": 1202.1,
+      "problem_category": "Education",
+      "mvp_suggestion": "A support platform for students facing rejections, offering emotional support, mentorship, and guidance on improving applications.",
+      "all_subreddits": [
+        "college",
+        "gradadmissions",
+        "gatech"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The primary pain point is the emotional distress and isolation experienced by a college student, which is exacerbated by a lack of social support and awareness of available mental health resources.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.012306494857413718,
+          "subreddit": "college",
+          "created_utc": 1733099257.0
+        },
+        {
+          "summary": "The main pain point is the emotional distress and uncertainty caused by repeated rejections from educational institutions.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.39633130535119326,
+          "subreddit": "gradadmissions",
+          "created_utc": 1748689407.0
+        },
+        {
+          "summary": "The main pain point is the perceived necessity of attending elite universities for better career opportunities, networking, and prestige, which can lead to inequality and elitism in professional environments.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.3518113073795123,
+          "subreddit": "college",
+          "created_utc": 1748711400.0
+        },
+        {
+          "summary": "The main pain point is the challenge of maintaining professional teaching standards and student engagement in the aftermath of significant political events.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.006927817012579062,
+          "subreddit": "college",
+          "created_utc": 1730891970.0
+        },
+        {
+          "summary": "The unpredictability and subjectivity of graduate school admissions, especially for international students and those with non-traditional backgrounds, leading to frustration and discouragement among applicants.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.009624703805141471,
+          "subreddit": "gradadmissions",
+          "created_utc": 1732139207.0
+        },
+        {
+          "summary": "Inefficient communication in university acceptance letters.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.21731118764904683,
+          "subreddit": "gradadmissions",
+          "created_utc": 1748704003.0
+        },
+        {
+          "summary": "Applicants are experiencing stress and dissatisfaction with their writing samples and essays as they approach application deadlines.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.010116747457017513,
+          "subreddit": "gradadmissions",
+          "created_utc": 1733059999.0
+        },
+        {
+          "summary": "The main pain point is the stress and uncertainty of potentially having to switch roommates due to a lack of friendship, compounded by logistical challenges and concerns about the new roommate.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0022880159436775515,
+          "subreddit": "college",
+          "created_utc": 1726797069.0
+        },
+        {
+          "summary": "Anxiety and stress related to the PhD application process and social comparison.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.013633381541344075,
+          "subreddit": "gradadmissions",
+          "created_utc": 1734887200.0
+        },
+        {
+          "summary": "The main pain point is the professor's enforcement of a no pets in class rule during online classes, which is impractical for students attending from home environments where pets are present.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0015617063241051454,
+          "subreddit": "college",
+          "created_utc": 1725381650.0
+        },
+        {
+          "summary": "The main pain point discussed is the difficulty and emotional toll of facing rejection in academia and the challenging path to securing a tenure-track position.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0138434981421376,
+          "subreddit": "gradadmissions",
+          "created_utc": 1734641999.0
+        },
+        {
+          "summary": "Students feel embarrassed and anxious about being placed in remedial classes, which are often perceived negatively despite their potential benefits.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.31029614110893117,
+          "subreddit": "college",
+          "created_utc": 1748709123.0
+        },
+        {
+          "summary": "The main pain point is the emotional impact and uncertainty faced by students during the college admissions process, particularly dealing with rejections from preferred schools.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0021873529571731086,
+          "subreddit": "gradadmissions",
+          "created_utc": 1726755444.0
+        },
+        {
+          "summary": "Frustration with insincere rejection communications from companies.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.15638654810259028,
+          "subreddit": "gradadmissions",
+          "created_utc": 1748700361.0
+        },
+        {
+          "summary": "The main pain point is the lack of a reliable way to communicate or assist individuals experiencing panic attacks in public spaces, especially when their phone is dead or they cannot recall important contact information.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00955056884191253,
+          "subreddit": "gatech",
+          "created_utc": 1734915889.0
+        },
+        {
+          "summary": "Difficulty in writing a compelling Statement of Purpose (SoP) for university applications, particularly in articulating specific interests and reasons for choosing a program.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0023295841628699215,
+          "subreddit": "gradadmissions",
+          "created_utc": 1727182498.0
+        },
+        {
+          "summary": "Incoming college freshmen experience significant emotional and logistical challenges during their initial weeks, leading to feelings of isolation, depression, and thoughts of dropping out.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0010716066290264998,
+          "subreddit": "college",
+          "created_utc": 1724176864.0
+        },
+        {
+          "summary": "Students feeling understimulated and bored during breaks after intense academic periods.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.23276507167022756,
+          "subreddit": "college",
+          "created_utc": 1748719834.0
+        },
+        {
+          "summary": "The main pain point is the uncertainty and anxiety about being placed in a math class that is too advanced, despite the ability to choose a lower level course.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.1735400243149448,
+          "subreddit": "college",
+          "created_utc": 1748700843.0
+        },
+        {
+          "summary": "The main pain point is the mismatch between applicants' expectations and the reality of graduate program admissions, particularly regarding the importance of program fit over prestige.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0006204975750783534,
+          "subreddit": "gradadmissions",
+          "created_utc": 1721964976.0
+        },
+        {
+          "summary": "Frustration with Geoff Collins' performance as a coach and his perceived inability to improve the team's success.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0022083840552175877,
+          "subreddit": "gatech",
+          "created_utc": 1728762434.0
+        },
+        {
+          "summary": "The main pain point is the lack of personalized and considerate rejection communications from educational institutions, which applicants find careless and disrespectful given the significant effort they put into applications.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0001029186700535658,
+          "subreddit": "gradadmissions",
+          "created_utc": 1715185808.0
+        },
+        {
+          "summary": "Nostalgia and dissatisfaction with changes in a familiar environment, possibly a school or community center.",
+          "pain_score": 4.0,
+          "engagement_weight": 5.873566167781922e-05,
+          "subreddit": "gatech",
+          "created_utc": 1714246758.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_5",
+      "topic": "The perceived devaluation of American degrees due to oversupply and lack of rigorous academic standards.",
+      "frequency": 15,
+      "desperation_score": 6,
+      "avg_pain_score": 7.2,
+      "total_engagement_weight": 2.14,
+      "avg_engagement_weight": 0.14,
+      "market_proxy": {
+        "subscribers": 3270041,
+        "posts_per_week": 30,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Demand for American degrees is sinking",
+        "subreddit": "college",
+        "url": "https://reddit.com/r/college/comments/1kz6l35/demand_for_american_degrees_is_sinking/",
+        "score": 592
+      },
+      "avg_upvotes": 1573.4,
+      "problem_category": "education",
+      "mvp_suggestion": "Develop a platform that connects employers with students who have demonstrated practical skills and competencies, verified through project-based assessments rather than traditional degrees.",
+      "all_subreddits": [
+        "college",
+        "gradadmissions",
+        "gatech"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The perceived devaluation of American degrees due to oversupply and lack of rigorous academic standards.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.5793398005114794,
+          "subreddit": "college",
+          "created_utc": 1748617605.0
+        },
+        {
+          "summary": "High failure rate in a class due to reliance on heavily weighted tests and lack of effective support or grading flexibility.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.008726922202347142,
+          "subreddit": "college",
+          "created_utc": 1731772296.0
+        },
+        {
+          "summary": "Difficulty waking up for morning classes in college compared to high school due to lack of structure and potential health issues.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.016969622088948963,
+          "subreddit": "college",
+          "created_utc": 1734303066.0
+        },
+        {
+          "summary": "The main pain point is the challenge of managing housing and educational commitments for a pregnant college student who cannot afford an apartment and cannot live in a dorm with a baby.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.36186125395865903,
+          "subreddit": "college",
+          "created_utc": 1748631842.0
+        },
+        {
+          "summary": "Societal and cultural pressures discourage men from pursuing higher education, leading to a gender disparity in college graduation rates.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00631011728455104,
+          "subreddit": "college",
+          "created_utc": 1730569952.0
+        },
+        {
+          "summary": "Difficulty in securing loans for education after acceptance into a program.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.02466707866413869,
+          "subreddit": "gradadmissions",
+          "created_utc": 1735681212.0
+        },
+        {
+          "summary": "Students are penalized for alleged cheating due to similar coding solutions in a project, causing frustration and potential grade impact.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.00642896861745669,
+          "subreddit": "college",
+          "created_utc": 1730668802.0
+        },
+        {
+          "summary": "Criticism over Georgia Tech football team spending on commemorative rings for a mediocre season.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.2566849343912416,
+          "subreddit": "gatech",
+          "created_utc": 1748651919.0
+        },
+        {
+          "summary": "Generational conflict over political beliefs and perceived indoctrination through education.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.004135374077576849,
+          "subreddit": "college",
+          "created_utc": 1729346562.0
+        },
+        {
+          "summary": "Concerns about pursuing higher education later in life and balancing it with full-time work.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.008547949482466623,
+          "subreddit": "gradadmissions",
+          "created_utc": 1732234579.0
+        },
+        {
+          "summary": "Lack of independence and social integration due to living with parents during college.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.23914578448715226,
+          "subreddit": "college",
+          "created_utc": 1748720977.0
+        },
+        {
+          "summary": "The high cost of college tuition makes it difficult for individuals to justify the investment, leading to concerns about long-term debt and financial risk.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.23659768491101316,
+          "subreddit": "college",
+          "created_utc": 1748705198.0
+        },
+        {
+          "summary": "The main pain point is the inability of the student to attend their desired college due to lack of financial support from parents, who have unrealistic expectations.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0006158006955564309,
+          "subreddit": "college",
+          "created_utc": 1721848396.0
+        },
+        {
+          "summary": "High cost of car insurance for international students with new licenses.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.2445490428851461,
+          "subreddit": "gatech",
+          "created_utc": 1748453290.0
+        },
+        {
+          "summary": "Concern about the impact of failing a class on GPA and future job prospects.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.14699519762083232,
+          "subreddit": "college",
+          "created_utc": 1748712955.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_1",
+      "topic": "Safety concerns due to unauthorized individuals entering apartment buildings and stalking residents in Atlanta.",
+      "frequency": 7,
+      "desperation_score": 6,
+      "avg_pain_score": 7.6,
+      "total_engagement_weight": 1.07,
+      "avg_engagement_weight": 0.15,
+      "market_proxy": {
+        "subscribers": 3270041,
+        "posts_per_week": 14,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Georgia Tech student killing: Shooter snuck into apartment building, waited for victim, police say",
+        "subreddit": "gatech",
+        "url": "https://reddit.com/r/gatech/comments/1kwxcs1/georgia_tech_student_killing_shooter_snuck_into/",
+        "score": 297
+      },
+      "avg_upvotes": 690.7,
+      "problem_category": "Safety and Security",
+      "mvp_suggestion": "Develop a security system for apartment buildings that includes advanced access control and real-time monitoring to prevent unauthorized entry and enhance resident safety.",
+      "all_subreddits": [
+        "college",
+        "gradadmissions",
+        "gatech"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Safety concerns due to unauthorized individuals entering apartment buildings and stalking residents in Atlanta.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.333168672464775,
+          "subreddit": "gatech",
+          "created_utc": 1748376429.0
+        },
+        {
+          "summary": "Concerns over potential visa revocations for Chinese students in the U.S., causing uncertainty and fear among affected students.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.30057081310012324,
+          "subreddit": "gatech",
+          "created_utc": 1748487531.0
+        },
+        {
+          "summary": "International students facing visa reapplication issues due to political and administrative changes, affecting their ability to attend desired universities.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.2749827670684759,
+          "subreddit": "gradadmissions",
+          "created_utc": 1748614739.0
+        },
+        {
+          "summary": "International students face significant challenges due to travel bans and visa restrictions, leading to delays in education, financial hardship, and missed professional opportunities.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.011450873091458995,
+          "subreddit": "gradadmissions",
+          "created_utc": 1732778700.0
+        },
+        {
+          "summary": "Students can accidentally start exams outside of designated times due to improper exam access settings by professors.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0027574450522142185,
+          "subreddit": "college",
+          "created_utc": 1727903971.0
+        },
+        {
+          "summary": "The US policy of denying visas to Chinese students is perceived as a strategic error that could harm US interests by reducing soft power and educational influence.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.14338709534238844,
+          "subreddit": "college",
+          "created_utc": 1748678587.0
+        },
+        {
+          "summary": "Prospective students are avoiding applying to schools in states with abortion bans due to concerns about personal rights and safety.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.00014696339025893623,
+          "subreddit": "gradadmissions",
+          "created_utc": 1716958881.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_6",
+      "topic": "The USG return-to-office mandate is causing frustration among employees, particularly those at research institutes like GTRI, as it complicates their work-life balance and logistics, such as office space and parking.",
+      "frequency": 6,
+      "desperation_score": 7,
+      "avg_pain_score": 6.8,
+      "total_engagement_weight": 0.61,
+      "avg_engagement_weight": 0.1,
+      "market_proxy": {
+        "subscribers": 2964628,
+        "posts_per_week": 12,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "USG RTO mandate is making news",
+        "subreddit": "gatech",
+        "url": "https://reddit.com/r/gatech/comments/1kxxexg/usg_rto_mandate_is_making_news/",
+        "score": 126
+      },
+      "avg_upvotes": 3288.3,
+      "problem_category": "Workplace policy",
+      "mvp_suggestion": "Develop a flexible work policy platform that allows institutions to customize remote and hybrid work arrangements based on departmental needs and available resources.",
+      "all_subreddits": [
+        "college",
+        "gatech"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Inadequate desk size for taking exams, especially problematic for left-handed individuals.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.015857369605528193,
+          "subreddit": "college",
+          "created_utc": 1734050078.0
+        },
+        {
+          "summary": "The USG return-to-office mandate is causing frustration among employees, particularly those at research institutes like GTRI, as it complicates their work-life balance and logistics, such as office space and parking.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.35768784114898966,
+          "subreddit": "gatech",
+          "created_utc": 1748479126.0
+        },
+        {
+          "summary": "Lack of awareness and habit of regular sheet washing leading to potential hygiene issues.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.014449281663243356,
+          "subreddit": "college",
+          "created_utc": 1733724204.0
+        },
+        {
+          "summary": "Procrastination leading to last-minute stress and potential decline in work quality.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.003386127279431634,
+          "subreddit": "college",
+          "created_utc": 1728273610.0
+        },
+        {
+          "summary": "Mandatory return-to-office (RTO) policy requiring all employees to work on-site 5 days a week is seen as unnecessary and lacks transparency in its justification.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.21300690558783786,
+          "subreddit": "gatech",
+          "created_utc": 1748550259.0
+        },
+        {
+          "summary": "Lack of purpose or fulfillment in delivery jobs",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0026583492211834777,
+          "subreddit": "gatech",
+          "created_utc": 1729640237.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_4",
+      "topic": "Difficulty in securing a job post-graduation due to lack of relevant experience and limited career options with a B.A. in History.",
+      "frequency": 7,
+      "desperation_score": 6,
+      "avg_pain_score": 5.4,
+      "total_engagement_weight": 0.84,
+      "avg_engagement_weight": 0.12,
+      "market_proxy": {
+        "subscribers": 3270041,
+        "posts_per_week": 14,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Can’t get a job post-graduation",
+        "subreddit": "college",
+        "url": "https://reddit.com/r/college/comments/1kzzte4/cant_get_a_job_postgraduation/",
+        "score": 54
+      },
+      "avg_upvotes": 470.0,
+      "problem_category": "Employment",
+      "mvp_suggestion": "Develop a platform that connects recent graduates with short-term internships or project-based work to gain relevant experience in new career paths.",
+      "all_subreddits": [
+        "college",
+        "gradadmissions",
+        "gatech"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Lack of guidance and information on how to pursue graduate school opportunities beyond undergraduate studies.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.005105319084231673,
+          "subreddit": "gradadmissions",
+          "created_utc": 1729804314.0
+        },
+        {
+          "summary": "Difficulty in securing a job post-graduation due to lack of relevant experience and limited career options with a B.A. in History.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.23175867422644195,
+          "subreddit": "college",
+          "created_utc": 1748705416.0
+        },
+        {
+          "summary": "The competitive and demanding nature of pursuing a PhD in ML/AI, requiring multiple top-tier publications and significant dedication.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.004980869419034699,
+          "subreddit": "gradadmissions",
+          "created_utc": 1730174612.0
+        },
+        {
+          "summary": "Prospective students are not following posting guidelines, leading to disorganization in the subreddit.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.14424617407319154,
+          "subreddit": "gatech",
+          "created_utc": 1748286865.0
+        },
+        {
+          "summary": "Difficulty in gaining admission to PhD programs in Europe and North America compared to Brazil.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.1711298664120263,
+          "subreddit": "gradadmissions",
+          "created_utc": 1748715313.0
+        },
+        {
+          "summary": "Lack of clear guidance and information on pursuing a concurrent master's degree while enrolled in a PhD program.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.1495778002965619,
+          "subreddit": "gatech",
+          "created_utc": 1748329265.0
+        },
+        {
+          "summary": "Difficulty in finding a photographer for a proposal at a specific budget.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.13588401193260263,
+          "subreddit": "gatech",
+          "created_utc": 1748354094.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_7",
+      "topic": "Potential employment scam emails causing confusion and risk of identity theft.",
+      "frequency": 4,
+      "desperation_score": 4,
+      "avg_pain_score": 5.8,
+      "total_engagement_weight": 0.17,
+      "avg_engagement_weight": 0.04,
+      "market_proxy": {
+        "subscribers": 55427,
+        "posts_per_week": 8,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "Potential Employment Scam Email?",
+        "subreddit": "gatech",
+        "url": "https://reddit.com/r/gatech/comments/1kylzdb/potential_employment_scam_email/",
+        "score": 7
+      },
+      "avg_upvotes": 411.0,
+      "problem_category": "Security",
+      "mvp_suggestion": "Develop a browser extension or app that verifies the authenticity of job offer emails by cross-referencing company domains, email patterns, and known scam indicators.",
+      "all_subreddits": [
+        "gatech"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Inaccurate auto closed captioning during a college graduation ceremony leading to offensive and incorrect text.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.010344981392539516,
+          "subreddit": "gatech",
+          "created_utc": 1734302181.0
+        },
+        {
+          "summary": "Lack of context or information about the event being discussed, leading to confusion among participants.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.002916601123590072,
+          "subreddit": "gatech",
+          "created_utc": 1729702926.0
+        },
+        {
+          "summary": "Uncertainty and confusion about the authenticity of public figures' statements.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0031075775480132006,
+          "subreddit": "gatech",
+          "created_utc": 1730222111.0
+        },
+        {
+          "summary": "Potential employment scam emails causing confusion and risk of identity theft.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.15589455349478593,
+          "subreddit": "gatech",
+          "created_utc": 1748552193.0
+        }
+      ],
+      "trend_tag": ""
+    },
+    {
+      "cluster_id": "cluster_0",
+      "topic": "Difficulty accessing historical race results for the 2021 Mini 500 event.",
+      "frequency": 2,
+      "desperation_score": 4,
+      "avg_pain_score": 5.5,
+      "total_engagement_weight": 0.17,
+      "avg_engagement_weight": 0.08,
+      "market_proxy": {
+        "subscribers": 360840,
+        "posts_per_week": 4,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "Looking for 2021 Mini 500 Results",
+        "subreddit": "gatech",
+        "url": "https://reddit.com/r/gatech/comments/1kylj7y/looking_for_2021_mini_500_results/",
+        "score": 12
+      },
+      "avg_upvotes": 378.5,
+      "problem_category": "Information Access",
+      "mvp_suggestion": "Develop a centralized online archive for past event results, accessible to the public.",
+      "all_subreddits": [
+        "gradadmissions",
+        "gatech"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Applicants face challenges when a recommender is unable to submit a letter of recommendation due to unforeseen circumstances, potentially impacting their application process.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.013825870835554071,
+          "subreddit": "gradadmissions",
+          "created_utc": 1734795454.0
+        },
+        {
+          "summary": "Difficulty accessing historical race results for the 2021 Mini 500 event.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.1550460265161562,
+          "subreddit": "gatech",
+          "created_utc": 1748551099.0
+        }
+      ],
+      "trend_tag": ""
+    },
+    {
+      "cluster_id": "cluster_3",
+      "topic": "No clear pain point or problem is discussed in the post or comments.",
+      "frequency": 8,
+      "desperation_score": 1,
+      "avg_pain_score": 0.5,
+      "total_engagement_weight": 0.04,
+      "avg_engagement_weight": 0.01,
+      "market_proxy": {
+        "subscribers": 55427,
+        "posts_per_week": 16,
+        "unique_subreddits": 1
+      },
+      "sample_post": {
+        "title": "Jimmy Carter, the 39th US president and former Jacket, has passed away at 100",
+        "subreddit": "gatech",
+        "url": "https://reddit.com/r/gatech/comments/1hp6lqj/jimmy_carter_the_39th_us_president_and_former/",
+        "score": 527
+      },
+      "avg_upvotes": 725.6,
+      "problem_category": null,
+      "mvp_suggestion": null,
+      "all_subreddits": [
+        "gatech"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main discussion is about the physical toll and exhaustion experienced by a key player, Haynes King, during a game, highlighting the need for better recovery and support for athletes.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.009698629163596314,
+          "subreddit": "gatech",
+          "created_utc": 1732943235.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed; the post and comments are celebratory in nature.",
+          "pain_score": 0,
+          "engagement_weight": 0.005804676353973699,
+          "subreddit": "gatech",
+          "created_utc": 1731185112.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.010952815027018408,
+          "subreddit": "gatech",
+          "created_utc": 1735508340.0
+        },
+        {
+          "summary": "No clear pain point is discussed; the post and comments reflect celebratory and nostalgic sentiments about a sports event.",
+          "pain_score": 0,
+          "engagement_weight": 0.004154622209229702,
+          "subreddit": "gatech",
+          "created_utc": 1731189430.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.009808488189929543,
+          "subreddit": "gatech",
+          "created_utc": 1735078050.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.001109026043014926,
+          "subreddit": "gatech",
+          "created_utc": 1724526622.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.0010935284129412522,
+          "subreddit": "gatech",
+          "created_utc": 1725542543.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.0001714449153084486,
+          "subreddit": "gatech",
+          "created_utc": 1719568278.0
+        }
+      ],
+      "trend_tag": ""
+    }
+  ],
+  "subreddits_analyzed": [
+    "gatech",
+    "college",
+    "gradadmissions"
+  ]
+}

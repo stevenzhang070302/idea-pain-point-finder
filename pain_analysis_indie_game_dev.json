@@ -1,0 +1,843 @@
+{
+  "topic": "indie game dev",
+  "analysis_summary": {
+    "total_subreddits": 3,
+    "total_posts": 80,
+    "total_clusters": 8,
+    "total_pain_points": 80,
+    "average_desperation_score": 3.9,
+    "average_pain_score": 5.2,
+    "high_priority_clusters": 0,
+    "total_engagement_weight": 10.91,
+    "average_engagement_weight": 0.14,
+    "trending_clusters": 0,
+    "phase_2_features": {
+      "engagement_weighted_scoring": true,
+      "comment_context_injection": true,
+      "llm_assisted_deduping": true,
+      "temporal_trend_analysis": true
+    }
+  },
+  "clusters": [
+    {
+      "cluster_id": "cluster_2",
+      "topic": "AI generated content is cluttering the subreddit, overshadowing genuine indie game content and potentially driving away users.",
+      "frequency": 11,
+      "desperation_score": 6,
+      "avg_pain_score": 5.6,
+      "total_engagement_weight": 2.24,
+      "avg_engagement_weight": 0.2,
+      "market_proxy": {
+        "subscribers": 2569832,
+        "posts_per_week": 22,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Let's discuss AI generated content",
+        "subreddit": "IndieGaming",
+        "url": "https://reddit.com/r/IndieGaming/comments/1l0bq0o/lets_discuss_ai_generated_content/",
+        "score": 893
+      },
+      "avg_upvotes": 1479.5,
+      "problem_category": "Community Management",
+      "mvp_suggestion": "Implement a filtering system to automatically detect and flag AI generated content, allowing moderators to review and remove it if necessary.",
+      "all_subreddits": [
+        "gamedev",
+        "IndieGaming",
+        "IndieDev"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "AI generated content is cluttering the subreddit, overshadowing genuine indie game content and potentially driving away users.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.7803569566146437,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748737162.0
+        },
+        {
+          "summary": "The pressure to commercialize game development detracts from the enjoyment and creativity of making games as a hobby.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.4499530330082288,
+          "subreddit": "gamedev",
+          "created_utc": 1748732973.0
+        },
+        {
+          "summary": "The complexity and challenge of designing cohesive and immersive game experiences, especially in terms of level design and creative integration.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.4654422793306215,
+          "subreddit": "gamedev",
+          "created_utc": 1748794119.0
+        },
+        {
+          "summary": "Underestimation of time and resources required to develop a game, leading to prolonged development cycles.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.003473300061052022,
+          "subreddit": "IndieDev",
+          "created_utc": 1728463567.0
+        },
+        {
+          "summary": "Difficulty in starting and progressing in game development due to lack of initial guidance and overwhelming complexity.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0032601526753412284,
+          "subreddit": "gamedev",
+          "created_utc": 1728212427.0
+        },
+        {
+          "summary": "The post humorously highlights the challenge of indie developers having to wear multiple hats and manage various roles themselves.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.003905457705593211,
+          "subreddit": "IndieDev",
+          "created_utc": 1729506471.0
+        },
+        {
+          "summary": "Redundancy and lack of creativity in game development communication.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.18960174465135587,
+          "subreddit": "IndieDev",
+          "created_utc": 1748792975.0
+        },
+        {
+          "summary": "The post primarily expresses joy and validation rather than a pain point. However, there is an underlying challenge of game developers seeking recognition and engagement from players.",
+          "pain_score": 2.0,
+          "engagement_weight": 0.003208526016590334,
+          "subreddit": "gamedev",
+          "created_utc": 1728171114.0
+        },
+        {
+          "summary": "Difficulty in finding and applying to gaming festivals.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0044260869232437446,
+          "subreddit": "IndieGaming",
+          "created_utc": 1730185078.0
+        },
+        {
+          "summary": "Frustration with subscription paywalls in board game prototyping tools limiting creativity and development.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.14699634934584577,
+          "subreddit": "IndieDev",
+          "created_utc": 1748792736.0
+        },
+        {
+          "summary": "Uncertainty about whether to pursue self-learning and portfolio building or obtain a formal degree for a career in game design, particularly in the graphic design aspect.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.18528539625765592,
+          "subreddit": "gamedev",
+          "created_utc": 1748803605.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_0",
+      "topic": "Game developers face financial challenges due to unfavorable publishing deals and high costs, leaving them unable to fund future projects despite successful sales.",
+      "frequency": 6,
+      "desperation_score": 6,
+      "avg_pain_score": 7.0,
+      "total_engagement_weight": 1.47,
+      "avg_engagement_weight": 0.25,
+      "market_proxy": {
+        "subscribers": 2569832,
+        "posts_per_week": 12,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "How Selling 2 Million Copies of Your Game Can Still Leave You Broke",
+        "subreddit": "IndieGaming",
+        "url": "https://reddit.com/r/IndieGaming/comments/1l081t1/how_selling_2_million_copies_of_your_game_can/",
+        "score": 830
+      },
+      "avg_upvotes": 4826.7,
+      "problem_category": "finance",
+      "mvp_suggestion": "Develop a platform that provides transparent financial planning tools and negotiation support for game developers to secure better publishing deals and manage budgets effectively.",
+      "all_subreddits": [
+        "IndieDev",
+        "gamedev",
+        "IndieGaming"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Game developers face financial challenges due to unfavorable publishing deals and high costs, leaving them unable to fund future projects despite successful sales.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.7400971371416003,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748726804.0
+        },
+        {
+          "summary": "Game developers face financial challenges despite high sales due to high development costs, platform fees, and revenue splits with publishers.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.7222250581148685,
+          "subreddit": "IndieDev",
+          "created_utc": 1748726832.0
+        },
+        {
+          "summary": "Children experiencing challenges in understanding and managing intellectual property and business model disputes in a simulated business environment.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.007139525985477428,
+          "subreddit": "gamedev",
+          "created_utc": 1731175202.0
+        },
+        {
+          "summary": "The main pain point is the negative impact on developers due to Unity's initial decision to implement a Runtime Fee, which led to financial concerns and a loss of trust, causing many developers to switch to other platforms.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0018927155209212507,
+          "subreddit": "gamedev",
+          "created_utc": 1726153312.0
+        },
+        {
+          "summary": "Concerns about job security and employee treatment following Microsoft's acquisition of Bethesda.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.000531970041348532,
+          "subreddit": "gamedev",
+          "created_utc": 1721435085.0
+        },
+        {
+          "summary": "The main pain point is the misuse of social media influence by established developers to publicly accuse smaller indie developers of plagiarism, leading to harassment and forced changes to their projects.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.000356794045044589,
+          "subreddit": "gamedev",
+          "created_utc": 1719929728.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_5",
+      "topic": "The main pain point is the challenge of developing a commercially viable game on a zero dollar budget, primarily due to the lack of collaborators and the need for unpaid labor.",
+      "frequency": 11,
+      "desperation_score": 4,
+      "avg_pain_score": 5.5,
+      "total_engagement_weight": 1.47,
+      "avg_engagement_weight": 0.13,
+      "market_proxy": {
+        "subscribers": 2569832,
+        "posts_per_week": 22,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "Zero dollar budget game devs, how?",
+        "subreddit": "gamedev",
+        "url": "https://reddit.com/r/gamedev/comments/1l11qeo/zero_dollar_budget_game_devs_how/",
+        "score": 6
+      },
+      "avg_upvotes": 1646.7,
+      "problem_category": "Finance",
+      "mvp_suggestion": "Develop a platform that connects zero dollar budget game developers with volunteers or collaborators willing to contribute skills in exchange for experience or portfolio building.",
+      "all_subreddits": [
+        "IndieDev",
+        "gamedev",
+        "IndieGaming"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main pain point is the lack of uniqueness and human touch in AI-generated art for card games, which affects the long-term appeal and recognition of the game.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.002945391091223618,
+          "subreddit": "IndieGaming",
+          "created_utc": 1727813529.0
+        },
+        {
+          "summary": "The main issue is the need for more creative and diverse cap designs for a game character to enhance player engagement.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.28576723420658723,
+          "subreddit": "IndieDev",
+          "created_utc": 1748804121.0
+        },
+        {
+          "summary": "The main pain point is the anxiety and fear of launching a game after investing significant time and resources, with uncertainty about its success and personal future.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.001140205250010904,
+          "subreddit": "gamedev",
+          "created_utc": 1724233877.0
+        },
+        {
+          "summary": "The main pain point is the challenge of creating a 2D game independently, which involves mastering multiple skills such as coding, art, and music.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.30305993966934414,
+          "subreddit": "gamedev",
+          "created_utc": 1748812440.0
+        },
+        {
+          "summary": "Repetitive sound effects in sword combat are causing player fatigue and reducing enjoyment.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.21732995113070558,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748789262.0
+        },
+        {
+          "summary": "The main pain point is that overly realistic mechanics in indie games can detract from the fun and enjoyment of gameplay, making them feel like unnecessary obstacles.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0008920597971820692,
+          "subreddit": "IndieGaming",
+          "created_utc": 1723393318.0
+        },
+        {
+          "summary": "The complexity and resource demand of localizing a game with a mechanic that involves transforming a sword into any five-letter word.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.000315911644111214,
+          "subreddit": "IndieGaming",
+          "created_utc": 1719498863.0
+        },
+        {
+          "summary": "The main pain point is the need for more creative and diverse cap designs for the duck character in the game to enhance player engagement and satisfaction.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.20711899258271355,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748803358.0
+        },
+        {
+          "summary": "The main pain point is the difficulty and inefficiency of managing game development without proper coding skills, leading to a cumbersome and error-prone process.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0007078241828493367,
+          "subreddit": "gamedev",
+          "created_utc": 1722510831.0
+        },
+        {
+          "summary": "The child experienced physical discomfort from prolonged button mashing while playing a video game.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.1404915652631249,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748789566.0
+        },
+        {
+          "summary": "The main pain point is the challenge of developing a commercially viable game on a zero dollar budget, primarily due to the lack of collaborators and the need for unpaid labor.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.313415710806812,
+          "subreddit": "gamedev",
+          "created_utc": 1748816620.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_3",
+      "topic": "The main menu's diegetic design may cause usability issues due to poor viewing angles and readability.",
+      "frequency": 18,
+      "desperation_score": 3,
+      "avg_pain_score": 4.5,
+      "total_engagement_weight": 2.06,
+      "avg_engagement_weight": 0.11,
+      "market_proxy": {
+        "subscribers": 2569832,
+        "posts_per_week": 36,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "This isn’t a cutscene. It’s our main menu",
+        "subreddit": "IndieDev",
+        "url": "https://reddit.com/r/IndieDev/comments/1l00dj5/this_isnt_a_cutscene_its_our_main_menu/",
+        "score": 5229
+      },
+      "avg_upvotes": 2674.9,
+      "problem_category": "User Experience",
+      "mvp_suggestion": "Improve the viewing angle and readability of the terminal in the main menu to enhance user experience.",
+      "all_subreddits": [
+        "IndieDev",
+        "gamedev",
+        "IndieGaming"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The main menu's diegetic design may cause usability issues due to poor viewing angles and readability.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.7775831607594467,
+          "subreddit": "IndieDev",
+          "created_utc": 1748706852.0
+        },
+        {
+          "summary": "The game feature requiring manual blinking every 3 to 5 seconds is perceived as tedious and not enjoyable.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.009286844981937189,
+          "subreddit": "IndieGaming",
+          "created_utc": 1732105370.0
+        },
+        {
+          "summary": "The game appears to lack engaging gameplay elements, resembling a walking simulator.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.3482564042042464,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748800801.0
+        },
+        {
+          "summary": "Frustration with internet lag during gaming, leading to a humorous game concept.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.24928509246196967,
+          "subreddit": "IndieDev",
+          "created_utc": 1748788367.0
+        },
+        {
+          "summary": "The UI design for the resource and ammo gauge lacks sufficient contrast, making it difficult to quickly assess ammo levels.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.008410412860976478,
+          "subreddit": "IndieDev",
+          "created_utc": 1732031373.0
+        },
+        {
+          "summary": "The game's promotional trailer fails to clearly convey the gameplay, leading to confusion among potential players.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0013265854268217016,
+          "subreddit": "IndieGaming",
+          "created_utc": 1724851627.0
+        },
+        {
+          "summary": "The game intended as a normal gardening game is perceived as a horror game by the audience.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0030384048244747326,
+          "subreddit": "IndieGaming",
+          "created_utc": 1727973762.0
+        },
+        {
+          "summary": "The implementation of fast travel in the game raises narrative consistency issues, such as why all characters don't use it for travel.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.0001340688691591105,
+          "subreddit": "IndieDev",
+          "created_utc": 1716301052.0
+        },
+        {
+          "summary": "The 2D screen element in the game obstructs the player's view, causing visual distraction and gameplay difficulty.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0013140823151139556,
+          "subreddit": "IndieDev",
+          "created_utc": 1724832716.0
+        },
+        {
+          "summary": "Difficulty in achieving high performance in game graphics while maintaining visual quality, particularly in VR environments.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.002070051098898186,
+          "subreddit": "gamedev",
+          "created_utc": 1726523918.0
+        },
+        {
+          "summary": "Lack of information or resources on how to create similar creative game animations.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.002154930481633576,
+          "subreddit": "IndieDev",
+          "created_utc": 1727102561.0
+        },
+        {
+          "summary": "The post and comments suggest a discomfort with unexpected or intense content that may be triggering or traumatic for some users.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.004076194566766064,
+          "subreddit": "IndieDev",
+          "created_utc": 1730276331.0
+        },
+        {
+          "summary": "The 90 degree turns in the hoverboard racing game are too harsh, requiring players to slow down significantly, which affects the fun and flow of the game.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.19041735273993032,
+          "subreddit": "IndieDev",
+          "created_utc": 1748794991.0
+        },
+        {
+          "summary": "Lack of diverse animations for monsters in the game.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.1588634471310026,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748804532.0
+        },
+        {
+          "summary": "The main concern is maintaining the ambient horror atmosphere without resorting to clichéd loud noises or music for jump scares.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.0003890468709254255,
+          "subreddit": "IndieGaming",
+          "created_utc": 1720280645.0
+        },
+        {
+          "summary": "The smoke animation in the game is perceived as unrealistic due to its fast movement.",
+          "pain_score": 3.0,
+          "engagement_weight": 0.15271451120695587,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748793041.0
+        },
+        {
+          "summary": "Lack of visual clarity in virtual golf game due to absence of a shadow under the ball.",
+          "pain_score": 2.0,
+          "engagement_weight": 0.15185954663373458,
+          "subreddit": "IndieDev",
+          "created_utc": 1748819828.0
+        },
+        {
+          "summary": "The tool's additional graphics may distract from the intended focus on small details impacting game feel.",
+          "pain_score": 4.0,
+          "engagement_weight": 8.47966436108033e-05,
+          "subreddit": "IndieDev",
+          "created_utc": 1714591783.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_4",
+      "topic": "Potential clients are hesitant to hire the artist due to the hourly rate pricing model, preferring fixed rates for deliverables.",
+      "frequency": 8,
+      "desperation_score": 4,
+      "avg_pain_score": 6.1,
+      "total_engagement_weight": 0.8,
+      "avg_engagement_weight": 0.1,
+      "market_proxy": {
+        "subscribers": 2569832,
+        "posts_per_week": 16,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "[15$/H] Hello, I'm Lorien! I am a pixel artist who creates environments, tilesets, UI/UX, animations, backgrounds, and illustrations of varying degrees of complexity. Write to me if you are interested. Thank you all for your attention",
+        "subreddit": "IndieDev",
+        "url": "https://reddit.com/r/IndieDev/comments/1l0l42k/15h_hello_im_lorien_i_am_a_pixel_artist_who/",
+        "score": 202
+      },
+      "avg_upvotes": 1800.4,
+      "problem_category": "finance",
+      "mvp_suggestion": "Develop a pricing model tool that allows artists to easily set fixed rates for different types of artwork based on complexity, providing clients with clear deliverables and costs.",
+      "all_subreddits": [
+        "IndieDev",
+        "gamedev",
+        "IndieGaming"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "The characters in the art style do not stand out enough, making it difficult to discern them from the background.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.021715125716605752,
+          "subreddit": "IndieDev",
+          "created_utc": 1735322091.0
+        },
+        {
+          "summary": "The challenge of achieving consistency and cohesion in pixel art for game development, which can be time-consuming and require balancing with other development tasks.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.018856482668437355,
+          "subreddit": "IndieGaming",
+          "created_utc": 1735013413.0
+        },
+        {
+          "summary": "Potential clients are hesitant to hire the artist due to the hourly rate pricing model, preferring fixed rates for deliverables.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.2742950753858729,
+          "subreddit": "IndieDev",
+          "created_utc": 1748771154.0
+        },
+        {
+          "summary": "The main pain point is the difficulty in gaining visibility and followers as a pixel art artist to secure commissions and turn it into a sustainable career.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.25522507193855215,
+          "subreddit": "IndieDev",
+          "created_utc": 1748797117.0
+        },
+        {
+          "summary": "The main pain point is the quality and originality of AI-generated art compared to commissioned human art, with concerns about AI art's generic nature, anatomical inaccuracies, and lack of unique ownership.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.0029356747627068925,
+          "subreddit": "IndieDev",
+          "created_utc": 1727813533.0
+        },
+        {
+          "summary": "Difficulty in translating creative ideas into visual art, especially for those without artistic skills.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.003099807018620136,
+          "subreddit": "IndieDev",
+          "created_utc": 1728653907.0
+        },
+        {
+          "summary": "Frustration with current job leading to desire for a drastic lifestyle change to pursue personal projects.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0008261090859260152,
+          "subreddit": "gamedev",
+          "created_utc": 1723043334.0
+        },
+        {
+          "summary": "Solo developers struggle with creating precise and customized animations for their projects, especially when lacking animation skills.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.22290042634222154,
+          "subreddit": "gamedev",
+          "created_utc": 1748807632.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_6",
+      "topic": "Indie games are perceived as underpriced compared to AAA games, leading to a revenue imbalance in the gaming industry.",
+      "frequency": 10,
+      "desperation_score": 3,
+      "avg_pain_score": 6.7,
+      "total_engagement_weight": 0.94,
+      "avg_engagement_weight": 0.09,
+      "market_proxy": {
+        "subscribers": 2569832,
+        "posts_per_week": 20,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "I did the maths, and I'm fixing the indie game pricing crisis single-handedly with my game",
+        "subreddit": "IndieDev",
+        "url": "https://reddit.com/r/IndieDev/comments/1l0ogs0/i_did_the_maths_and_im_fixing_the_indie_game/",
+        "score": 824
+      },
+      "avg_upvotes": 2495.5,
+      "problem_category": "finance",
+      "mvp_suggestion": "Develop a platform or service that helps indie developers better price their games based on market data and perceived value, potentially increasing their revenue.",
+      "all_subreddits": [
+        "IndieDev",
+        "gamedev",
+        "IndieGaming"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Indie games are perceived as underpriced compared to AAA games, leading to a revenue imbalance in the gaming industry.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.6376613711215576,
+          "subreddit": "IndieDev",
+          "created_utc": 1748783018.0
+        },
+        {
+          "summary": "Concern about indie games having good stories and interesting characters to be memorable.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.004610544243498005,
+          "subreddit": "IndieGaming",
+          "created_utc": 1729529014.0
+        },
+        {
+          "summary": "Businesses are frustrated with self-proclaimed influencers demanding free products without offering genuine value in return.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.006857728011637796,
+          "subreddit": "IndieDev",
+          "created_utc": 1731012988.0
+        },
+        {
+          "summary": "Frustration with unrealistic expectations from individuals who believe their vague or generic ideas are worth significant investment without substantial contribution.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.01399550783172081,
+          "subreddit": "IndieDev",
+          "created_utc": 1733671467.0
+        },
+        {
+          "summary": "The post highlights unrealistic expectations for volunteer developers, including excessive work hours and unrelated skill requirements, which may deter serious candidates.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.002716789727867846,
+          "subreddit": "gamedev",
+          "created_utc": 1727477084.0
+        },
+        {
+          "summary": "Indie game developers struggle with visibility and sales during large sales events due to market saturation.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.01207488008869661,
+          "subreddit": "IndieGaming",
+          "created_utc": 1733483955.0
+        },
+        {
+          "summary": "Stagnation in career growth and lack of fulfillment in the gaming industry.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.26125966986385507,
+          "subreddit": "gamedev",
+          "created_utc": 1748779119.0
+        },
+        {
+          "summary": "The game has design and usability issues that lead to negative reviews from influential streamers, impacting its reputation and sales.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.0008754629532024886,
+          "subreddit": "gamedev",
+          "created_utc": 1723256828.0
+        },
+        {
+          "summary": "Indie game developers are experiencing low engagement and sales due to poor visual quality and lack of investment in art, which leads to negative perceptions and low interest from potential players.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.0002382441523387118,
+          "subreddit": "gamedev",
+          "created_utc": 1718375013.0
+        },
+        {
+          "summary": "Developers often dismiss or correct playtester feedback instead of observing and understanding it, leading to potential user experience issues.",
+          "pain_score": 7.0,
+          "engagement_weight": 9.553949709051501e-05,
+          "subreddit": "gamedev",
+          "created_utc": 1715015297.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_7",
+      "topic": "The main pain point is the technical and logistical challenges of implementing crossplay in video games, particularly due to the need for platform-agnostic systems and the complexities of managing cross-platform interactions and compliance with platform-specific requirements.",
+      "frequency": 5,
+      "desperation_score": 4,
+      "avg_pain_score": 6.4,
+      "total_engagement_weight": 0.5,
+      "avg_engagement_weight": 0.1,
+      "market_proxy": {
+        "subscribers": 2569832,
+        "posts_per_week": 10,
+        "unique_subreddits": 3
+      },
+      "sample_post": {
+        "title": "What makes crossplay technically difficult?",
+        "subreddit": "gamedev",
+        "url": "https://reddit.com/r/gamedev/comments/1l0xdyb/what_makes_crossplay_technically_difficult/",
+        "score": 6
+      },
+      "avg_upvotes": 2573.6,
+      "problem_category": "Technology/Software Development",
+      "mvp_suggestion": "Develop a comprehensive crossplay middleware solution that provides platform-agnostic identity, matchmaking, and communication services, along with compliance management tools to streamline the integration process for game developers.",
+      "all_subreddits": [
+        "gamedev",
+        "IndieGaming",
+        "IndieDev"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "Uncertainty about game performance and hardware requirements.",
+          "pain_score": 4.0,
+          "engagement_weight": 0.025968064586217417,
+          "subreddit": "IndieGaming",
+          "created_utc": 1736006177.0
+        },
+        {
+          "summary": "The main pain point is the vulnerability of online platforms to erroneous takedowns due to unreliable AI-powered brand protection software and unresponsive domain registrars.",
+          "pain_score": 8.0,
+          "engagement_weight": 0.014242266141495024,
+          "subreddit": "gamedev",
+          "created_utc": 1733733494.0
+        },
+        {
+          "summary": "Players are frustrated with multiplayer games being mandatory, limiting accessibility for those who prefer or need single-player options.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.003720846021351079,
+          "subreddit": "IndieGaming",
+          "created_utc": 1728730337.0
+        },
+        {
+          "summary": "Difficulty in effectively utilizing social media platforms other than Reddit for game marketing and wishlist conversions.",
+          "pain_score": 6.0,
+          "engagement_weight": 0.20286285803385626,
+          "subreddit": "IndieDev",
+          "created_utc": 1748786569.0
+        },
+        {
+          "summary": "The main pain point is the technical and logistical challenges of implementing crossplay in video games, particularly due to the need for platform-agnostic systems and the complexities of managing cross-platform interactions and compliance with platform-specific requirements.",
+          "pain_score": 7.0,
+          "engagement_weight": 0.253572373348151,
+          "subreddit": "gamedev",
+          "created_utc": 1748805652.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    },
+    {
+      "cluster_id": "cluster_1",
+      "topic": "No clear pain point or problem is discussed in the post or comments.",
+      "frequency": 11,
+      "desperation_score": 1,
+      "avg_pain_score": 0.0,
+      "total_engagement_weight": 1.43,
+      "avg_engagement_weight": 0.13,
+      "market_proxy": {
+        "subscribers": 675064,
+        "posts_per_week": 22,
+        "unique_subreddits": 2
+      },
+      "sample_post": {
+        "title": "I'm making a game inspired by late ps1 platformer graphics. This is the portal gate of the first level. What do you think?",
+        "subreddit": "IndieDev",
+        "url": "https://reddit.com/r/IndieDev/comments/1l0e51m/im_making_a_game_inspired_by_late_ps1_platformer/",
+        "score": 516
+      },
+      "avg_upvotes": 1080.8,
+      "problem_category": null,
+      "mvp_suggestion": null,
+      "all_subreddits": [
+        "IndieDev",
+        "IndieGaming"
+      ],
+      "related_pain_points": [
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.4564913125064714,
+          "subreddit": "IndieDev",
+          "created_utc": 1748745020.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.008698993019872571,
+          "subreddit": "IndieDev",
+          "created_utc": 1731888556.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.003068273681988738,
+          "subreddit": "IndieDev",
+          "created_utc": 1728014073.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.0015855771178583163,
+          "subreddit": "IndieGaming",
+          "created_utc": 1725517795.0
+        },
+        {
+          "summary": "No clear pain point or problem is being discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.00200899582245806,
+          "subreddit": "IndieGaming",
+          "created_utc": 1726422442.0
+        },
+        {
+          "summary": "No clear pain point is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.1647098218769103,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748788526.0
+        },
+        {
+          "summary": "No clear pain point is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.1522700205266846,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748798971.0
+        },
+        {
+          "summary": "No clear pain point is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.16405011121397672,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748821371.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.1635102059841929,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748827221.0
+        },
+        {
+          "summary": "No clear pain point or problem is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.16081436038683553,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748811672.0
+        },
+        {
+          "summary": "No clear pain point is discussed in the post or comments.",
+          "pain_score": 0,
+          "engagement_weight": 0.15403632785245558,
+          "subreddit": "IndieGaming",
+          "created_utc": 1748819008.0
+        }
+      ],
+      "trend_tag": "",
+      "trend_slope": 0
+    }
+  ],
+  "subreddits_analyzed": [
+    "gamedev",
+    "IndieDev",
+    "IndieGaming"
+  ]
+}
