@@ -186,10 +186,24 @@ def hash_password(password: str) -> str:
     """Simple password hashing."""
     return hashlib.sha256(password.encode()).hexdigest()
 
+def verify_api_credentials() -> None:
+    """Ensure all required API credentials are configured."""
+    missing = []
+    if not os.getenv("OPENAI_API_KEY"):
+        missing.append("OPENAI_API_KEY")
+    if not os.getenv("REDDIT_CLIENT_ID") or not os.getenv("REDDIT_CLIENT_SECRET"):
+        missing.append("REDDIT_CLIENT_ID/REDDIT_CLIENT_SECRET")
+
+    if missing:
+        raise ValueError(f"Missing API credentials: {', '.join(missing)}")
+
 # Background task for running analysis
 async def run_pain_analysis(topic: str, topic_hash: str):
     """Run the LangGraph pain analysis workflow in background."""
     try:
+        # Ensure required credentials exist before starting analysis
+        verify_api_credentials()
+
         # Create the workflow
         workflow = create_workflow()
         app_instance = workflow.compile()
@@ -219,11 +233,33 @@ async def run_pain_analysis(topic: str, topic_hash: str):
         
         conn.commit()
         conn.close()
-        
+
         print(f"✅ Analysis completed and saved for topic: {topic}")
-        
+
     except Exception as e:
         print(f"❌ Error in background analysis for {topic}: {str(e)}")
+
+        # Record failure in the database so status endpoint can report it
+        try:
+            conn = get_db_connection()
+            cursor = conn.cursor()
+
+            expires_at = datetime.now() + timedelta(days=1)
+            error_payload = {"error": str(e)}
+
+            cursor.execute(
+                """
+                INSERT OR REPLACE INTO analysis_results
+                (topic, topic_hash, results, expires_at)
+                VALUES (?, ?, ?, ?)
+                """,
+                (topic, topic_hash, json.dumps(error_payload), expires_at),
+            )
+
+            conn.commit()
+            conn.close()
+        except Exception as db_err:
+            print(f"⚠️ Failed to record error for {topic}: {db_err}")
 
 # API Routes
 
@@ -240,6 +276,12 @@ async def root():
 async def start_analysis(request: AnalysisRequest, background_tasks: BackgroundTasks):
     """Start a new pain point analysis."""
     topic_hash = get_topic_hash(request.topic)
+
+    # Ensure credentials exist before queuing analysis
+    try:
+        verify_api_credentials()
+    except ValueError as cred_err:
+        raise HTTPException(status_code=500, detail=str(cred_err))
     
     # Check if we have recent cached results
     conn = get_db_connection()
